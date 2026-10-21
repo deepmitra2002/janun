@@ -18,13 +18,19 @@ def check(url, kind):
             with urlopen(request, timeout=90) as response:
                 if response.status != 200:
                     raise ValueError('Expected HTTP 200')
-                body = response.read(2_000_000)
+                body = response.read(8_000_001)
+                if len(body) > 8_000_000:
+                    raise ValueError('Monitoring response exceeds size limit')
                 if kind == 'ready' and json.loads(body).get('status') != 'ready':
                     raise ValueError('Database readiness check failed')
                 if kind == 'categories' and not json.loads(body):
                     raise ValueError('No categories returned through frontend proxy')
                 if kind == 'page' and 'জানুন' not in body.decode('utf-8'):
                     raise ValueError('Expected Janun homepage content')
+                if kind == 'demo':
+                    data = json.loads(body)
+                    if not data.get('services') or not data.get('categories'):
+                        raise ValueError('Demo catalogue is empty')
             print(f'{kind}: healthy')
             return
         except Exception:
@@ -37,11 +43,15 @@ def check(url, kind):
 def main():
     site = os.environ.get('JANUN_SITE_URL', '').rstrip('/')
     api = os.environ.get('JANUN_API_URL', '').rstrip('/')
-    if not site or not api:
-        raise SystemExit('Set JANUN_SITE_URL and JANUN_API_URL before monitoring.')
-    check(api + '/ready', 'ready')
+    if not site:
+        raise SystemExit('Set JANUN_SITE_URL before monitoring.')
+    if api:
+        check(api + '/ready', 'ready')
     check(site + '/', 'page')
-    check(site + '/api/categories', 'categories')
+    if api:
+        check(site + '/api/categories', 'categories')
+    else:
+        check(site + '/demo-data.json', 'demo')
 
 
 if __name__ == '__main__':

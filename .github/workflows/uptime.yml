@@ -14,13 +14,12 @@ concurrency:
 
 jobs:
   check:
-    if: ${{ vars.JANUN_SITE_URL != '' && vars.JANUN_API_URL != '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Check website, API proxy, and database
+      - name: Check website and configured backend or demo catalogue
         env:
-          JANUN_SITE_URL: ${{ vars.JANUN_SITE_URL }}
+          JANUN_SITE_URL: ${{ vars.JANUN_SITE_URL || 'https://janun-dncorleone1211-9558.vercel.app' }}
           JANUN_API_URL: ${{ vars.JANUN_API_URL }}
         run: python3 scripts/check_uptime.py

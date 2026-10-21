@@ -64,9 +64,19 @@ research data and does not provide backend admin or real AI features.
 
 ## 4. Scheduled checks
 
+The deployed research demo is at
+https://janun-dncorleone1211-9558.vercel.app. The scheduled workflow defaults to
+checking this homepage and its bundled demo catalogue. Render is not connected
+yet. The Vercel deployment uses `NEXT_PUBLIC_DEMO_MODE=true`; turn it off and
+set `BACKEND_URL` when the backend is healthy. It was deployed by source upload
+because the Vercel account has no GitHub login connection. Connect GitHub in
+Vercel before expecting pushes to trigger automatic website deployments.
+
 In GitHub repository **Settings → Secrets and variables → Actions → Variables**,
 add `JANUN_SITE_URL` (stable Vercel production origin) and `JANUN_API_URL`
-(Render origin). Enable Actions and run **Website uptime** manually once.
+(Render origin) after the full backend is deployed. With `JANUN_API_URL` unset,
+only the demo homepage and catalogue are checked. Enable Actions and run
+**Website uptime** manually once.
 The workflow checks database readiness, rendered homepage content, and the
 frontend API proxy every ten minutes. Configure GitHub Actions failure email
 notifications in your account. No monitoring credential is required.
