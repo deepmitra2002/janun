@@ -1,0 +1,17 @@
+{
+  "created": 242,
+  "skipped": 0,
+  "needs_source": [
+    "tammam:services:EDU-015:15"
+  ],
+  "conflicts": [],
+  "rerun": {
+    "created": 0,
+    "skipped": 242,
+    "needs_source": [
+      "tammam:services:EDU-015:15"
+    ],
+    "conflicts": []
+  },
+  "test_database": "isolated in-memory SQLite; not live deployment"
+}
