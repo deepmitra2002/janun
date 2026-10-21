@@ -1,0 +1,23 @@
+# Free web service. Supply a durable PostgreSQL database with pgvector.
+# This does not create a paid database or guarantee continuous uptime.
+services:
+  - type: web
+    name: janun-api
+    runtime: python
+    plan: free
+    region: singapore
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: python render_start.py
+    healthCheckPath: /ready
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.14
+      - key: ENVIRONMENT
+        value: production
+      - key: DATABASE_URL
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: EMBEDDING_DIMENSIONS
+        value: "1536"

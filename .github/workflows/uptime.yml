@@ -1,0 +1,26 @@
+name: Website uptime
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: janun-uptime
+  cancel-in-progress: false
+
+jobs:
+  check:
+    if: ${{ vars.JANUN_SITE_URL != '' && vars.JANUN_API_URL != '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check website, API proxy, and database
+        env:
+          JANUN_SITE_URL: ${{ vars.JANUN_SITE_URL }}
+          JANUN_API_URL: ${{ vars.JANUN_API_URL }}
+        run: python3 scripts/check_uptime.py
