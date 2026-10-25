@@ -1,0 +1,137 @@
+[
+  {
+    "path": "/",
+    "background": "rgb(16, 29, 25)",
+    "heading": "Public service information,made simpler.",
+    "scrollWidth": 1348,
+    "text": "rgb(228, 241, 232)",
+    "theme": "dark",
+    "width": 1348
+  },
+  {
+    "path": "/services/",
+    "background": "rgb(16, 29, 25)",
+    "heading": "Find the right service.",
+    "scrollWidth": 1348,
+    "text": "rgb(228, 241, 232)",
+    "theme": "dark",
+    "width": 1348
+  },
+  {
+    "path": "/categories/",
+    "background": "rgb(16, 29, 25)",
+    "heading": "Browse service categories.",
+    "scrollWidth": 1348,
+    "text": "rgb(228, 241, 232)",
+    "theme": "dark",
+    "width": 1348
+  },
+  {
+    "path": "/services/team-nafiew-janun-pass-001/",
+    "background": "rgb(16, 29, 25)",
+    "heading": "New e-Passport Application",
+    "scrollWidth": 1348,
+    "text": "rgb(228, 241, 232)",
+    "theme": "dark",
+    "width": 1348
+  },
+  {
+    "path": "/ask/",
+    "background": "rgb(16, 29, 25)",
+    "heading": "How can we help you today?",
+    "scrollWidth": 1348,
+    "text": "rgb(228, 241, 232)",
+    "theme": "dark",
+    "width": 1348
+  },
+  {
+    "path": "/readiness/",
+    "background": "rgb(16, 29, 25)",
+    "heading": "Prepare for your next step.",
+    "scrollWidth": 1348,
+    "text": "rgb(228, 241, 232)",
+    "theme": "dark",
+    "width": 1348
+  },
+  {
+    "path": "/verify/",
+    "background": "rgb(16, 29, 25)",
+    "heading": "Check the information.",
+    "scrollWidth": 1348,
+    "text": "rgb(228, 241, 232)",
+    "theme": "dark",
+    "width": 1348
+  },
+  {
+    "path": "/sources/",
+    "background": "rgb(16, 29, 25)",
+    "heading": "Start with the source.",
+    "scrollWidth": 1348,
+    "text": "rgb(228, 241, 232)",
+    "theme": "dark",
+    "width": 1348
+  },
+  {
+    "path": "/journeys/",
+    "background": "rgb(16, 29, 25)",
+    "heading": "Start with a life goal.",
+    "scrollWidth": 1348,
+    "text": "rgb(228, 241, 232)",
+    "theme": "dark",
+    "width": 1348
+  },
+  {
+    "path": "/about/",
+    "background": "rgb(16, 29, 25)",
+    "heading": "Know the information. Understand your next step.",
+    "scrollWidth": 1348,
+    "text": "rgb(228, 241, 232)",
+    "theme": "dark",
+    "width": 1348
+  },
+  {
+    "path": "/privacy/",
+    "background": "rgb(16, 29, 25)",
+    "heading": "Your information, explained clearly.",
+    "scrollWidth": 1348,
+    "text": "rgb(228, 241, 232)",
+    "theme": "dark",
+    "width": 1348
+  },
+  {
+    "path": "/contact/",
+    "background": "rgb(16, 29, 25)",
+    "heading": "We’re listening.",
+    "scrollWidth": 1348,
+    "text": "rgb(228, 241, 232)",
+    "theme": "dark",
+    "width": 1348
+  },
+  {
+    "path": "/terms/",
+    "background": "rgb(16, 29, 25)",
+    "heading": "Terms of use.",
+    "scrollWidth": 1348,
+    "text": "rgb(228, 241, 232)",
+    "theme": "dark",
+    "width": 1348
+  },
+  {
+    "path": "/disclaimer/",
+    "background": "rgb(16, 29, 25)",
+    "heading": "Clear about what we can do.",
+    "scrollWidth": 1348,
+    "text": "rgb(228, 241, 232)",
+    "theme": "dark",
+    "width": 1348
+  },
+  {
+    "path": "/admin/",
+    "background": "rgb(16, 29, 25)",
+    "heading": "Keep information trustworthy.",
+    "scrollWidth": 1348,
+    "text": "rgb(228, 241, 232)",
+    "theme": "dark",
+    "width": 1348
+  }
+]

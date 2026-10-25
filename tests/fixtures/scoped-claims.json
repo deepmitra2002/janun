@@ -1,0 +1,10 @@
+[
+ {"claim":"Attestation is not required for e-Passport application documents.","status":"supported"},
+ {"claim":"ই-পাসপোর্টে কাগজপত্র সত্যায়ন লাগে না","status":"supported"},
+ {"claim":"Attestation is mandatory for e-Passport application documents.","status":"conflict"},
+ {"claim":"পাসপোর্টের কাগজপত্র সত্যায়ন বাধ্যতামূলক","status":"conflict"},
+ {"claim":"Attestation is not required and the fee is zero.","status":"partial"},
+ {"claim":"Attestation is required but a photo is not required on the form.","status":"partial"},
+ {"claim":"A passport is always approved in one day.","status":"insufficient"},
+ {"claim":"Is attestation required?","status":"insufficient"}
+]

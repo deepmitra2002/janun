@@ -1,0 +1,21 @@
+import {afterEach,it,expect,vi} from 'vitest';
+import {render,screen,fireEvent,cleanup} from '@testing-library/react';
+import {readFileSync} from 'node:fs';
+import {compareOfficialRules} from '../src/lib/check';
+import {updateAnswer,activeRequirements,type Requirement} from '../src/lib/readiness';
+import {applicableRequirements} from '../src/lib/evidence';
+import {DisplayOptions,applyTheme} from '../src/components/display-options';
+import {researchJourney} from '../src/lib/research-journey';
+import {demoAnswer,type DemoData} from '../src/lib/demo';
+const data=JSON.parse(readFileSync('public/demo-data.json','utf8')) as DemoData;
+const fixtures=JSON.parse(readFileSync('tests/fixtures/scoped-claims.json','utf8')) as {claim:string;status:string}[];
+afterEach(()=>{cleanup();vi.unstubAllGlobals();document.documentElement.removeAttribute('data-theme')});
+for(const c of fixtures)it('scoped claim: '+c.claim,()=>{const result=compareOfficialRules(c.claim,'team-nafiew-janun-pass-001',false);expect(result?.status||'insufficient').toBe(c.status);if(result)expect(result.evidence[0].url).toContain('epassport.gov.bd')});
+it('does not apply passport rules to other services',()=>{expect(compareOfficialRules(fixtures[0].claim,'fixture',false)).toBeNull()});
+it('switches passport age and location requirements without stale branches',()=>{const minor=applicableRequirements('team-nafiew-janun-pass-001',{age:'under6',location:'bangladesh'},false)!;expect(minor.some(x=>x.id==='photo-under6')).toBe(true);expect(minor.some(x=>x.id==='nid-adult-domestic')).toBe(false);const adult=applicableRequirements('team-nafiew-janun-pass-001',{age:'over20',location:'abroad'},false)!;expect(adult.some(x=>x.id==='photo-under6')).toBe(false);expect(adult.some(x=>x.id==='nid-adult-abroad')).toBe(true)});
+it('offers explicit appearance and working viewport choices',()=>{const theme=vi.fn(),view=vi.fn();render(<DisplayOptions bn={false} theme="light" view="desktop" setTheme={theme} setView={view}/>);fireEvent.click(screen.getByRole('button',{name:'Display options'}));fireEvent.click(screen.getByRole('radio',{name:'Dark'}));expect(theme).toHaveBeenCalledWith('dark');fireEvent.click(screen.getByRole('radio',{name:'Mobile view'}));expect(view).toHaveBeenCalledWith('mobile')});
+it('applies explicit light, dark and system preferences',()=>{vi.stubGlobal('matchMedia',()=>({matches:true}));applyTheme('light');expect(document.documentElement.dataset.theme).toBe('light');applyTheme('dark');expect(document.documentElement.dataset.theme).toBe('dark');applyTheme('system');expect(document.documentElement.dataset.theme).toBe('dark')});
+it('creates source-linked research starting points for every supported goal',()=>{for(const goal of ['study abroad','new baby','start a business','identity correction']){const result=researchJourney(data,goal,'en');expect(result.steps.length).toBeGreaterThan(0);expect(result.steps.every(s=>data.services.some(x=>x.slug===s.slug))).toBe(true);expect(result.steps.every(s=>s.depends_on.length===0)).toBe(true);expect(result.gaps.length).toBeGreaterThan(0);if(goal==='study abroad'){expect(result.steps.some(s=>s.slug==='team-sami-janun-att-002')).toBe(true);expect(result.steps.some(s=>s.service.includes('Driving'))).toBe(false)}expect(result.notice).toContain('human review pending')}});
+it('provides a faithful English passport explanation rather than an untranslated-field warning',()=>{const r=demoAnswer(data,'What do I need for a passport?','en');expect(r.answer).toContain('English-version');expect(r.answer).not.toContain('translation is unavailable');expect(r.answer).toContain('not an official translation');expect(r.sources.length).toBeGreaterThan(0)});
+
+it('prunes hidden descendants and their saved answers after an earlier condition changes',()=>{const items:Requirement[]=[{id:'parent',text:'Fixture parent',kind:'eligibility'},{id:'child',text:'Fixture child',kind:'document',when:{id:'parent',answer:'yes'}},{id:'grandchild',text:'Fixture grandchild',kind:'document',when:{id:'child',answer:'yes'}}];const old={parent:'yes',child:'yes',grandchild:'yes'} as const;const changed=updateAnswer(items,old,'parent','no');expect(changed).toEqual({parent:'no'});expect(activeRequirements(items,{parent:'no',child:'yes'}).map(q=>q.id)).toEqual(['parent'])});

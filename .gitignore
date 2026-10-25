@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+
+!.env.production
+
+__pycache__/
+.pytest_cache/
+*.pyc
+*.tsbuildinfo
+.venv/
+.sites-runtime/

@@ -1,0 +1,443 @@
+{
+  "schema_version": 1,
+  "research_status": "Human review pending; original records remain unchanged.",
+  "source_check_date": "2026-10-25",
+  "rules": [
+    {
+      "id": "passport-attestation",
+      "concept": "attestation",
+      "text_bn": "ই-পাসপোর্ট আবেদনের কাগজপত্র সত্যায়ন প্রয়োজন নেই।",
+      "text_en": "Application documents do not need attestation for an e-Passport application.",
+      "expected": "not_required",
+      "source": {
+        "id": "epassport-instructions-indexed-20261025",
+        "title": "e-Passport application instructions — sections 2, 3 and 6",
+        "title_bn": "ই-পাসপোর্ট ফরম পূরণের নির্দেশাবলী — ২, ৩ ও ৬ নম্বর নির্দেশনা",
+        "url": "https://www.epassport.gov.bd/instructions/instructions",
+        "agency": "Department of Immigration and Passports",
+        "publication_date": "2026-08-03",
+        "checked_at": "2026-10-25",
+        "review_status": "independently_checked_publication_review_pending",
+        "access_note": "Read in the official public browser page on 2026-10-25; application-level human publication review remains pending."
+      },
+      "section": "2",
+      "scope": "e-passport application documents; does not cover overseas certificate authentication",
+      "applies_to": [
+        "team-nafiew-janun-pass-001"
+      ]
+    },
+    {
+      "id": "passport-form-photo",
+      "concept": "form_photo",
+      "text_bn": "ই-পাসপোর্ট আবেদন ফরমে ছবি সংযোজন বা তা সত্যায়ন প্রয়োজন নেই।",
+      "text_en": "A photograph does not need to be affixed to or attested on the e-Passport application form.",
+      "expected": "not_required",
+      "source": {
+        "id": "epassport-instructions-indexed-20261025",
+        "title": "e-Passport application instructions — sections 2, 3 and 6",
+        "title_bn": "ই-পাসপোর্ট ফরম পূরণের নির্দেশাবলী — ২, ৩ ও ৬ নম্বর নির্দেশনা",
+        "url": "https://www.epassport.gov.bd/instructions/instructions",
+        "agency": "Department of Immigration and Passports",
+        "publication_date": "2026-08-03",
+        "checked_at": "2026-10-25",
+        "review_status": "independently_checked_publication_review_pending",
+        "access_note": "Read in the official public browser page on 2026-10-25; application-level human publication review remains pending."
+      },
+      "section": "3",
+      "scope": "Application form only; separate age-specific photograph requirements may apply.",
+      "applies_to": [
+        "team-nafiew-janun-pass-001"
+      ]
+    }
+  ],
+  "services": {
+    "team-nafiew-janun-pass-001": {
+      "fee_rows": [
+        {
+          "fee_id": "PF-BD-48-5-regular",
+          "fee_schedule_id": "PASSPORT-DOMESTIC",
+          "pages": "48",
+          "validity_years": "5",
+          "applicant_group": "domestic",
+          "delivery_type": "regular",
+          "currency": "BDT",
+          "amount": "4025",
+          "vat_included": "15%",
+          "published_delivery_period": "15 working days / 21 days",
+          "period_start": "biometric_enrolment",
+          "source_id": "S02",
+          "verification_status": "official_indexed_excerpt",
+          "last_verified_date": "2026-10-12"
+        },
+        {
+          "fee_id": "PF-BD-48-5-express",
+          "fee_schedule_id": "PASSPORT-DOMESTIC",
+          "pages": "48",
+          "validity_years": "5",
+          "applicant_group": "domestic",
+          "delivery_type": "express",
+          "currency": "BDT",
+          "amount": "6325",
+          "vat_included": "15%",
+          "published_delivery_period": "7 working days / 10 days",
+          "period_start": "biometric_enrolment",
+          "source_id": "S02",
+          "verification_status": "official_indexed_excerpt",
+          "last_verified_date": "2026-10-12"
+        },
+        {
+          "fee_id": "PF-BD-48-5-super_express",
+          "fee_schedule_id": "PASSPORT-DOMESTIC",
+          "pages": "48",
+          "validity_years": "5",
+          "applicant_group": "domestic",
+          "delivery_type": "super_express",
+          "currency": "BDT",
+          "amount": "8625",
+          "vat_included": "15%",
+          "published_delivery_period": "2 working days",
+          "period_start": "biometric_enrolment",
+          "source_id": "S02",
+          "verification_status": "official_indexed_excerpt",
+          "last_verified_date": "2026-10-12"
+        },
+        {
+          "fee_id": "PF-BD-48-10-regular",
+          "fee_schedule_id": "PASSPORT-DOMESTIC",
+          "pages": "48",
+          "validity_years": "10",
+          "applicant_group": "domestic",
+          "delivery_type": "regular",
+          "currency": "BDT",
+          "amount": "5750",
+          "vat_included": "15%",
+          "published_delivery_period": "15 working days / 21 days",
+          "period_start": "biometric_enrolment",
+          "source_id": "S02",
+          "verification_status": "official_indexed_excerpt",
+          "last_verified_date": "2026-10-12"
+        },
+        {
+          "fee_id": "PF-BD-48-10-express",
+          "fee_schedule_id": "PASSPORT-DOMESTIC",
+          "pages": "48",
+          "validity_years": "10",
+          "applicant_group": "domestic",
+          "delivery_type": "express",
+          "currency": "BDT",
+          "amount": "8050",
+          "vat_included": "15%",
+          "published_delivery_period": "7 working days / 10 days",
+          "period_start": "biometric_enrolment",
+          "source_id": "S02",
+          "verification_status": "official_indexed_excerpt",
+          "last_verified_date": "2026-10-12"
+        },
+        {
+          "fee_id": "PF-BD-48-10-super_express",
+          "fee_schedule_id": "PASSPORT-DOMESTIC",
+          "pages": "48",
+          "validity_years": "10",
+          "applicant_group": "domestic",
+          "delivery_type": "super_express",
+          "currency": "BDT",
+          "amount": "10350",
+          "vat_included": "15%",
+          "published_delivery_period": "2 working days",
+          "period_start": "biometric_enrolment",
+          "source_id": "S02",
+          "verification_status": "official_indexed_excerpt",
+          "last_verified_date": "2026-10-12"
+        },
+        {
+          "fee_id": "PF-BD-64-5-regular",
+          "fee_schedule_id": "PASSPORT-DOMESTIC",
+          "pages": "64",
+          "validity_years": "5",
+          "applicant_group": "domestic",
+          "delivery_type": "regular",
+          "currency": "BDT",
+          "amount": "6325",
+          "vat_included": "15%",
+          "published_delivery_period": "15 working days / 21 days",
+          "period_start": "biometric_enrolment",
+          "source_id": "S02",
+          "verification_status": "official_indexed_excerpt",
+          "last_verified_date": "2026-10-12"
+        },
+        {
+          "fee_id": "PF-BD-64-5-express",
+          "fee_schedule_id": "PASSPORT-DOMESTIC",
+          "pages": "64",
+          "validity_years": "5",
+          "applicant_group": "domestic",
+          "delivery_type": "express",
+          "currency": "BDT",
+          "amount": "8625",
+          "vat_included": "15%",
+          "published_delivery_period": "7 working days / 10 days",
+          "period_start": "biometric_enrolment",
+          "source_id": "S02",
+          "verification_status": "official_indexed_excerpt",
+          "last_verified_date": "2026-10-12"
+        },
+        {
+          "fee_id": "PF-BD-64-5-super_express",
+          "fee_schedule_id": "PASSPORT-DOMESTIC",
+          "pages": "64",
+          "validity_years": "5",
+          "applicant_group": "domestic",
+          "delivery_type": "super_express",
+          "currency": "BDT",
+          "amount": "12075",
+          "vat_included": "15%",
+          "published_delivery_period": "2 working days",
+          "period_start": "biometric_enrolment",
+          "source_id": "S02",
+          "verification_status": "official_indexed_excerpt",
+          "last_verified_date": "2026-10-12"
+        },
+        {
+          "fee_id": "PF-BD-64-10-regular",
+          "fee_schedule_id": "PASSPORT-DOMESTIC",
+          "pages": "64",
+          "validity_years": "10",
+          "applicant_group": "domestic",
+          "delivery_type": "regular",
+          "currency": "BDT",
+          "amount": "8050",
+          "vat_included": "15%",
+          "published_delivery_period": "15 working days / 21 days",
+          "period_start": "biometric_enrolment",
+          "source_id": "S02",
+          "verification_status": "official_indexed_excerpt",
+          "last_verified_date": "2026-10-12"
+        },
+        {
+          "fee_id": "PF-BD-64-10-express",
+          "fee_schedule_id": "PASSPORT-DOMESTIC",
+          "pages": "64",
+          "validity_years": "10",
+          "applicant_group": "domestic",
+          "delivery_type": "express",
+          "currency": "BDT",
+          "amount": "10350",
+          "vat_included": "15%",
+          "published_delivery_period": "7 working days / 10 days",
+          "period_start": "biometric_enrolment",
+          "source_id": "S02",
+          "verification_status": "official_indexed_excerpt",
+          "last_verified_date": "2026-10-12"
+        },
+        {
+          "fee_id": "PF-BD-64-10-super_express",
+          "fee_schedule_id": "PASSPORT-DOMESTIC",
+          "pages": "64",
+          "validity_years": "10",
+          "applicant_group": "domestic",
+          "delivery_type": "super_express",
+          "currency": "BDT",
+          "amount": "13800",
+          "vat_included": "15%",
+          "published_delivery_period": "2 working days",
+          "period_start": "biometric_enrolment",
+          "source_id": "S02",
+          "verification_status": "official_indexed_excerpt",
+          "last_verified_date": "2026-10-12"
+        }
+      ],
+      "fee_source": {
+        "id": "epassport-fees-indexed-20261025",
+        "title": "e-Passport fees and payment options",
+        "title_bn": "ই-পাসপোর্ট ফি ও পরিশোধের পদ্ধতি",
+        "url": "https://www.epassport.gov.bd/instructions/passport-fees",
+        "agency": "Department of Immigration and Passports",
+        "publication_date": "2026-07-12",
+        "checked_at": "2026-10-25",
+        "review_status": "independently_checked_publication_review_pending",
+        "access_note": "All 12 domestic fee entries matched the official browser page on 2026-10-25; human publication review pending."
+      },
+      "context_questions": [
+        {
+          "id": "age",
+          "label_bn": "আপনার বয়সের শ্রেণি",
+          "label_en": "Your age group",
+          "options": [
+            {
+              "value": "under6",
+              "bn": "৬ বছরের কম",
+              "en": "Under 6"
+            },
+            {
+              "value": "6to17",
+              "bn": "৬–১৭ বছর",
+              "en": "6–17"
+            },
+            {
+              "value": "18to20",
+              "bn": "১৮–২০ বছর",
+              "en": "18–20"
+            },
+            {
+              "value": "over20",
+              "bn": "২০ বছরের বেশি",
+              "en": "Over 20"
+            },
+            {
+              "value": "unknown",
+              "bn": "নিশ্চিত নই",
+              "en": "Not sure"
+            }
+          ]
+        },
+        {
+          "id": "location",
+          "label_bn": "আবেদনের স্থান",
+          "label_en": "Where are you applying?",
+          "options": [
+            {
+              "value": "bangladesh",
+              "bn": "বাংলাদেশের ভেতরে",
+              "en": "Inside Bangladesh"
+            },
+            {
+              "value": "abroad",
+              "bn": "বিদেশে বাংলাদেশ মিশনে",
+              "en": "At a Bangladesh mission abroad"
+            },
+            {
+              "value": "unknown",
+              "bn": "নিশ্চিত নই",
+              "en": "Not sure"
+            }
+          ]
+        }
+      ],
+      "structured_requirements": [
+        {
+          "id": "brc-minor",
+          "text_bn": "ইংরেজি অনলাইন জন্মনিবন্ধন সনদ প্রস্তুত আছে?",
+          "text_en": "Is your English-version online birth registration certificate ready?",
+          "kind": "document",
+          "when_context": {
+            "age": [
+              "under6",
+              "6to17"
+            ]
+          },
+          "provenance": "Official instructions section 6 and 18, read on 2026-10-25; original research retained; human publication review pending."
+        },
+        {
+          "id": "identity-young-adult",
+          "text_bn": "NID অথবা ইংরেজি অনলাইন জন্মনিবন্ধন সনদ প্রস্তুত আছে?",
+          "text_en": "Is either your NID or English-version online birth registration certificate ready?",
+          "kind": "document",
+          "when_context": {
+            "age": [
+              "18to20"
+            ]
+          },
+          "provenance": "Official instructions section 6 and 18, read on 2026-10-25; original research retained; human publication review pending."
+        },
+        {
+          "id": "nid-adult-domestic",
+          "text_bn": "দেশে আবেদনের জন্য NID প্রস্তুত আছে?",
+          "text_en": "Is your NID ready for an application inside Bangladesh?",
+          "kind": "document",
+          "when_context": {
+            "age": [
+              "over20"
+            ],
+            "location": [
+              "bangladesh"
+            ]
+          },
+          "provenance": "Official instructions section 6 and 18, read on 2026-10-25; original research retained; human publication review pending."
+        },
+        {
+          "id": "original-id",
+          "text_bn": "এনরোলমেন্টে মূল পরিচয়পত্র দেখাতে পারবেন?",
+          "text_en": "Can you present the original applicable identity document at enrolment?",
+          "kind": "document",
+          "provenance": "Official instructions section 6 and 18, read on 2026-10-25; original research retained; human publication review pending."
+        },
+        {
+          "id": "nid-adult-abroad",
+          "text_bn": "বিদেশে আবেদনের জন্য NID অথবা ইংরেজি অনলাইন জন্মনিবন্ধন প্রস্তুত আছে?",
+          "text_en": "Is your NID or English-version online birth registration ready for an application abroad?",
+          "kind": "document",
+          "when_context": {
+            "age": [
+              "over20"
+            ],
+            "location": [
+              "abroad"
+            ]
+          },
+          "provenance": "Official instructions 6(c), read 2026-10-25."
+        },
+        {
+          "id": "photo-under6",
+          "text_bn": "৬ বছরের কম শিশুর জন্য ধূসর ব্যাকগ্রাউন্ডের 3R ল্যাব-প্রিন্ট ছবি প্রস্তুত আছে?",
+          "text_en": "Is a lab-printed 3R photo with a grey background ready for the child under 6?",
+          "kind": "document",
+          "when_context": {
+            "age": [
+              "under6"
+            ]
+          },
+          "provenance": "Official instructions 21, read 2026-10-25."
+        },
+        {
+          "id": "parent-identity",
+          "text_bn": "শিশুর NID না থাকলে পিতা বা মাতার NID-এর প্রয়োজনীয় তথ্য প্রস্তুত আছে?",
+          "text_en": "If the child has no NID, are the necessary details of a parent’s NID ready?",
+          "kind": "document",
+          "when_context": {
+            "age": [
+              "under6",
+              "6to17"
+            ]
+          },
+          "provenance": "Official instructions 5, read 2026-10-25."
+        }
+      ],
+      "material_sources": [
+        {
+          "id": "passport-enrollment-notice",
+          "title": "Documents to bring for e-Passport enrolment",
+          "title_bn": "ই-পাসপোর্ট এনরোলমেন্টে সঙ্গে নেওয়ার নথি",
+          "url": "https://www.epassport.gov.bd/landing/notices/34",
+          "agency": "Department of Immigration and Passports",
+          "publication_date": "2025-05-06",
+          "kind": "official_notice",
+          "review_status": "official_indexed_human_review_pending"
+        },
+        {
+          "id": "passport-checklist-notice",
+          "title": "Documents checklist for e-Passport enrolment",
+          "title_bn": "পাসপোর্টের আবেদন জমা নেওয়ার চেকলিস্ট",
+          "url": "https://www.epassport.gov.bd/landing/notices/160",
+          "agency": "Department of Immigration and Passports",
+          "publication_date": "2024-10-21",
+          "kind": "official_notice",
+          "review_status": "independently_checked_publication_review_pending",
+          "local_preview": "/evidence/epassport-official-checklist-20261025.jpg"
+        },
+        {
+          "id": "passport-instructions-capture",
+          "title": "Official e-Passport instructions — captured page",
+          "title_bn": "সরকারি ই-পাসপোর্ট নির্দেশনা — সংরক্ষিত পেজ",
+          "url": "https://www.epassport.gov.bd/instructions/instructions",
+          "local_preview": "/evidence/epassport-official-instructions-20261025.jpg",
+          "agency": "Department of Immigration and Passports",
+          "publication_date": "2026-08-03",
+          "kind": "official_page_capture",
+          "review_status": "independently_checked_publication_review_pending"
+        }
+      ],
+      "coverage_gaps_bn": "দত্তক, বিশেষ পেশা, সরকারি চাকরি, বৈবাহিক তথ্য ও সংশোধনের অতিরিক্ত শর্ত এখানে সম্পূর্ণ মূল্যায়ন করা হয় না। মূল নির্দেশনা দেখুন।",
+      "coverage_gaps_en": "Additional adoption, technical profession, government employment, marital-status and correction conditions are not fully assessed here. Read the original instructions."
+    }
+  }
+}

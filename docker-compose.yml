@@ -1,0 +1,51 @@
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_DB: janun
+      POSTGRES_USER: janun
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    volumes:
+      - janun-db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U janun -d janun"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+  api:
+    build: ./backend
+    environment:
+      DATABASE_URL: postgresql+psycopg://janun:${POSTGRES_PASSWORD}@db:5432/janun
+      ENVIRONMENT: ${ENVIRONMENT:-development}
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-http://localhost:3000}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-}
+      EMBEDDING_DIMENSIONS: ${EMBEDDING_DIMENSIONS:-1536}
+      SPEECH_TRANSCRIPTION_MODEL: ${SPEECH_TRANSCRIPTION_MODEL:-}
+      SPEECH_SYNTHESIS_MODEL: ${SPEECH_SYNTHESIS_MODEL:-}
+      SPEECH_VOICE_EN: ${SPEECH_VOICE_EN:-}
+      SPEECH_VOICE_BN: ${SPEECH_VOICE_BN:-}
+      SOURCE_HOSTS: ${SOURCE_HOSTS:-bangladesh.gov.bd,www.bangladesh.gov.bd,www.mygov.bd,mygov.bd,www.epassport.gov.bd,epassport.gov.bd,bdris.gov.bd}
+    depends_on:
+      db:
+        condition: service_healthy
+    command: ["sh", "-c", "alembic upgrade head && python -m app.cli seed && python -m app.cli import-team-data && uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 1 --no-proxy-headers"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/ready',timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+  web:
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_DEMO_MODE: "false"
+        BACKEND_URL: http://api:8000
+    ports:
+      - "127.0.0.1:3000:3000"
+    depends_on:
+      api:
+        condition: service_healthy
+volumes:
+  janun-db:

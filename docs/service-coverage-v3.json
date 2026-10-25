@@ -1,0 +1,50 @@
+{
+  "scope": "All 254 service records inspected structurally; factual verification limited to the specifically recorded official passport sources.",
+  "records": 254,
+  "original_snapshot_unchanged": true,
+  "snapshot_sha256": "dc2d8ed3200075562a118e643ed54c52479eee9a9a7a11b8f05bc35a7cd97878",
+  "categories": 10,
+  "duplicate_slugs": 0,
+  "needs_review": 254,
+  "fields": {
+    "documents": {
+      "present": 159,
+      "missing": 95
+    },
+    "eligibility": {
+      "present": 119,
+      "missing": 135
+    },
+    "steps": {
+      "present": 237,
+      "missing": 17
+    },
+    "fees": {
+      "present": 97,
+      "missing": 157
+    },
+    "processing_time": {
+      "present": 76,
+      "missing": 178
+    },
+    "deadline": {
+      "present": 64,
+      "missing": 190
+    },
+    "sources": {
+      "present": 254,
+      "missing": 0
+    }
+  },
+  "records_with_direct_pdf": 15,
+  "structured_overlay_services": [
+    "team-nafiew-janun-pass-001"
+  ],
+  "source_checked_pages": [
+    "https://www.epassport.gov.bd/instructions/instructions",
+    "https://www.epassport.gov.bd/instructions/passport-fees",
+    "https://www.epassport.gov.bd/landing/notices/160"
+  ],
+  "new_word_documents_supplied": 0,
+  "provider_backed_requests_succeeded": 0
+}

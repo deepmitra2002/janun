@@ -1,0 +1,461 @@
+[
+  {
+    "file": "logos/janun-logo-bn.png",
+    "kind": "transparent raster cutout",
+    "source": "homepage",
+    "note": "",
+    "crop_xyxy": [
+      68,
+      46,
+      185,
+      81
+    ],
+    "width": 111,
+    "height": 30,
+    "transparent": true
+  },
+  {
+    "file": "logos/janun-mark.png",
+    "kind": "transparent raster cutout",
+    "source": "homepage",
+    "note": "",
+    "crop_xyxy": [
+      69,
+      47,
+      109,
+      79
+    ],
+    "width": 35,
+    "height": 28,
+    "transparent": true
+  },
+  {
+    "file": "logos/janun-logo-bn-white.png",
+    "kind": "derived white raster",
+    "source": "homepage",
+    "note": "White silhouette derived from extracted logo; transparent.",
+    "width": 111,
+    "height": 30,
+    "transparent": true
+  },
+  {
+    "file": "logos/janun-mark-white.png",
+    "kind": "derived white raster",
+    "source": "homepage",
+    "note": "White silhouette derived from extracted logo; transparent.",
+    "width": 35,
+    "height": 28,
+    "transparent": true
+  },
+  {
+    "file": "logos/janun-logo-bn.svg",
+    "kind": "raster-traced vector",
+    "source": "homepage",
+    "note": "True path SVG traced from visible raster silhouette; not original design source. Pixel contours remain at extreme zoom."
+  },
+  {
+    "file": "logos/janun-mark.svg",
+    "kind": "raster-traced vector",
+    "source": "homepage",
+    "note": "True path SVG traced from visible raster silhouette; not original design source. Pixel contours remain at extreme zoom."
+  },
+  {
+    "file": "logos/janun-logo-bn-white.svg",
+    "kind": "raster-traced vector",
+    "source": "homepage",
+    "note": "True path SVG traced from visible raster silhouette; not original design source. Pixel contours remain at extreme zoom."
+  },
+  {
+    "file": "logos/janun-mark-white.svg",
+    "kind": "raster-traced vector",
+    "source": "homepage",
+    "note": "True path SVG traced from visible raster silhouette; not original design source. Pixel contours remain at extreme zoom."
+  },
+  {
+    "file": "icons/png/identity.png",
+    "kind": "transparent raster cutout",
+    "source": "homepage",
+    "note": "",
+    "crop_xyxy": [
+      97,
+      533,
+      158,
+      587
+    ],
+    "width": 52,
+    "height": 41,
+    "transparent": true
+  },
+  {
+    "file": "icons/png/passport.png",
+    "kind": "transparent raster cutout",
+    "source": "homepage",
+    "note": "",
+    "crop_xyxy": [
+      283,
+      531,
+      335,
+      587
+    ],
+    "width": 44,
+    "height": 49,
+    "transparent": true
+  },
+  {
+    "file": "icons/png/health.png",
+    "kind": "transparent raster cutout",
+    "source": "homepage",
+    "note": "",
+    "crop_xyxy": [
+      462,
+      529,
+      523,
+      588
+    ],
+    "width": 51,
+    "height": 54,
+    "transparent": true
+  },
+  {
+    "file": "icons/png/education.png",
+    "kind": "transparent raster cutout",
+    "source": "homepage",
+    "note": "",
+    "crop_xyxy": [
+      635,
+      530,
+      703,
+      587
+    ],
+    "width": 58,
+    "height": 44,
+    "transparent": true
+  },
+  {
+    "file": "icons/png/land.png",
+    "kind": "transparent raster cutout",
+    "source": "homepage",
+    "note": "",
+    "crop_xyxy": [
+      825,
+      526,
+      887,
+      587
+    ],
+    "width": 55,
+    "height": 52,
+    "transparent": true
+  },
+  {
+    "file": "icons/png/social-support.png",
+    "kind": "transparent raster cutout",
+    "source": "homepage",
+    "note": "",
+    "crop_xyxy": [
+      1015,
+      529,
+      1076,
+      588
+    ],
+    "width": 50,
+    "height": 40,
+    "transparent": true
+  },
+  {
+    "file": "icons/png/ask.png",
+    "kind": "transparent raster cutout",
+    "source": "homepage",
+    "note": "",
+    "crop_xyxy": [
+      80,
+      753,
+      155,
+      829
+    ],
+    "width": 40,
+    "height": 38,
+    "transparent": true
+  },
+  {
+    "file": "icons/png/readiness.png",
+    "kind": "transparent raster cutout",
+    "source": "homepage",
+    "note": "",
+    "crop_xyxy": [
+      435,
+      754,
+      513,
+      829
+    ],
+    "width": 33,
+    "height": 42,
+    "transparent": true
+  },
+  {
+    "file": "icons/png/verify.png",
+    "kind": "transparent raster cutout",
+    "source": "homepage",
+    "note": "",
+    "crop_xyxy": [
+      808,
+      751,
+      884,
+      830
+    ],
+    "width": 36,
+    "height": 41,
+    "transparent": true
+  },
+  {
+    "file": "illustrations/hero-desktop-original.png",
+    "kind": "direct raster crop",
+    "source": "homepage",
+    "note": "Original artwork crop. Contains baked-in slogan and a small search-control overlap at the left edge. Use as reference or as a composed hero, not as a text-free background.",
+    "crop_xyxy": [
+      550,
+      89,
+      1173,
+      467
+    ],
+    "width": 623,
+    "height": 378,
+    "transparent": false
+  },
+  {
+    "file": "illustrations/hero-mobile-text-free.png",
+    "kind": "direct raster crop",
+    "source": "homepage",
+    "note": "Text-free mobile illustration crop; original detail is limited to 319 x 103 pixels. Some sky/background remains.",
+    "crop_xyxy": [
+      1200,
+      389,
+      1519,
+      492
+    ],
+    "width": 319,
+    "height": 103,
+    "transparent": false
+  },
+  {
+    "file": "illustrations/citizens-detail-original.png",
+    "kind": "direct raster crop",
+    "source": "homepage",
+    "note": "Close crop of citizens and documents. Includes original background and minor slogan overlap at upper right; not a transparent cutout.",
+    "crop_xyxy": [
+      624,
+      132,
+      1107,
+      466
+    ],
+    "width": 483,
+    "height": 334,
+    "transparent": false
+  },
+  {
+    "file": "illustrations/citizens-busts-transparent.png",
+    "kind": "manually masked raster cutout",
+    "source": "homepage",
+    "note": "Source-pixel bust cutout with a manually selected silhouette and flat lower edge. No redraw or upscaling; excludes the lower artwork obscured by UI. Small edge differences may remain.",
+    "crop_xyxy": [
+      660,
+      130,
+      1090,
+      405
+    ],
+    "width": 430,
+    "height": 275,
+    "transparent": true
+  },
+  {
+    "file": "illustrations/skyline-monument-original.png",
+    "kind": "direct raster crop",
+    "source": "service-verification",
+    "note": "Text-free skyline/monument crop on the original off-white background.",
+    "crop_xyxy": [
+      900,
+      0,
+      1323,
+      111
+    ],
+    "width": 423,
+    "height": 111,
+    "transparent": false
+  },
+  {
+    "file": "illustrations/passport-book-original.png",
+    "kind": "direct raster crop",
+    "source": "service-verification",
+    "note": "Decorative passport illustration from generated UI. Contains generated lettering; not an official document or evidence. Original background/shadow retained.",
+    "crop_xyxy": [
+      44,
+      222,
+      222,
+      426
+    ],
+    "width": 178,
+    "height": 204,
+    "transparent": false
+  },
+  {
+    "file": "illustrations/passport-book-transparent.png",
+    "kind": "manually masked raster cutout",
+    "source": "service-verification",
+    "note": "Manually masked decorative passport artwork, without most background/shadow. Generated lettering is not official evidence.",
+    "crop_xyxy": [
+      46,
+      222,
+      221,
+      427
+    ],
+    "width": 175,
+    "height": 205,
+    "transparent": true
+  },
+  {
+    "file": "icons/png/upload-file.png",
+    "kind": "transparent raster cutout",
+    "source": "service-verification",
+    "note": "",
+    "crop_xyxy": [
+      1196,
+      286,
+      1251,
+      343
+    ],
+    "width": 43,
+    "height": 50,
+    "transparent": true
+  },
+  {
+    "file": "icons/png/status-supported.png",
+    "kind": "transparent raster cutout",
+    "source": "service-verification",
+    "note": "",
+    "crop_xyxy": [
+      977,
+      630,
+      1016,
+      664
+    ],
+    "width": 32,
+    "height": 32,
+    "transparent": true
+  },
+  {
+    "file": "icons/png/status-unknown.png",
+    "kind": "transparent raster cutout",
+    "source": "service-verification",
+    "note": "",
+    "crop_xyxy": [
+      975,
+      689,
+      1014,
+      727
+    ],
+    "width": 32,
+    "height": 32,
+    "transparent": true
+  },
+  {
+    "file": "icons/png/status-conflict.png",
+    "kind": "transparent raster cutout",
+    "source": "service-verification",
+    "note": "",
+    "crop_xyxy": [
+      973,
+      748,
+      1014,
+      791
+    ],
+    "width": 32,
+    "height": 32,
+    "transparent": true
+  },
+  {
+    "file": "icons/png/pdf-document.png",
+    "kind": "transparent raster cutout",
+    "source": "service-verification",
+    "note": "",
+    "crop_xyxy": [
+      614,
+      875,
+      654,
+      936
+    ],
+    "width": 37,
+    "height": 51,
+    "transparent": true
+  },
+  {
+    "file": "icons/svg/identity.svg",
+    "kind": "reconstructed editable vector",
+    "source": "design reference",
+    "note": "New clean geometric companion drawn to match the mockup theme; not an original hidden SVG."
+  },
+  {
+    "file": "icons/svg/passport.svg",
+    "kind": "reconstructed editable vector",
+    "source": "design reference",
+    "note": "New clean geometric companion drawn to match the mockup theme; not an original hidden SVG."
+  },
+  {
+    "file": "icons/svg/health.svg",
+    "kind": "reconstructed editable vector",
+    "source": "design reference",
+    "note": "New clean geometric companion drawn to match the mockup theme; not an original hidden SVG."
+  },
+  {
+    "file": "icons/svg/education.svg",
+    "kind": "reconstructed editable vector",
+    "source": "design reference",
+    "note": "New clean geometric companion drawn to match the mockup theme; not an original hidden SVG."
+  },
+  {
+    "file": "icons/svg/land.svg",
+    "kind": "reconstructed editable vector",
+    "source": "design reference",
+    "note": "New clean geometric companion drawn to match the mockup theme; not an original hidden SVG."
+  },
+  {
+    "file": "icons/svg/social-support.svg",
+    "kind": "reconstructed editable vector",
+    "source": "design reference",
+    "note": "New clean geometric companion drawn to match the mockup theme; not an original hidden SVG."
+  },
+  {
+    "file": "icons/svg/ask.svg",
+    "kind": "reconstructed editable vector",
+    "source": "design reference",
+    "note": "New clean geometric companion drawn to match the mockup theme; not an original hidden SVG."
+  },
+  {
+    "file": "icons/svg/readiness.svg",
+    "kind": "reconstructed editable vector",
+    "source": "design reference",
+    "note": "New clean geometric companion drawn to match the mockup theme; not an original hidden SVG."
+  },
+  {
+    "file": "icons/svg/verify.svg",
+    "kind": "reconstructed editable vector",
+    "source": "design reference",
+    "note": "New clean geometric companion drawn to match the mockup theme; not an original hidden SVG."
+  },
+  {
+    "file": "icons/svg/microphone.svg",
+    "kind": "reconstructed editable vector",
+    "source": "design reference",
+    "note": "New clean geometric companion drawn to match the mockup theme; not an original hidden SVG."
+  },
+  {
+    "file": "icons/svg/source-link.svg",
+    "kind": "reconstructed editable vector",
+    "source": "design reference",
+    "note": "New clean geometric companion drawn to match the mockup theme; not an original hidden SVG."
+  },
+  {
+    "file": "icons/svg/upload-file.svg",
+    "kind": "reconstructed editable vector",
+    "source": "design reference",
+    "note": "New clean geometric companion drawn to match the mockup theme; not an original hidden SVG."
+  }
+]

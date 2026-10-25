@@ -1,0 +1,19 @@
+'use client';
+import {useEffect,useState} from 'react';
+import {api} from '@/lib/api';
+import {ErrorBox} from './common';
+type Row={id:string;owner:string;table:string;name:string;name_en:string;kind:string;original_id:string;import_enabled:boolean;payload?:Record<string,unknown>};
+type Result={items:Row[];total:number;page:number;page_size:number;owners:string[];tables:string[]};
+export function TeamData(){
+ const [q,setQ]=useState(''),[owner,setOwner]=useState(''),[kind,setKind]=useState('service'),[table,setTable]=useState(''),[page,setPage]=useState(1),[result,setResult]=useState<Result|null>(null),[selected,setSelected]=useState<Row|null>(null),[error,setError]=useState(''),[loading,setLoading]=useState(false);
+ useEffect(()=>{let active=true;setLoading(true);setError('');const timer=setTimeout(()=>{api<Result>('/admin/team-data?'+new URLSearchParams({q,owner,kind,table,page:String(page)})).then(r=>{if(active)setResult(r)}).catch(e=>{if(active)setError(e.message)}).finally(()=>{if(active)setLoading(false)});},250);return()=>{active=false;clearTimeout(timer)};},[q,owner,kind,table,page]);
+ async function inspect(r:Row){setError('');try{setSelected(await api<Row>('/admin/team-data/record?'+new URLSearchParams({record_id:r.id})))}catch(e){setError((e as Error).message)}}
+ return <section className="panel"><h2>টিমের সংগৃহীত তথ্য</h2><p>পাঁচ সদস্যের সেবা, অফিস, প্রতিষ্ঠান ও সরকারি উৎস। মূল প্যাকেজের যাচাই-অবস্থা সংরক্ষিত আছে; এই সংগ্রহে থাকা মানেই প্রকাশিত বা মানব-যাচাইকৃত নয়।</p>
+ <div className="admin-form"><label>খুঁজুন<input value={q} placeholder="সেবার নাম, জেলা, প্রতিষ্ঠান…" onChange={e=>{setQ(e.target.value);setPage(1)}}/></label><label>সদস্য<select value={owner} onChange={e=>{setOwner(e.target.value);setTable('');setPage(1)}}><option value="">সব সদস্য</option>{result?.owners.map(o=><option key={o}>{o}</option>)}</select></label><label>ধরন<select value={kind} onChange={e=>{setKind(e.target.value);setPage(1)}}><option value="service">সেবা</option><option value="reference">সহায়ক তালিকা ও উৎস</option><option value="">সব তথ্য</option></select></label><label>তালিকা<select value={table} onChange={e=>{setTable(e.target.value);setPage(1)}}><option value="">সব তালিকা</option>{result?.tables.map(t=><option key={t}>{t}</option>)}</select></label></div>
+ {error&&<ErrorBox message={error}/>}<p role="status">{loading?'খোঁজা হচ্ছে…':`${result?.total??0}টি এন্ট্রি পাওয়া গেছে`}</p>
+ {!loading&&result?.total===0&&<p>এই অনুসন্ধানে কোনো তথ্য পাওয়া যায়নি।</p>}
+ {result?.items.map(r=><div className="feedback-item" key={r.id}><span className="tag">{r.owner} · {r.table}</span><h3>{r.name}</h3><p>{r.name_en}</p><button className="button outline small" onClick={()=>inspect(r)}>সম্পূর্ণ তথ্য দেখুন</button></div>)}
+ <div className="row"><button className="button outline" disabled={page===1||loading} onClick={()=>setPage(p=>p-1)}>আগের পৃষ্ঠা</button><span>পৃষ্ঠা {page}</span><button className="button outline" disabled={loading||!result||page*result.page_size>=result.total} onClick={()=>setPage(p=>p+1)}>পরের পৃষ্ঠা</button></div>
+ {selected&&<div className="modal-backdrop"><section className="review-modal" role="dialog" aria-modal="true" aria-labelledby="team-record-title"><button autoFocus className="button outline small" onClick={()=>setSelected(null)}>বন্ধ করুন</button><h2 id="team-record-title">{selected.name}</h2><p>{selected.owner} · {selected.original_id} · {selected.table}</p><p className="notice">এটি সংগৃহীত গবেষণা। Sources ট্যাবে সরকারি উৎসের সঙ্গে যাচাই করে তবেই প্রকাশ করুন।</p><dl>{Object.entries(selected.payload??{}).map(([key,value])=><div className="feedback-item" key={key}><dt><strong>{key}</strong></dt><dd style={{margin:0,whiteSpace:'pre-wrap',overflowWrap:'anywhere'}}>{value===null||value===''?'তথ্য দেওয়া নেই':typeof value==='object'?JSON.stringify(value,null,2):String(value)}</dd></div>)}</dl></section></div>}
+ </section>
+}

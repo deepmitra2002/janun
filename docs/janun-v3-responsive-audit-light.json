@@ -1,0 +1,632 @@
+[
+  {
+    "requestedWidth": 360,
+    "path": "/",
+    "scrollWidth": 345,
+    "theme": "light",
+    "width": 345
+  },
+  {
+    "requestedWidth": 360,
+    "path": "/services/",
+    "scrollWidth": 345,
+    "theme": "light",
+    "width": 345
+  },
+  {
+    "requestedWidth": 360,
+    "path": "/categories/",
+    "scrollWidth": 345,
+    "theme": "light",
+    "width": 345
+  },
+  {
+    "requestedWidth": 360,
+    "path": "/services/team-nafiew-janun-pass-001/",
+    "scrollWidth": 345,
+    "theme": "light",
+    "width": 345
+  },
+  {
+    "requestedWidth": 360,
+    "path": "/ask/",
+    "scrollWidth": 345,
+    "theme": "light",
+    "width": 345
+  },
+  {
+    "requestedWidth": 360,
+    "path": "/readiness/",
+    "scrollWidth": 345,
+    "theme": "light",
+    "width": 345
+  },
+  {
+    "requestedWidth": 360,
+    "path": "/verify/",
+    "scrollWidth": 345,
+    "theme": "light",
+    "width": 345
+  },
+  {
+    "requestedWidth": 360,
+    "path": "/sources/",
+    "scrollWidth": 345,
+    "theme": "light",
+    "width": 345
+  },
+  {
+    "requestedWidth": 360,
+    "path": "/journeys/",
+    "scrollWidth": 345,
+    "theme": "light",
+    "width": 345
+  },
+  {
+    "requestedWidth": 360,
+    "path": "/about/",
+    "scrollWidth": 345,
+    "theme": "light",
+    "width": 345
+  },
+  {
+    "requestedWidth": 360,
+    "path": "/privacy/",
+    "scrollWidth": 345,
+    "theme": "light",
+    "width": 345
+  },
+  {
+    "requestedWidth": 360,
+    "path": "/contact/",
+    "scrollWidth": 345,
+    "theme": "light",
+    "width": 345
+  },
+  {
+    "requestedWidth": 360,
+    "path": "/terms/",
+    "scrollWidth": 345,
+    "theme": "light",
+    "width": 345
+  },
+  {
+    "requestedWidth": 360,
+    "path": "/disclaimer/",
+    "scrollWidth": 345,
+    "theme": "light",
+    "width": 345
+  },
+  {
+    "requestedWidth": 360,
+    "path": "/admin/",
+    "scrollWidth": 345,
+    "theme": "light",
+    "width": 345
+  },
+  {
+    "requestedWidth": 390,
+    "path": "/",
+    "scrollWidth": 375,
+    "theme": "light",
+    "width": 375
+  },
+  {
+    "requestedWidth": 390,
+    "path": "/services/",
+    "scrollWidth": 375,
+    "theme": "light",
+    "width": 375
+  },
+  {
+    "requestedWidth": 390,
+    "path": "/categories/",
+    "scrollWidth": 375,
+    "theme": "light",
+    "width": 375
+  },
+  {
+    "requestedWidth": 390,
+    "path": "/services/team-nafiew-janun-pass-001/",
+    "scrollWidth": 375,
+    "theme": "light",
+    "width": 375
+  },
+  {
+    "requestedWidth": 390,
+    "path": "/ask/",
+    "scrollWidth": 375,
+    "theme": "light",
+    "width": 375
+  },
+  {
+    "requestedWidth": 390,
+    "path": "/readiness/",
+    "scrollWidth": 375,
+    "theme": "light",
+    "width": 375
+  },
+  {
+    "requestedWidth": 390,
+    "path": "/verify/",
+    "scrollWidth": 375,
+    "theme": "light",
+    "width": 375
+  },
+  {
+    "requestedWidth": 390,
+    "path": "/sources/",
+    "scrollWidth": 375,
+    "theme": "light",
+    "width": 375
+  },
+  {
+    "requestedWidth": 390,
+    "path": "/journeys/",
+    "scrollWidth": 375,
+    "theme": "light",
+    "width": 375
+  },
+  {
+    "requestedWidth": 390,
+    "path": "/about/",
+    "scrollWidth": 375,
+    "theme": "light",
+    "width": 375
+  },
+  {
+    "requestedWidth": 390,
+    "path": "/privacy/",
+    "scrollWidth": 375,
+    "theme": "light",
+    "width": 375
+  },
+  {
+    "requestedWidth": 390,
+    "path": "/contact/",
+    "scrollWidth": 375,
+    "theme": "light",
+    "width": 375
+  },
+  {
+    "requestedWidth": 390,
+    "path": "/terms/",
+    "scrollWidth": 375,
+    "theme": "light",
+    "width": 375
+  },
+  {
+    "requestedWidth": 390,
+    "path": "/disclaimer/",
+    "scrollWidth": 375,
+    "theme": "light",
+    "width": 375
+  },
+  {
+    "requestedWidth": 390,
+    "path": "/admin/",
+    "scrollWidth": 375,
+    "theme": "light",
+    "width": 375
+  },
+  {
+    "requestedWidth": 430,
+    "path": "/",
+    "scrollWidth": 415,
+    "theme": "light",
+    "width": 415
+  },
+  {
+    "requestedWidth": 430,
+    "path": "/services/",
+    "scrollWidth": 415,
+    "theme": "light",
+    "width": 415
+  },
+  {
+    "requestedWidth": 430,
+    "path": "/categories/",
+    "scrollWidth": 415,
+    "theme": "light",
+    "width": 415
+  },
+  {
+    "requestedWidth": 430,
+    "path": "/services/team-nafiew-janun-pass-001/",
+    "scrollWidth": 415,
+    "theme": "light",
+    "width": 415
+  },
+  {
+    "requestedWidth": 430,
+    "path": "/ask/",
+    "scrollWidth": 415,
+    "theme": "light",
+    "width": 415
+  },
+  {
+    "requestedWidth": 430,
+    "path": "/readiness/",
+    "scrollWidth": 415,
+    "theme": "light",
+    "width": 415
+  },
+  {
+    "requestedWidth": 430,
+    "path": "/verify/",
+    "scrollWidth": 415,
+    "theme": "light",
+    "width": 415
+  },
+  {
+    "requestedWidth": 430,
+    "path": "/sources/",
+    "scrollWidth": 415,
+    "theme": "light",
+    "width": 415
+  },
+  {
+    "requestedWidth": 430,
+    "path": "/journeys/",
+    "scrollWidth": 415,
+    "theme": "light",
+    "width": 415
+  },
+  {
+    "requestedWidth": 430,
+    "path": "/about/",
+    "scrollWidth": 415,
+    "theme": "light",
+    "width": 415
+  },
+  {
+    "requestedWidth": 430,
+    "path": "/privacy/",
+    "scrollWidth": 415,
+    "theme": "light",
+    "width": 415
+  },
+  {
+    "requestedWidth": 430,
+    "path": "/contact/",
+    "scrollWidth": 415,
+    "theme": "light",
+    "width": 415
+  },
+  {
+    "requestedWidth": 430,
+    "path": "/terms/",
+    "scrollWidth": 415,
+    "theme": "light",
+    "width": 415
+  },
+  {
+    "requestedWidth": 430,
+    "path": "/disclaimer/",
+    "scrollWidth": 415,
+    "theme": "light",
+    "width": 415
+  },
+  {
+    "requestedWidth": 430,
+    "path": "/admin/",
+    "scrollWidth": 415,
+    "theme": "light",
+    "width": 415
+  },
+  {
+    "requestedWidth": 768,
+    "path": "/",
+    "scrollWidth": 753,
+    "theme": "light",
+    "width": 753
+  },
+  {
+    "requestedWidth": 768,
+    "path": "/services/",
+    "scrollWidth": 753,
+    "theme": "light",
+    "width": 753
+  },
+  {
+    "requestedWidth": 768,
+    "path": "/categories/",
+    "scrollWidth": 753,
+    "theme": "light",
+    "width": 753
+  },
+  {
+    "requestedWidth": 768,
+    "path": "/services/team-nafiew-janun-pass-001/",
+    "scrollWidth": 753,
+    "theme": "light",
+    "width": 753
+  },
+  {
+    "requestedWidth": 768,
+    "path": "/ask/",
+    "scrollWidth": 753,
+    "theme": "light",
+    "width": 753
+  },
+  {
+    "requestedWidth": 768,
+    "path": "/readiness/",
+    "scrollWidth": 753,
+    "theme": "light",
+    "width": 753
+  },
+  {
+    "requestedWidth": 768,
+    "path": "/verify/",
+    "scrollWidth": 753,
+    "theme": "light",
+    "width": 753
+  },
+  {
+    "requestedWidth": 768,
+    "path": "/sources/",
+    "scrollWidth": 753,
+    "theme": "light",
+    "width": 753
+  },
+  {
+    "requestedWidth": 768,
+    "path": "/journeys/",
+    "scrollWidth": 753,
+    "theme": "light",
+    "width": 753
+  },
+  {
+    "requestedWidth": 768,
+    "path": "/about/",
+    "scrollWidth": 753,
+    "theme": "light",
+    "width": 753
+  },
+  {
+    "requestedWidth": 768,
+    "path": "/privacy/",
+    "scrollWidth": 753,
+    "theme": "light",
+    "width": 753
+  },
+  {
+    "requestedWidth": 768,
+    "path": "/contact/",
+    "scrollWidth": 753,
+    "theme": "light",
+    "width": 753
+  },
+  {
+    "requestedWidth": 768,
+    "path": "/terms/",
+    "scrollWidth": 753,
+    "theme": "light",
+    "width": 753
+  },
+  {
+    "requestedWidth": 768,
+    "path": "/disclaimer/",
+    "scrollWidth": 753,
+    "theme": "light",
+    "width": 753
+  },
+  {
+    "requestedWidth": 768,
+    "path": "/admin/",
+    "scrollWidth": 753,
+    "theme": "light",
+    "width": 753
+  },
+  {
+    "requestedWidth": 1280,
+    "path": "/",
+    "scrollWidth": 1265,
+    "theme": "light",
+    "width": 1265
+  },
+  {
+    "requestedWidth": 1280,
+    "path": "/services/",
+    "scrollWidth": 1265,
+    "theme": "light",
+    "width": 1265
+  },
+  {
+    "requestedWidth": 1280,
+    "path": "/categories/",
+    "scrollWidth": 1265,
+    "theme": "light",
+    "width": 1265
+  },
+  {
+    "requestedWidth": 1280,
+    "path": "/services/team-nafiew-janun-pass-001/",
+    "scrollWidth": 1265,
+    "theme": "light",
+    "width": 1265
+  },
+  {
+    "requestedWidth": 1280,
+    "path": "/ask/",
+    "scrollWidth": 1265,
+    "theme": "light",
+    "width": 1265
+  },
+  {
+    "requestedWidth": 1280,
+    "path": "/readiness/",
+    "scrollWidth": 1265,
+    "theme": "light",
+    "width": 1265
+  },
+  {
+    "requestedWidth": 1280,
+    "path": "/verify/",
+    "scrollWidth": 1265,
+    "theme": "light",
+    "width": 1265
+  },
+  {
+    "requestedWidth": 1280,
+    "path": "/sources/",
+    "scrollWidth": 1265,
+    "theme": "light",
+    "width": 1265
+  },
+  {
+    "requestedWidth": 1280,
+    "path": "/journeys/",
+    "scrollWidth": 1265,
+    "theme": "light",
+    "width": 1265
+  },
+  {
+    "requestedWidth": 1280,
+    "path": "/about/",
+    "scrollWidth": 1265,
+    "theme": "light",
+    "width": 1265
+  },
+  {
+    "requestedWidth": 1280,
+    "path": "/privacy/",
+    "scrollWidth": 1265,
+    "theme": "light",
+    "width": 1265
+  },
+  {
+    "requestedWidth": 1280,
+    "path": "/contact/",
+    "scrollWidth": 1265,
+    "theme": "light",
+    "width": 1265
+  },
+  {
+    "requestedWidth": 1280,
+    "path": "/terms/",
+    "scrollWidth": 1265,
+    "theme": "light",
+    "width": 1265
+  },
+  {
+    "requestedWidth": 1280,
+    "path": "/disclaimer/",
+    "scrollWidth": 1265,
+    "theme": "light",
+    "width": 1265
+  },
+  {
+    "requestedWidth": 1280,
+    "path": "/admin/",
+    "scrollWidth": 1265,
+    "theme": "light",
+    "width": 1265
+  },
+  {
+    "requestedWidth": 1536,
+    "path": "/",
+    "scrollWidth": 1521,
+    "theme": "light",
+    "width": 1521
+  },
+  {
+    "requestedWidth": 1536,
+    "path": "/services/",
+    "scrollWidth": 1521,
+    "theme": "light",
+    "width": 1521
+  },
+  {
+    "requestedWidth": 1536,
+    "path": "/categories/",
+    "scrollWidth": 1521,
+    "theme": "light",
+    "width": 1521
+  },
+  {
+    "requestedWidth": 1536,
+    "path": "/services/team-nafiew-janun-pass-001/",
+    "scrollWidth": 1521,
+    "theme": "light",
+    "width": 1521
+  },
+  {
+    "requestedWidth": 1536,
+    "path": "/ask/",
+    "scrollWidth": 1521,
+    "theme": "light",
+    "width": 1521
+  },
+  {
+    "requestedWidth": 1536,
+    "path": "/readiness/",
+    "scrollWidth": 1521,
+    "theme": "light",
+    "width": 1521
+  },
+  {
+    "requestedWidth": 1536,
+    "path": "/verify/",
+    "scrollWidth": 1521,
+    "theme": "light",
+    "width": 1521
+  },
+  {
+    "requestedWidth": 1536,
+    "path": "/sources/",
+    "scrollWidth": 1521,
+    "theme": "light",
+    "width": 1521
+  },
+  {
+    "requestedWidth": 1536,
+    "path": "/journeys/",
+    "scrollWidth": 1521,
+    "theme": "light",
+    "width": 1521
+  },
+  {
+    "requestedWidth": 1536,
+    "path": "/about/",
+    "scrollWidth": 1521,
+    "theme": "light",
+    "width": 1521
+  },
+  {
+    "requestedWidth": 1536,
+    "path": "/privacy/",
+    "scrollWidth": 1521,
+    "theme": "light",
+    "width": 1521
+  },
+  {
+    "requestedWidth": 1536,
+    "path": "/contact/",
+    "scrollWidth": 1521,
+    "theme": "light",
+    "width": 1521
+  },
+  {
+    "requestedWidth": 1536,
+    "path": "/terms/",
+    "scrollWidth": 1521,
+    "theme": "light",
+    "width": 1521
+  },
+  {
+    "requestedWidth": 1536,
+    "path": "/disclaimer/",
+    "scrollWidth": 1521,
+    "theme": "light",
+    "width": 1521
+  },
+  {
+    "requestedWidth": 1536,
+    "path": "/admin/",
+    "scrollWidth": 1521,
+    "theme": "light",
+    "width": 1521
+  }
+]

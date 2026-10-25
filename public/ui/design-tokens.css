@@ -1,0 +1,11 @@
+:root {
+  --janun-green: #00543f;
+  --janun-green-bright: #00875d;
+  --janun-red: #c52b23;
+  --janun-ivory: #f8f6ee;
+  --janun-ink: #092c29;
+  --janun-sage: #e8f3e9;
+  --janun-amber: #e7a014;
+  --janun-radius-card: 16px;
+}
+/* Suggested visual approximations sampled from the mockups, not original design tokens. */
