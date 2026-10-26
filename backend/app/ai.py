@@ -18,6 +18,26 @@ SYSTEM='''You are Janun, an independent Bangladesh citizen-service guide. Answer
 
 def client():return OpenAI(api_key=settings.openai_api_key,timeout=25,max_retries=1)
 
+def generate_answer(payload):
+    if settings.llm_provider == 'gemini':
+        # Chat Completions is Google's documented OpenAI-compatible interface.
+        # Keep this client separate: OpenAI audio/embeddings must not use Google credentials.
+        with OpenAI(api_key=settings.gemini_api_key,
+                    base_url='https://generativelanguage.googleapis.com/v1beta/openai/',
+                    timeout=25,max_retries=1) as google:
+            response=google.chat.completions.create(
+                model=settings.llm_model,
+                messages=[{'role':'system','content':SYSTEM},{'role':'user','content':payload}],
+                response_format={'type':'json_object'},max_tokens=4096)
+        if not response.choices or response.choices[0].finish_reason != 'stop':
+            raise ValueError('Incomplete provider answer')
+        content=response.choices[0].message.content
+        if not content:raise ValueError('Empty provider answer')
+        return content
+    response=client().responses.create(model=settings.llm_model,instructions=SYSTEM,input=payload,
+        text={'format':{'type':'json_object'}},max_output_tokens=1100)
+    return response.output_text
+
 def embedding_for(text):
     if not settings.openai_api_key or not settings.embedding_model:return None
     result=client().embeddings.create(model=settings.embedding_model,input=text)
@@ -34,12 +54,12 @@ def chat(db,question,language,history=None):
     except Exception:vector=None
     rows=retrieve(db,search_question,vector)
     if not rows:return fallback
-    if not settings.openai_api_key or not settings.llm_model:
+    if not settings.ai_configured:
         return {**fallback,'answer':('লাইভ এআই সংযুক্ত নেই। পর্যালোচিত উৎসের অংশ নিচে দেখুন।' if lang=='bn' else 'Live AI is not configured. Reviewed source excerpts are available below.'),'sources':[source_record(*r) for r in rows],'status':'provider_unconfigured'}
     evidence=[{'id':r[0].id,'text':r[0].text,'title':r[2].title} for r in rows]
     try:
-        response=client().responses.create(model=settings.llm_model,instructions=SYSTEM,input=json.dumps({'question':question,'response_language':lang,'untrusted_conversation':history,'evidence':evidence},ensure_ascii=False),text={'format':{'type':'json_object'}},max_output_tokens=1100)
-        result=GeneratedAnswer.model_validate_json(response.output_text)
+        payload=json.dumps({'question':question,'response_language':lang,'untrusted_conversation':history,'evidence':evidence},ensure_ascii=False)
+        result=GeneratedAnswer.model_validate_json(generate_answer(payload))
         allowed={r[0].id for r in rows}
         if any(id not in allowed for id in result.citation_ids):return fallback
         ids=validate_citations(result.citation_ids,allowed)

@@ -39,7 +39,7 @@ def logout(request:Request,response:Response,admin=Depends(require_admin),db:DBS
 
 @router.get('/overview')
 def overview(admin=Depends(require_admin),db:DBSession=Depends(get_db)):
-    return {'username':admin.username,'services':db.scalar(select(func.count()).select_from(Service)),'sources':db.scalar(select(func.count()).select_from(Source)),'pending':db.scalar(select(func.count()).select_from(SourceVersion).where(SourceVersion.status.in_(['pending','review']))),'ai_configured':bool(settings.openai_api_key and settings.llm_model),'embedding_configured':bool(settings.openai_api_key and settings.embedding_model)}
+    return {'username':admin.username,'services':db.scalar(select(func.count()).select_from(Service)),'sources':db.scalar(select(func.count()).select_from(Source)),'pending':db.scalar(select(func.count()).select_from(SourceVersion).where(SourceVersion.status.in_(['pending','review']))),'ai_configured':settings.ai_configured,'embedding_configured':bool(settings.openai_api_key and settings.embedding_model)}
 
 @router.get('/services')
 def services(admin=Depends(require_admin),db:DBSession=Depends(get_db)):
