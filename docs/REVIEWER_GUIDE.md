@@ -44,5 +44,5 @@ The GitHub repository was private when inspected. Competition reviewers need rep
 - Independently review claims, effective dates and source conflicts before publication.
 - Exercise Gemini with an operator-configured supported model and record redacted live evidence.
 - Run PostgreSQL migrations, review/publish workflow and full-backend integration in a configured environment.
-- Refresh screenshots of the latest mobile artwork and test real microphone/speech behavior.
+- Extend screenshot coverage to additional routes and test real microphone/speech behavior.
 - Evaluate retrieval and abstention using reviewed, representative Bangla and English questions. No accuracy or user-impact metric is claimed here.

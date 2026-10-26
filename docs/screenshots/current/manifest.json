@@ -1,0 +1,51 @@
+{
+  "captured_on": "2026-10-26",
+  "source": "https://janun-citizen-guide.dncorleone1211.chatgpt.site/",
+  "desktop_viewport_css": {
+    "width": 1363,
+    "height": 936
+  },
+  "mobile_viewport_css_width": 390,
+  "assets": {
+    "docs/screenshots/current/service-guide.jpg": {
+      "sha256": "aac263a3e972f9a492ac0a8298292e34c3a6ce03399645343691d96a5b0f25df",
+      "bytes": 128653
+    },
+    "docs/screenshots/current/assistant.jpg": {
+      "sha256": "bf63249ee848c00ddbc122a95ed4c4bf8e1c2647fcd026fe640c31ded73a7107",
+      "bytes": 86517
+    },
+    "docs/screenshots/current/home-mobile-dark.jpg": {
+      "sha256": "8cf4b9d608832df703d39a256f2ec7c9fd5adf0032fea88d165bb71ef1f02aed",
+      "bytes": 116909
+    },
+    "docs/screenshots/current/readiness.jpg": {
+      "sha256": "297626d4e044c0dba8b2ab94597390f78093dd1c7615244c10af0a25f58edaaa",
+      "bytes": 86199
+    },
+    "docs/screenshots/current/home-desktop-light.jpg": {
+      "sha256": "e3128cd0f81306b98024b2cf5f423156459b453e1b3c8100f9fee6a5b117ee59",
+      "bytes": 154467
+    },
+    "docs/screenshots/current/services.jpg": {
+      "sha256": "4aca6aa28e2b4becf712205b2586b54293349ea255ec4597e2e76c4fcd9b0a6f",
+      "bytes": 89875
+    },
+    "docs/screenshots/current/home-mobile-light.jpg": {
+      "sha256": "aeac1e9597cef216e92ecafb19bbacfa7fca6e8e7ad3040672f0b827abd1eba3",
+      "bytes": 49376
+    },
+    "docs/screenshots/current/information-verification.jpg": {
+      "sha256": "48b31bc726ac7f24ef24aa1f724dae8e515ca127e615b2ddf2a7d762cf911931",
+      "bytes": 83269
+    },
+    "docs/branding/janun-logo.svg": {
+      "sha256": "eabe7223614b2ad1b5ba1c8df9ac425b390363b9a5b91dc91ef7a6064bbf855f",
+      "bytes": 3758
+    },
+    "docs/branding/janun-logo-white.svg": {
+      "sha256": "7c0318d1675fb932d95a652abfbe79a1a1f3a340e5eda8a6db01f3fd4c97d4ea",
+      "bytes": 3758
+    }
+  }
+}

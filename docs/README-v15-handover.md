@@ -1,3 +1,5 @@
+> **Historical handover:** this file preserves an earlier implementation report and its original screenshots. For the current live-app images and vector logo, see the [current README](../README.md).
+
 # জানুন · Janun
 
 ## Nine-board UI update · October 2026

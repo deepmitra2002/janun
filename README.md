@@ -1,5 +1,8 @@
 <div align="center">
-  <img src="public/ui/logos/janun-logo-bn.png" alt="জানুন — Janun logo" width="180" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/branding/janun-logo-white.svg" />
+    <img src="docs/branding/janun-logo.svg" alt="জানুন — current Janun vector logo" width="240" />
+  </picture>
 
 # জানুন · Janun
 
@@ -16,9 +19,9 @@ A Bangla-first guide to Bangladesh citizen services, with source-linked informat
 
 </div>
 
-![Janun desktop homepage with Bangla search, memorial artwork and citizen-service categories, captured during the earlier v4 application review](docs/screenshots/v4/01-home-desktop-light.jpg)
+![Current Janun homepage with the memorial, sun, citizen illustration and Bangla service search](docs/screenshots/current/home-desktop-light.jpg)
 
-*Genuine application capture supplied with the source, shown inside its design-review frame. These v4 captures illustrate the working interface; they predate the latest mobile artwork and some v15 content. See [capture provenance and refresh instructions](docs/SCREENSHOTS.md).*
+*Captured directly from the [live application](https://janun-citizen-guide.dncorleone1211.chatgpt.site/) on 26 October 2026. The gallery shows the current interface; the logo is the live app’s scalable SVG. See [capture details](docs/SCREENSHOTS.md).*
 
 > **Prototype status:** Janun is an independent guide, not a government service or application-submission portal. The included snapshot has **271 service entries across 13 categories**, all marked `needs_review`. Source-confirmed document imports do not constitute independent human verification. Consult the original authority before applying.
 
@@ -58,45 +61,45 @@ System appearance resolves to Light in the current implementation. Service recor
 
 ## Application screenshots
 
-The gallery reuses actual application captures packaged in the upload. **These are earlier v4 captures, not newly captured v15 evidence.** Their review-frame controls are visible intentionally. The [screenshot manifest](docs/SCREENSHOTS.md) lists the refresh work still required.
+Fresh screenshots of the live application, captured on **26 October 2026**. Desktop pages use the same browser viewport; mobile images show the actual **390px app preview**, tightly framed for readability. No generated mockups or old design-review boards are used. See the [screenshot manifest](docs/SCREENSHOTS.md) for routes, states and provenance.
 
 ### Service directory
 
 Browse services, use search and narrow down the records relevant to your goal.
 
-![Janun service directory in Light mode with search, filters and service cards](docs/screenshots/v4/02-services-desktop-light.jpg)
+![Janun service directory in Light mode with search, filters and service cards](docs/screenshots/current/services.jpg)
 
 ### Service guide
 
 Inspect instructions and requirements, then open the recorded sources and available document evidence.
 
-![Janun service guide with service information and evidence tabs](docs/screenshots/v4/03-guide-desktop-light.jpg)
+![Janun service guide with service information and evidence tabs](docs/screenshots/current/service-guide.jpg)
 
 ### Information Verification
 
 Paste a claim or extract editable text from a supported file, then compare it with available evidence. Results do not authenticate documents or certify that a person is truthful.
 
-![Janun information verification screen with service selection and document or text input](docs/screenshots/v4/04-check-desktop-light.jpg)
+![Janun information verification screen with service selection and document or text input](docs/screenshots/current/information-verification.jpg)
 
 ### Readiness Check
 
 Choose a service and work through its preparation questions. Uncertain information remains visible.
 
-![Janun readiness screen with service selection and preparation checklist controls](docs/screenshots/v4/05-readiness-desktop-light.jpg)
+![Janun readiness screen with service selection and preparation checklist controls](docs/screenshots/current/readiness.jpg)
 
 ### Ask Janun
 
-Ask a service question, inspect the answer status and follow its sources. The earlier capture is not evidence of a successful live model request.
+Ask a service question, inspect the answer status and follow its sources. This capture shows the assistant’s welcome screen; it does not claim a successful live model request.
 
-![Janun assistant with service question prompts and conversation interface](docs/screenshots/v4/06-assistant-desktop-light.jpg)
+![Janun assistant with service question prompts and conversation interface](docs/screenshots/current/assistant.jpg)
 
 ### Mobile and Dark mode
 
-Use the compact navigation and responsive pages. These historical captures show the earlier mobile composition; v15 includes a later approved homepage-artwork adjustment.
+Use the compact navigation and responsive pages. These live captures show the current mobile memorial-and-sun background, updated logo, search controls and bottom navigation in Light and Dark mode.
 
 <p align="center">
-  <img src="docs/screenshots/v4/01-home-mobile-light.jpg" alt="Earlier Janun mobile homepage in Light mode, shown within the application review frame" width="360" />
-  <img src="docs/screenshots/v4/01-home-mobile-dark.jpg" alt="Earlier Janun mobile homepage in Dark mode, shown within the application review frame" width="360" />
+  <img src="docs/screenshots/current/home-mobile-light.jpg" alt="Current Janun mobile homepage in Light mode with memorial-and-sun artwork" width="360" />
+  <img src="docs/screenshots/current/home-mobile-dark.jpg" alt="Current Janun mobile homepage in Dark mode with memorial-and-sun artwork" width="360" />
 </p>
 
 ## How to use Janun
@@ -322,18 +325,18 @@ Do not use `file://` for the export. Public deployment needs HTTPS, correct orig
 - Hosted AI depends on runtime configuration and provider support. Citation checks are bounded, and lexical retrieval can miss relevant services.
 - Full-backend database operation, live model calls, real microphone recognition and the complete public deployment were not verified in this documentation session.
 - Preview mode has no persistent feedback or source-management writes. A research journey is not personalized official advice.
-- Reused gallery captures predate v15 mobile artwork. Competition requirements behind the sign-in page could not be inspected.
+- Screenshots reflect the live application on 26 October 2026; later deployments may differ. Competition requirements behind the sign-in page could not be inspected.
 
 **Proposed next improvements — not implemented claims**
 
 - Independently review priority services and resolve disputed/current-year claims.
 - Evaluate bilingual retrieval, source support, abstention and OCR on representative examples.
 - Validate the complete deployed backend/review workflow and provider availability with redacted evidence.
-- Refresh v15 desktop/mobile screenshots and perform usability/accessibility testing with intended users.
+- Extend visual coverage to more services and perform usability/accessibility testing with intended users.
 
 ## Credits, contribution and license
 
-The connected repository is maintained under [deepmitra2002](https://github.com/deepmitra2002). Original team datasets, document inputs and provenance are retained in the paths above. No additional team roles, affiliations or awards are inferred. Branding and illustration provenance is documented in the [UI asset manifest](public/ui/asset-manifest.json) and [asset notes](public/ui/README.md). Decorative passport artwork is not an official document.
+The connected repository is maintained under [deepmitra2002](https://github.com/deepmitra2002). Original team datasets, document inputs and provenance are retained in the paths above. No additional team roles, affiliations or awards are inferred. Current vector-logo and screenshot provenance is documented in the [capture notes](docs/SCREENSHOTS.md). Original UI branding and illustration provenance remains in the [UI asset manifest](public/ui/asset-manifest.json) and [asset notes](public/ui/README.md). Decorative passport artwork is not an official document.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for code and evidence-correction guidance. Third-party packages, models, documents and images retain their respective rights and attribution requirements.
 
