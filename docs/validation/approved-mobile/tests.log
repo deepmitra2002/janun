@@ -1,0 +1,35 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> janun-web@0.1.0 test
+> node --test tests/*.test.mjs && vitest run
+
+✔ server retrieves the replacement document facts (14.460821ms)
+✔ unknown citations are rejected (14.519293ms)
+✔ server keeps the credential in a provider header and validates cited output (39.744801ms)
+✔ foreign origins are blocked before calling Gemini (1.001963ms)
+✔ missing evidence does not trigger an external model call (4.198878ms)
+✔ empty plan has no implied readiness (2.129724ms)
+✔ only current plan steps count (0.744891ms)
+✔ dependencies must be checked (0.887095ms)
+✔ unblocked steps may be checked (0.387727ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 491.660231
+
+ RUN  v5.0.3 /workspace/sites/janun-update
+
+
+ Test Files  9 passed (9)
+      Tests  57 passed (57)
+   Start at  21:04:06
+   Duration  10.10s (environment 57%, tests 22%, transform 11%, import 10%)
+
+Environment  jsdom was created 9 times · 27.20s total, 57% of tracked time
+             create it once per worker with pool: 'vmThreads' (keeps per-file isolation) or isolate: false (shares it across files)
+             learn more: https://vitest.dev/guide/improving-performance#test-environments
+

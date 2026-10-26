@@ -1,0 +1,14 @@
+import {beforeEach,afterEach,it,expect,vi} from 'vitest';
+import {cleanup,render,screen,fireEvent} from '@testing-library/react';
+import {demoApi} from '../src/lib/demo';
+import {readFileSync} from 'node:fs';
+import {Readiness} from '../src/components/readiness';
+import {Contact} from '../src/components/info';
+import type {Detail} from '../src/lib/api';
+vi.mock('../src/lib/demo',async()=>({...await vi.importActual('../src/lib/demo'),DEMO_MODE:true}));
+beforeEach(()=>{vi.stubGlobal('fetch',vi.fn(async()=>({ok:true,json:async()=>JSON.parse(readFileSync('public/demo-data.json','utf8'))})))});
+afterEach(()=>{cleanup();vi.unstubAllGlobals()});
+it('sorts the complete service result before pagination',async()=>{const first=await demoApi('/services?sort=name_desc&page_size=12') as {items:Detail[];total:number};const second=await demoApi('/services?sort=name_desc&page_size=12&page=2') as {items:Detail[]};const all=JSON.parse(readFileSync('public/demo-data.json','utf8')).services as Detail[];const expected=all.sort((a,b)=>b.name_en.localeCompare(a.name_en));expect(first.items.map(x=>x.slug)).toEqual(expected.slice(0,12).map(x=>x.slug));expect(second.items.map(x=>x.slug)).toEqual(expected.slice(12,24).map(x=>x.slug));expect(first.total).toBe(all.length)});
+it('retains honest review states and original service URLs after directory sorting',async()=>{const r=await demoApi('/services?sort=name_desc&category=passport') as {items:Detail[]};expect(r.items.length).toBeGreaterThan(0);for(const s of r.items){expect(s.verification_status).toBe('needs_review');expect(s.slug).toBeTruthy()}});
+it('standalone preparation summary reflects answers and supports question editing',()=>{const service:Detail={id:'fixture',slug:'fixture',name_en:'Fixture',name_bn:'পরীক্ষা',category:'identity',description_en:'',description_bn:'',official_url:'https://example.gov.bd',status:'published',sources:[],documents:['Fixture document'],eligibility:[],steps:[],fees:null,deadline:null,processing_time:null,conflicts:[]};render(<Readiness service={service} standalone/>);fireEvent.click(screen.getByRole('button',{name:'No'}));expect(screen.getByText('Needs preparation')).toBeTruthy();fireEvent.click(screen.getByRole('button',{name:'Fixture document'}));expect(screen.getByRole('button',{name:'No'}).getAttribute('aria-pressed')).toBe('true')});
+it('feedback topic selection remains an editable draft with no simulated delivery',()=>{render(<Contact/>);fireEvent.click(screen.getByRole('button',{name:'Information correction'}));expect(screen.getByRole('button',{name:'Information correction'}).getAttribute('aria-pressed')).toBe('true');expect(screen.getByText(/Direct message delivery is not configured/)).toBeTruthy()});

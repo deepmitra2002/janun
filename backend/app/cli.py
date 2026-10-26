@@ -10,9 +10,13 @@ CATEGORIES=[('identity','Identity & registration','পরিচয় ও নি
 SERVICES=[('e-passport','E-passport','ই-পাসপোর্ট','passport','https://www.epassport.gov.bd/'),('birth-registration','Birth registration','জন্ম নিবন্ধন','identity','https://bdris.gov.bd/'),('birth-correction','Birth registration correction','জন্ম নিবন্ধন সংশোধন','identity','https://bdris.gov.bd/'),('death-registration','Death registration','মৃত্যু নিবন্ধন','identity','https://bdris.gov.bd/'),('nid-correction','NID information and correction','এনআইডি তথ্য ও সংশোধন','identity',''),('police-clearance','Police clearance','পুলিশ ক্লিয়ারেন্স','legal',''),('certificate-attestation','Certificate attestation','সনদ সত্যায়ন','education',''),('trade-licence','Trade licence','ট্রেড লাইসেন্স','business',''),('e-tin','e-TIN','ই-টিআইএন','tax',''),('driving-licence','Driving licence','ড্রাইভিং লাইসেন্স','transport','')]
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('command',choices=['seed','create-admin','import-team-data']);args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('command',choices=['seed','create-admin','import-team-data','import-verified-documents']);args=parser.parse_args()
     with SessionLocal() as db:
-        if args.command=='import-team-data':
+        if args.command=='import-verified-documents':
+            import json
+            from .document_release import import_document_release
+            print(json.dumps(import_document_release(db),ensure_ascii=False))
+        elif args.command=='import-team-data':
             import json
             from .team_data import import_drafts
             print(json.dumps(import_drafts(db),ensure_ascii=False))

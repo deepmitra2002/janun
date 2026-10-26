@@ -1,0 +1,563 @@
+{
+  "release": "five-documents-2026-10-25",
+  "documents": [
+    {
+      "name": "1.docx",
+      "sha256": "b0bdce94106a654302aa257f4f88a6b3b5494c069d9321010a32842276d77d49",
+      "media_count": 5
+    },
+    {
+      "name": "2.docx",
+      "sha256": "d457027b843338da088e738384cbff2b7359bf9d000665507f7f733be1388c8f",
+      "media_count": 11
+    },
+    {
+      "name": "3.docx",
+      "sha256": "15fb1a62647247c064b872b77bc978284a0f7b51d197e8e29e7f0970071c4f5e",
+      "media_count": 11
+    },
+    {
+      "name": "4.docx",
+      "sha256": "08237e85ae9a329df3b5502982ced228b2f92c31b241b9e82523ffe8e00a6ed8",
+      "media_count": 8
+    },
+    {
+      "name": "5.docx",
+      "sha256": "fb18ba97865301972c784ac5bea8108a03c4fe1caef8d472faf6d736830a5746",
+      "media_count": 6
+    }
+  ],
+  "mappings": [
+    {
+      "document": 1,
+      "record": "1.1",
+      "slug": "team-nafiew-janun-pass-001",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "1.2",
+      "slug": "team-nafiew-janun-pass-002",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "1.3",
+      "slug": "team-nafiew-janun-pass-003",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "1.4",
+      "slug": "passport-applicant-documents",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "1.5",
+      "slug": "passport-fees-payment",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "1.6",
+      "slug": "passport-enrolment",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "1.7",
+      "slug": "team-nafiew-janun-pass-008",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "1.8",
+      "slug": "document-attestation-apostille",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "1.9",
+      "slug": "team-nafiew-janun-travel-visa-001",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "1.10",
+      "slug": "expatriate-welfare-support",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "2.1",
+      "slug": "team-nafiew-janun-tr-dl-001",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "2.2",
+      "slug": "driving-test-smart-licence",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "2.3",
+      "slug": "team-nafiew-janun-tr-dl-004",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "2.4",
+      "slug": "team-nafiew-janun-tr-dl-005",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "2.5",
+      "slug": "team-nafiew-janun-tr-veh-001",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "2.6",
+      "slug": "team-nafiew-janun-tr-veh-002",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "2.7",
+      "slug": "vehicle-fitness-tax-token",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "2.8",
+      "slug": "brta-service-complaints",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "3.1",
+      "slug": "team-nafiew-janun-tax-001",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "3.2",
+      "slug": "team-nafiew-janun-tax-002",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "3.3",
+      "slug": "team-nafiew-janun-tax-003",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "3.4",
+      "slug": "team-nafiew-janun-tax-004",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "3.5",
+      "slug": "team-nafiew-janun-tax-005",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "3.6",
+      "slug": "team-nafiew-janun-biz-001",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "3.7",
+      "slug": "business-licensing-routes",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "3.8",
+      "slug": "professional-registration-councils",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "3.9",
+      "slug": "sme-government-support",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "3.10",
+      "slug": "business-licence-renewal",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "4.1",
+      "slug": "national-service-directory",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "4.2",
+      "slug": "ministry-directorate-directory",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "4.3",
+      "slug": "national-application-portals",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "4.4",
+      "slug": "team-nafiew-janun-nat-grs-001",
+      "aliases": []
+    },
+    {
+      "document": 1,
+      "record": "4.5",
+      "slug": "emergency-disaster-directory",
+      "aliases": []
+    },
+    {
+      "document": 2,
+      "record": "1",
+      "slug": "team-deep-hsf-010",
+      "aliases": []
+    },
+    {
+      "document": 2,
+      "record": "2",
+      "slug": "hospital-referral-tarakanda",
+      "aliases": []
+    },
+    {
+      "document": 2,
+      "record": "3",
+      "slug": "maternal-child-health-tarakanda",
+      "aliases": []
+    },
+    {
+      "document": 2,
+      "record": "4",
+      "slug": "team-deep-hsf-011",
+      "aliases": []
+    },
+    {
+      "document": 2,
+      "record": "5",
+      "slug": "team-deep-hsf-005",
+      "aliases": []
+    },
+    {
+      "document": 2,
+      "record": "6",
+      "slug": "team-deep-hsf-012",
+      "aliases": []
+    },
+    {
+      "document": 2,
+      "record": "7",
+      "slug": "team-deep-hsf-001",
+      "aliases": []
+    },
+    {
+      "document": 2,
+      "record": "8",
+      "slug": "team-deep-hsf-002",
+      "aliases": []
+    },
+    {
+      "document": 2,
+      "record": "9",
+      "slug": "team-deep-hsf-006",
+      "aliases": []
+    },
+    {
+      "document": 2,
+      "record": "10",
+      "slug": "team-deep-hsf-007",
+      "aliases": []
+    },
+    {
+      "document": 2,
+      "record": "11",
+      "slug": "food-friendly-family-selection",
+      "aliases": []
+    },
+    {
+      "document": 2,
+      "record": "12",
+      "slug": "team-deep-hsf-016",
+      "aliases": []
+    },
+    {
+      "document": 2,
+      "record": "13",
+      "slug": "team-deep-hsf-014",
+      "aliases": []
+    },
+    {
+      "document": 3,
+      "record": "EDU-06",
+      "slug": "team-tammam-edu-009",
+      "aliases": []
+    },
+    {
+      "document": 3,
+      "record": "EDU-07",
+      "slug": "team-tammam-edu-010",
+      "aliases": []
+    },
+    {
+      "document": 3,
+      "record": "EDU-10",
+      "slug": "nu-professional-admission-2027",
+      "aliases": []
+    },
+    {
+      "document": 3,
+      "record": "EDU-13A",
+      "slug": "team-tammam-edu-018",
+      "aliases": []
+    },
+    {
+      "document": 3,
+      "record": "EDU-13B",
+      "slug": "public-diploma-revised-fees-2026",
+      "aliases": []
+    },
+    {
+      "document": 3,
+      "record": "EDU-15",
+      "slug": "team-tammam-edu-021",
+      "aliases": []
+    },
+    {
+      "document": 3,
+      "record": "SCH-02",
+      "slug": "team-tammam-sch-004",
+      "aliases": []
+    },
+    {
+      "document": 3,
+      "record": "SCH-04",
+      "slug": "team-tammam-sch-008",
+      "aliases": []
+    },
+    {
+      "document": 3,
+      "record": "SCH-06",
+      "slug": "brac-academic-merit-scholarship",
+      "aliases": []
+    },
+    {
+      "document": 3,
+      "record": "JOB-01",
+      "slug": "team-tammam-job-011",
+      "aliases": []
+    },
+    {
+      "document": 3,
+      "record": "JOB-06",
+      "slug": "team-tammam-job-007",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "A1",
+      "slug": "team-sami-janun-cr-001",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "A2",
+      "slug": "team-sami-janun-cr-002",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "A3",
+      "slug": "team-sami-janun-cr-002",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "A4",
+      "slug": "team-sami-janun-cr-004",
+      "aliases": [
+        "team-sami-janun-cr-003"
+      ]
+    },
+    {
+      "document": 4,
+      "record": "A5",
+      "slug": "team-sami-janun-cr-005",
+      "aliases": [
+        "team-sami-janun-cr-006"
+      ]
+    },
+    {
+      "document": 4,
+      "record": "A6",
+      "slug": "nid-service-portal",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "A7",
+      "slug": "team-sami-janun-id-001",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "A8",
+      "slug": "team-sami-janun-id-002",
+      "aliases": [
+        "team-sami-janun-nid-005",
+        "team-sami-janun-nid-006",
+        "team-sami-janun-nid-007",
+        "team-sami-janun-nid-008",
+        "team-sami-janun-nid-009",
+        "team-sami-janun-nid-010"
+      ]
+    },
+    {
+      "document": 4,
+      "record": "A9",
+      "slug": "team-sami-janun-id-003",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "A10",
+      "slug": "nid-information-help",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "A11",
+      "slug": "team-sami-janun-lc-001",
+      "aliases": [
+        "team-sami-janun-lc-002"
+      ]
+    },
+    {
+      "document": 4,
+      "record": "A12",
+      "slug": "team-sami-janun-mr-002",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "A13",
+      "slug": "team-sami-janun-dv-001",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "A14",
+      "slug": "team-sami-janun-lc-003",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "A15",
+      "slug": "name-change-document-routing",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "B1",
+      "slug": "team-sami-janun-pl-002",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "B2",
+      "slug": "team-sami-janun-pl-001",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "B3",
+      "slug": "team-sami-janun-pol-003",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "B4",
+      "slug": "team-sami-janun-leg-004",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "B5",
+      "slug": "team-sami-janun-nt-001",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "B6",
+      "slug": "team-sami-janun-la-001",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "B7",
+      "slug": "team-nafiew-janun-nat-grs-001",
+      "aliases": []
+    },
+    {
+      "document": 4,
+      "record": "B8",
+      "slug": "identity-record-mismatch",
+      "aliases": []
+    },
+    {
+      "document": 5,
+      "record": "1",
+      "slug": "land-application-tracking-complaints",
+      "aliases": []
+    },
+    {
+      "document": 5,
+      "record": "2",
+      "slug": "district-land-service-centres",
+      "aliases": []
+    },
+    {
+      "document": 5,
+      "record": "3",
+      "slug": "land-acquisition-contingency-policy-2026",
+      "aliases": []
+    },
+    {
+      "document": 5,
+      "record": "4",
+      "slug": "aman-seed-flood-support-2026",
+      "aliases": []
+    },
+    {
+      "document": 5,
+      "record": "5",
+      "slug": "aman-seedling-flood-support-2026",
+      "aliases": []
+    },
+    {
+      "document": 5,
+      "record": "6",
+      "slug": "dhaka-wasa-residential-connection",
+      "aliases": []
+    }
+  ],
+  "internal_operations": 4,
+  "asset_count": 41
+}

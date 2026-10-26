@@ -1,0 +1,1189 @@
+[
+  {
+    "alias": "team-nafiew-janun-pass-006",
+    "canonical": "passport-applicant-documents",
+    "previous": {
+      "id": "nafiew:passport_services:JANUN-PASS-006:6",
+      "slug": "team-nafiew-janun-pass-006",
+      "name_bn": "শিশুদের পাসপোর্ট আবেদন",
+      "name_en": "Passport Application for Minors",
+      "category": "passport",
+      "description_bn": "Passport Application for Minors",
+      "description_en": "Collected team research. Human verification pending.",
+      "official_url": "https://www.epassport.gov.bd/instructions/instructions",
+      "status": "demo",
+      "verification_status": "needs_review",
+      "last_verified_at": null,
+      "owner": "Nafiew",
+      "scope": "বাংলাদেশ; দায়িত্বপ্রাপ্ত অফিসের অধিক্ষেত্র প্রযোজ্য",
+      "notes": [
+        "স্থানীয় অফিসের পূর্ণ তালিকা, প্রযোজ্য ফি/সময় ও মানব যাচাই বাকি।"
+      ],
+      "eligibility": [
+        "১৮ বছরের কম বাংলাদেশি আবেদনকারী।"
+      ],
+      "documents": [
+        "ইংরেজি অনলাইন BRC; NID না থাকলে পিতা/মাতার NID নম্বর; ছয় বছরের নিচে বিশেষ ছবি নির্দেশনা আছে।"
+      ],
+      "steps": [],
+      "fees": "৫ বছর, ৪৮ পৃষ্ঠা; domestic fee table দেখুন।",
+      "processing_time": null,
+      "deadline": null,
+      "sources": [
+        {
+          "id": "team-nafiew-janun-pass-006-0",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://www.epassport.gov.bd/instructions/instructions",
+          "agency": "Team research — Nafiew"
+        },
+        {
+          "id": "team-nafiew-janun-pass-006-1",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://www.epassport.gov.bd/onboarding",
+          "agency": "Team research — Nafiew"
+        }
+      ],
+      "conflicts": [
+        "স্থানীয় অফিসের পূর্ণ তালিকা, প্রযোজ্য ফি/সময় ও মানব যাচাই বাকি।"
+      ],
+      "raw_fields": {
+        "service_id": "JANUN-PASS-006",
+        "service_name_bn": "শিশুদের পাসপোর্ট আবেদন",
+        "service_name_en": "Passport Application for Minors",
+        "main_category": "passport_travel",
+        "subcategory": "passport",
+        "responsible_ministry": "স্বরাষ্ট্র মন্ত্রণালয়",
+        "agency_id": "A-DIP",
+        "responsible_agency": "ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর",
+        "service_description": "Passport Application for Minors",
+        "eligibility": "১৮ বছরের কম বাংলাদেশি আবেদনকারী।",
+        "required_documents": "ইংরেজি অনলাইন BRC; NID না থাকলে পিতা/মাতার NID নম্বর; ছয় বছরের নিচে বিশেষ ছবি নির্দেশনা আছে।",
+        "application_procedure": "",
+        "online_application_url": "https://www.epassport.gov.bd/onboarding",
+        "official_information_url": "https://www.epassport.gov.bd/instructions/instructions",
+        "application_tracking_url": "",
+        "appointment_url": "",
+        "fee_information": "৫ বছর, ৪৮ পৃষ্ঠা; domestic fee table দেখুন।",
+        "processing_time": "",
+        "service_delivery_method": "",
+        "relevant_office_information": "",
+        "official_phone": "16445",
+        "official_email": "",
+        "official_complaint_url": "https://www.grs.gov.bd/",
+        "geographic_availability": "বাংলাদেশ; দায়িত্বপ্রাপ্ত অফিসের অধিক্ষেত্র প্রযোজ্য",
+        "applicant_type": "বাংলাদেশি নাগরিক",
+        "last_verified_date": "2026-10-12",
+        "source_title": "e-Passport application instructions",
+        "source_url": "https://www.epassport.gov.bd/instructions/instructions",
+        "verification_status": "partially_verified",
+        "missing_information_notes": "স্থানীয় অফিসের পূর্ণ তালিকা, প্রযোজ্য ফি/সময় ও মানব যাচাই বাকি।",
+        "baseline_pdf_pages": "1-9",
+        "record_origin": "pdf_converted",
+        "parent_group_id": "",
+        "publication_status": "draft_human_review_pending",
+        "human_verified_date": "",
+        "reviewer": "",
+        "verified_fields": "eligibility;required_documents;fee_schedule_id",
+        "inherited_fields": "application_tracking_url;application_procedure;relevant_office_information",
+        "fee_schedule_id": "PASSPORT-DOMESTIC",
+        "related_service_id": "JANUN-PASS-001"
+      },
+      "search_text": "{\"service_id\": \"JANUN-PASS-006\", \"service_name_bn\": \"শিশুদের পাসপোর্ট আবেদন\", \"service_name_en\": \"Passport Application for Minors\", \"main_category\": \"passport_travel\", \"subcategory\": \"passport\", \"responsible_ministry\": \"স্বরাষ্ট্র মন্ত্রণালয়\", \"agency_id\": \"A-DIP\", \"responsible_agency\": \"ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর\", \"service_description\": \"Passport Application for Minors\", \"eligibility\": \"১৮ বছরের কম বাংলাদেশি আবেদনকারী।\", \"required_documents\": \"ইংরেজি অনলাইন BRC; NID না থাকলে পিতা/মাতার NID নম্বর; ছয় বছরের নিচে বিশেষ ছবি নির্দেশনা আছে।\", \"application_procedure\": \"\", \"online_application_url\": \"https://www.epassport.gov.bd/onboarding\", \"official_information_url\": \"https://www.epassport.gov.bd/instructions/instructions\", \"application_tracking_url\": \"\", \"appointment_url\": \"\", \"fee_information\": \"৫ বছর, ৪৮ পৃষ্ঠা; domestic fee table দেখুন।\", \"processing_time\": \"\", \"service_delivery_method\": \"\", \"relevant_office_information\": \"\", \"official_phone\": \"16445\", \"official_email\": \"\", \"official_complaint_url\": \"https://www.grs.gov.bd/\", \"geographic_availability\": \"বাংলাদেশ; দায়িত্বপ্রাপ্ত অফিসের অধিক্ষেত্র প্রযোজ্য\", \"applicant_type\": \"বাংলাদেশি নাগরিক\", \"last_verified_date\": \"2026-10-12\", \"source_title\": \"e-Passport application instructions\", \"source_url\": \"https://www.epassport.gov.bd/instructions/instructions\", \"verification_status\": \"partially_verified\", \"missing_information_notes\": \"স্থানীয় অফিসের পূর্ণ তালিকা, প্রযোজ্য ফি/সময় ও মানব যাচাই বাকি।\", \"baseline_pdf_pages\": \"1-9\", \"record_origin\": \"pdf_converted\", \"parent_group_id\": \"\", \"publication_status\": \"draft_human_review_pending\", \"human_verified_date\": \"\", \"reviewer\": \"\", \"verified_fields\": \"eligibility;required_documents;fee_schedule_id\", \"inherited_fields\": \"application_tracking_url;application_procedure;relevant_office_information\", \"fee_schedule_id\": \"PASSPORT-DOMESTIC\", \"related_service_id\": \"JANUN-PASS-001\"}"
+    }
+  },
+  {
+    "alias": "team-nafiew-janun-tr-dl-002",
+    "canonical": "driving-test-smart-licence",
+    "previous": {
+      "id": "nafiew:transport_services:JANUN-TR-DL-002:2",
+      "slug": "team-nafiew-janun-tr-dl-002",
+      "name_bn": "নতুন অপেশাদার ড্রাইভিং লাইসেন্স",
+      "name_en": "Non-professional Driving Licence",
+      "category": "transport",
+      "description_bn": "Non-professional Driving Licence",
+      "description_en": "Collected team research. Human verification pending.",
+      "official_url": "https://brta.gov.bd/site/page/4258fc8f-8aec-4895-b11d-a0b33b489af2/ড্রাইভিং-লাইসেন্সের-আবেদন-প্রক্রিয়া",
+      "status": "demo",
+      "verification_status": "needs_review",
+      "last_verified_at": null,
+      "owner": "Nafiew",
+      "scope": "বাংলাদেশ; দায়িত্বপ্রাপ্ত অফিসের অধিক্ষেত্র প্রযোজ্য",
+      "notes": [
+        "বর্তমান exam/biometric checklist এবং delivery সময় বাকি।"
+      ],
+      "eligibility": [
+        "লার্নার ও competency test-এ উত্তীর্ণ; বয়স ১৮+"
+      ],
+      "documents": [],
+      "steps": [
+        "লার্নার; প্রশিক্ষণ; লিখিত/মৌখিক/ব্যবহারিক পরীক্ষা; পাসের পর BSP আবেদন ও ফি; অনুমোদিত temporary authorization/card।"
+      ],
+      "fees": "প্রকাশিত licence fee ও আলাদা postal charge দেখুন।",
+      "processing_time": null,
+      "deadline": null,
+      "sources": [
+        {
+          "id": "team-nafiew-janun-tr-dl-002-0",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://brta.gov.bd/site/page/4258fc8f-8aec-4895-b11d-a0b33b489af2/ড্রাইভিং-লাইসেন্সের-আবেদন-প্রক্রিয়া",
+          "agency": "Team research — Nafiew"
+        },
+        {
+          "id": "team-nafiew-janun-tr-dl-002-1",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://bsp.brta.gov.bd/",
+          "agency": "Team research — Nafiew"
+        }
+      ],
+      "conflicts": [
+        "বর্তমান exam/biometric checklist এবং delivery সময় বাকি।"
+      ],
+      "raw_fields": {
+        "service_id": "JANUN-TR-DL-002",
+        "service_name_bn": "নতুন অপেশাদার ড্রাইভিং লাইসেন্স",
+        "service_name_en": "Non-professional Driving Licence",
+        "main_category": "transport",
+        "subcategory": "driving_licence",
+        "responsible_ministry": "সড়ক পরিবহন ও সেতু মন্ত্রণালয়",
+        "agency_id": "A-BRTA",
+        "responsible_agency": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ",
+        "service_description": "Non-professional Driving Licence",
+        "eligibility": "লার্নার ও competency test-এ উত্তীর্ণ; বয়স ১৮+",
+        "required_documents": "",
+        "application_procedure": "লার্নার; প্রশিক্ষণ; লিখিত/মৌখিক/ব্যবহারিক পরীক্ষা; পাসের পর BSP আবেদন ও ফি; অনুমোদিত temporary authorization/card।",
+        "online_application_url": "https://bsp.brta.gov.bd/",
+        "official_information_url": "https://brta.gov.bd/site/page/4258fc8f-8aec-4895-b11d-a0b33b489af2/ড্রাইভিং-লাইসেন্সের-আবেদন-প্রক্রিয়া",
+        "application_tracking_url": "",
+        "appointment_url": "",
+        "fee_information": "প্রকাশিত licence fee ও আলাদা postal charge দেখুন।",
+        "processing_time": "",
+        "service_delivery_method": "online_and_in_person",
+        "relevant_office_information": "BSP প্রোফাইল অনুযায়ী সংশ্লিষ্ট BRTA সার্কেল",
+        "official_phone": "16107",
+        "official_email": "",
+        "official_complaint_url": "https://bsp.brta.gov.bd/feedbackForm",
+        "geographic_availability": "বাংলাদেশ; দায়িত্বপ্রাপ্ত অফিসের অধিক্ষেত্র প্রযোজ্য",
+        "applicant_type": "ড্রাইভার/লাইসেন্সধারী",
+        "last_verified_date": "2026-10-12",
+        "source_title": "BRTA licence application process",
+        "source_url": "https://brta.gov.bd/site/page/4258fc8f-8aec-4895-b11d-a0b33b489af2/ড্রাইভিং-লাইসেন্সের-আবেদন-প্রক্রিয়া",
+        "verification_status": "partially_verified",
+        "missing_information_notes": "বর্তমান exam/biometric checklist এবং delivery সময় বাকি।",
+        "baseline_pdf_pages": "10-17",
+        "record_origin": "pdf_converted",
+        "parent_group_id": "",
+        "publication_status": "draft_human_review_pending",
+        "human_verified_date": "",
+        "reviewer": "",
+        "verified_fields": "eligibility;fee_schedule_id",
+        "inherited_fields": "application_procedure;required_documents",
+        "fee_schedule_id": "DL-NEW",
+        "related_service_id": ""
+      },
+      "search_text": "{\"service_id\": \"JANUN-TR-DL-002\", \"service_name_bn\": \"নতুন অপেশাদার ড্রাইভিং লাইসেন্স\", \"service_name_en\": \"Non-professional Driving Licence\", \"main_category\": \"transport\", \"subcategory\": \"driving_licence\", \"responsible_ministry\": \"সড়ক পরিবহন ও সেতু মন্ত্রণালয়\", \"agency_id\": \"A-BRTA\", \"responsible_agency\": \"বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ\", \"service_description\": \"Non-professional Driving Licence\", \"eligibility\": \"লার্নার ও competency test-এ উত্তীর্ণ; বয়স ১৮+\", \"required_documents\": \"\", \"application_procedure\": \"লার্নার; প্রশিক্ষণ; লিখিত/মৌখিক/ব্যবহারিক পরীক্ষা; পাসের পর BSP আবেদন ও ফি; অনুমোদিত temporary authorization/card।\", \"online_application_url\": \"https://bsp.brta.gov.bd/\", \"official_information_url\": \"https://brta.gov.bd/site/page/4258fc8f-8aec-4895-b11d-a0b33b489af2/ড্রাইভিং-লাইসেন্সের-আবেদন-প্রক্রিয়া\", \"application_tracking_url\": \"\", \"appointment_url\": \"\", \"fee_information\": \"প্রকাশিত licence fee ও আলাদা postal charge দেখুন।\", \"processing_time\": \"\", \"service_delivery_method\": \"online_and_in_person\", \"relevant_office_information\": \"BSP প্রোফাইল অনুযায়ী সংশ্লিষ্ট BRTA সার্কেল\", \"official_phone\": \"16107\", \"official_email\": \"\", \"official_complaint_url\": \"https://bsp.brta.gov.bd/feedbackForm\", \"geographic_availability\": \"বাংলাদেশ; দায়িত্বপ্রাপ্ত অফিসের অধিক্ষেত্র প্রযোজ্য\", \"applicant_type\": \"ড্রাইভার/লাইসেন্সধারী\", \"last_verified_date\": \"2026-10-12\", \"source_title\": \"BRTA licence application process\", \"source_url\": \"https://brta.gov.bd/site/page/4258fc8f-8aec-4895-b11d-a0b33b489af2/ড্রাইভিং-লাইসেন্সের-আবেদন-প্রক্রিয়া\", \"verification_status\": \"partially_verified\", \"missing_information_notes\": \"বর্তমান exam/biometric checklist এবং delivery সময় বাকি।\", \"baseline_pdf_pages\": \"10-17\", \"record_origin\": \"pdf_converted\", \"parent_group_id\": \"\", \"publication_status\": \"draft_human_review_pending\", \"human_verified_date\": \"\", \"reviewer\": \"\", \"verified_fields\": \"eligibility;fee_schedule_id\", \"inherited_fields\": \"application_procedure;required_documents\", \"fee_schedule_id\": \"DL-NEW\", \"related_service_id\": \"\"}"
+    }
+  },
+  {
+    "alias": "team-nafiew-janun-tr-dl-003",
+    "canonical": "driving-test-smart-licence",
+    "previous": {
+      "id": "nafiew:transport_services:JANUN-TR-DL-003:3",
+      "slug": "team-nafiew-janun-tr-dl-003",
+      "name_bn": "নতুন পেশাদার ড্রাইভিং লাইসেন্স",
+      "name_en": "Professional Driving Licence",
+      "category": "transport",
+      "description_bn": "Professional Driving Licence",
+      "description_en": "Collected team research. Human verification pending.",
+      "official_url": "https://brta.gov.bd/site/page/4258fc8f-8aec-4895-b11d-a0b33b489af2/ড্রাইভিং-লাইসেন্সের-আবেদন-প্রক্রিয়া",
+      "status": "demo",
+      "verification_status": "needs_review",
+      "last_verified_at": null,
+      "owner": "Nafiew",
+      "scope": "বাংলাদেশ; দায়িত্বপ্রাপ্ত অফিসের অধিক্ষেত্র প্রযোজ্য",
+      "notes": [
+        "পেশাদার 2772+60 বনাম charter-এর baseline 2838 অমিল; police verification নির্দেশনায় অমিল; BSP চূড়ান্ত amount নিশ্চিত করতে হবে।"
+      ],
+      "eligibility": [
+        "লার্নার ও competency test-এ উত্তীর্ণ; বয়স ২১+"
+      ],
+      "documents": [],
+      "steps": [
+        "লার্নার; প্রশিক্ষণ; লিখিত/মৌখিক/ব্যবহারিক পরীক্ষা; পাসের পর BSP আবেদন ও ফি; অনুমোদিত temporary authorization/card।"
+      ],
+      "fees": "প্রকাশিত fee table; পেশাদার মোট ফি source conflict আছে।",
+      "processing_time": null,
+      "deadline": null,
+      "sources": [
+        {
+          "id": "team-nafiew-janun-tr-dl-003-0",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://brta.gov.bd/site/page/4258fc8f-8aec-4895-b11d-a0b33b489af2/ড্রাইভিং-লাইসেন্সের-আবেদন-প্রক্রিয়া",
+          "agency": "Team research — Nafiew"
+        },
+        {
+          "id": "team-nafiew-janun-tr-dl-003-1",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://bsp.brta.gov.bd/",
+          "agency": "Team research — Nafiew"
+        }
+      ],
+      "conflicts": [
+        "পেশাদার 2772+60 বনাম charter-এর baseline 2838 অমিল; police verification নির্দেশনায় অমিল; BSP চূড়ান্ত amount নিশ্চিত করতে হবে।"
+      ],
+      "raw_fields": {
+        "service_id": "JANUN-TR-DL-003",
+        "service_name_bn": "নতুন পেশাদার ড্রাইভিং লাইসেন্স",
+        "service_name_en": "Professional Driving Licence",
+        "main_category": "transport",
+        "subcategory": "driving_licence",
+        "responsible_ministry": "সড়ক পরিবহন ও সেতু মন্ত্রণালয়",
+        "agency_id": "A-BRTA",
+        "responsible_agency": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ",
+        "service_description": "Professional Driving Licence",
+        "eligibility": "লার্নার ও competency test-এ উত্তীর্ণ; বয়স ২১+",
+        "required_documents": "",
+        "application_procedure": "লার্নার; প্রশিক্ষণ; লিখিত/মৌখিক/ব্যবহারিক পরীক্ষা; পাসের পর BSP আবেদন ও ফি; অনুমোদিত temporary authorization/card।",
+        "online_application_url": "https://bsp.brta.gov.bd/",
+        "official_information_url": "https://brta.gov.bd/site/page/4258fc8f-8aec-4895-b11d-a0b33b489af2/ড্রাইভিং-লাইসেন্সের-আবেদন-প্রক্রিয়া",
+        "application_tracking_url": "",
+        "appointment_url": "",
+        "fee_information": "প্রকাশিত fee table; পেশাদার মোট ফি source conflict আছে।",
+        "processing_time": "",
+        "service_delivery_method": "online_and_in_person",
+        "relevant_office_information": "BSP প্রোফাইল অনুযায়ী সংশ্লিষ্ট BRTA সার্কেল",
+        "official_phone": "16107",
+        "official_email": "",
+        "official_complaint_url": "https://bsp.brta.gov.bd/feedbackForm",
+        "geographic_availability": "বাংলাদেশ; দায়িত্বপ্রাপ্ত অফিসের অধিক্ষেত্র প্রযোজ্য",
+        "applicant_type": "ড্রাইভার/লাইসেন্সধারী",
+        "last_verified_date": "2026-10-12",
+        "source_title": "BRTA licence application process",
+        "source_url": "https://brta.gov.bd/site/page/4258fc8f-8aec-4895-b11d-a0b33b489af2/ড্রাইভিং-লাইসেন্সের-আবেদন-প্রক্রিয়া",
+        "verification_status": "partially_verified",
+        "missing_information_notes": "পেশাদার 2772+60 বনাম charter-এর baseline 2838 অমিল; police verification নির্দেশনায় অমিল; BSP চূড়ান্ত amount নিশ্চিত করতে হবে।",
+        "baseline_pdf_pages": "10-17",
+        "record_origin": "pdf_converted",
+        "parent_group_id": "",
+        "publication_status": "draft_human_review_pending",
+        "human_verified_date": "",
+        "reviewer": "",
+        "verified_fields": "eligibility;fee_schedule_id",
+        "inherited_fields": "application_procedure;required_documents",
+        "fee_schedule_id": "DL-NEW",
+        "related_service_id": ""
+      },
+      "search_text": "{\"service_id\": \"JANUN-TR-DL-003\", \"service_name_bn\": \"নতুন পেশাদার ড্রাইভিং লাইসেন্স\", \"service_name_en\": \"Professional Driving Licence\", \"main_category\": \"transport\", \"subcategory\": \"driving_licence\", \"responsible_ministry\": \"সড়ক পরিবহন ও সেতু মন্ত্রণালয়\", \"agency_id\": \"A-BRTA\", \"responsible_agency\": \"বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ\", \"service_description\": \"Professional Driving Licence\", \"eligibility\": \"লার্নার ও competency test-এ উত্তীর্ণ; বয়স ২১+\", \"required_documents\": \"\", \"application_procedure\": \"লার্নার; প্রশিক্ষণ; লিখিত/মৌখিক/ব্যবহারিক পরীক্ষা; পাসের পর BSP আবেদন ও ফি; অনুমোদিত temporary authorization/card।\", \"online_application_url\": \"https://bsp.brta.gov.bd/\", \"official_information_url\": \"https://brta.gov.bd/site/page/4258fc8f-8aec-4895-b11d-a0b33b489af2/ড্রাইভিং-লাইসেন্সের-আবেদন-প্রক্রিয়া\", \"application_tracking_url\": \"\", \"appointment_url\": \"\", \"fee_information\": \"প্রকাশিত fee table; পেশাদার মোট ফি source conflict আছে।\", \"processing_time\": \"\", \"service_delivery_method\": \"online_and_in_person\", \"relevant_office_information\": \"BSP প্রোফাইল অনুযায়ী সংশ্লিষ্ট BRTA সার্কেল\", \"official_phone\": \"16107\", \"official_email\": \"\", \"official_complaint_url\": \"https://bsp.brta.gov.bd/feedbackForm\", \"geographic_availability\": \"বাংলাদেশ; দায়িত্বপ্রাপ্ত অফিসের অধিক্ষেত্র প্রযোজ্য\", \"applicant_type\": \"ড্রাইভার/লাইসেন্সধারী\", \"last_verified_date\": \"2026-10-12\", \"source_title\": \"BRTA licence application process\", \"source_url\": \"https://brta.gov.bd/site/page/4258fc8f-8aec-4895-b11d-a0b33b489af2/ড্রাইভিং-লাইসেন্সের-আবেদন-প্রক্রিয়া\", \"verification_status\": \"partially_verified\", \"missing_information_notes\": \"পেশাদার 2772+60 বনাম charter-এর baseline 2838 অমিল; police verification নির্দেশনায় অমিল; BSP চূড়ান্ত amount নিশ্চিত করতে হবে।\", \"baseline_pdf_pages\": \"10-17\", \"record_origin\": \"pdf_converted\", \"parent_group_id\": \"\", \"publication_status\": \"draft_human_review_pending\", \"human_verified_date\": \"\", \"reviewer\": \"\", \"verified_fields\": \"eligibility;fee_schedule_id\", \"inherited_fields\": \"application_procedure;required_documents\", \"fee_schedule_id\": \"DL-NEW\", \"related_service_id\": \"\"}"
+    }
+  },
+  {
+    "alias": "team-nafiew-janun-tr-veh-003",
+    "canonical": "vehicle-fitness-tax-token",
+    "previous": {
+      "id": "nafiew:transport_services:JANUN-TR-VEH-003:11",
+      "slug": "team-nafiew-janun-tr-veh-003",
+      "name_bn": "মোটরযানের ফিটনেস সনদ নবায়ন",
+      "name_en": "Vehicle Fitness Renewal",
+      "category": "transport",
+      "description_bn": "মোটরযানের ফিটনেস সনদ নবায়ন সংক্রান্ত সরকারি সেবা।",
+      "description_en": "Collected team research. Human verification pending.",
+      "official_url": "https://bsp.brta.gov.bd/fitnessTaxToken?lan=bn",
+      "status": "demo",
+      "verification_status": "needs_review",
+      "last_verified_at": null,
+      "owner": "Nafiew",
+      "scope": "বাংলাদেশ; দায়িত্বপ্রাপ্ত অফিসের অধিক্ষেত্র প্রযোজ্য",
+      "notes": [
+        "Circle availability, full current documents and charge বাকি; তথ্যপৃষ্ঠার repeat retrieval 404।"
+      ],
+      "eligibility": [
+        "ফিটনেস নবায়ন প্রয়োজন এমন নিবন্ধিত গাড়ি।"
+      ],
+      "documents": [],
+      "steps": [
+        "প্রযোজ্য circle appointment; নির্ধারিত fee ও নথি; গাড়ি হাজির করে পরিদর্শন।"
+      ],
+      "fees": "Registered vehicle fee calculator; heavy-vehicle figures conflict, no fixed amount published here.",
+      "processing_time": null,
+      "deadline": null,
+      "sources": [
+        {
+          "id": "team-nafiew-janun-tr-veh-003-0",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://bsp.brta.gov.bd/fitnessTaxToken?lan=bn",
+          "agency": "Team research — Nafiew"
+        }
+      ],
+      "conflicts": [
+        "Circle availability, full current documents and charge বাকি; তথ্যপৃষ্ঠার repeat retrieval 404।"
+      ],
+      "raw_fields": {
+        "service_id": "JANUN-TR-VEH-003",
+        "service_name_bn": "মোটরযানের ফিটনেস সনদ নবায়ন",
+        "service_name_en": "Vehicle Fitness Renewal",
+        "main_category": "transport",
+        "subcategory": "vehicle",
+        "responsible_ministry": "সড়ক পরিবহন ও সেতু মন্ত্রণালয়",
+        "agency_id": "A-BRTA",
+        "responsible_agency": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ",
+        "service_description": "মোটরযানের ফিটনেস সনদ নবায়ন সংক্রান্ত সরকারি সেবা।",
+        "eligibility": "ফিটনেস নবায়ন প্রয়োজন এমন নিবন্ধিত গাড়ি।",
+        "required_documents": "",
+        "application_procedure": "প্রযোজ্য circle appointment; নির্ধারিত fee ও নথি; গাড়ি হাজির করে পরিদর্শন।",
+        "online_application_url": "",
+        "official_information_url": "https://bsp.brta.gov.bd/fitnessTaxToken?lan=bn",
+        "application_tracking_url": "",
+        "appointment_url": "https://bsp.brta.gov.bd/",
+        "fee_information": "Registered vehicle fee calculator; heavy-vehicle figures conflict, no fixed amount published here.",
+        "processing_time": "",
+        "service_delivery_method": "online_appointment_and_inspection",
+        "relevant_office_information": "",
+        "official_phone": "",
+        "official_email": "",
+        "official_complaint_url": "",
+        "geographic_availability": "বাংলাদেশ; দায়িত্বপ্রাপ্ত অফিসের অধিক্ষেত্র প্রযোজ্য",
+        "applicant_type": "সংশ্লিষ্ট সেবার আবেদনকারী/প্রতিষ্ঠান; বিস্তারিত যোগ্যতা source অনুযায়ী",
+        "last_verified_date": "2026-10-12",
+        "source_title": "BSP fitness and tax token",
+        "source_url": "https://bsp.brta.gov.bd/fitnessTaxToken?lan=bn",
+        "verification_status": "partially_verified",
+        "missing_information_notes": "Circle availability, full current documents and charge বাকি; তথ্যপৃষ্ঠার repeat retrieval 404।",
+        "baseline_pdf_pages": "",
+        "record_origin": "new_research",
+        "parent_group_id": "",
+        "publication_status": "draft_human_review_pending",
+        "human_verified_date": "",
+        "reviewer": "",
+        "verified_fields": "application_procedure",
+        "inherited_fields": "",
+        "fee_schedule_id": "",
+        "related_service_id": ""
+      },
+      "search_text": "{\"service_id\": \"JANUN-TR-VEH-003\", \"service_name_bn\": \"মোটরযানের ফিটনেস সনদ নবায়ন\", \"service_name_en\": \"Vehicle Fitness Renewal\", \"main_category\": \"transport\", \"subcategory\": \"vehicle\", \"responsible_ministry\": \"সড়ক পরিবহন ও সেতু মন্ত্রণালয়\", \"agency_id\": \"A-BRTA\", \"responsible_agency\": \"বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ\", \"service_description\": \"মোটরযানের ফিটনেস সনদ নবায়ন সংক্রান্ত সরকারি সেবা।\", \"eligibility\": \"ফিটনেস নবায়ন প্রয়োজন এমন নিবন্ধিত গাড়ি।\", \"required_documents\": \"\", \"application_procedure\": \"প্রযোজ্য circle appointment; নির্ধারিত fee ও নথি; গাড়ি হাজির করে পরিদর্শন।\", \"online_application_url\": \"\", \"official_information_url\": \"https://bsp.brta.gov.bd/fitnessTaxToken?lan=bn\", \"application_tracking_url\": \"\", \"appointment_url\": \"https://bsp.brta.gov.bd/\", \"fee_information\": \"Registered vehicle fee calculator; heavy-vehicle figures conflict, no fixed amount published here.\", \"processing_time\": \"\", \"service_delivery_method\": \"online_appointment_and_inspection\", \"relevant_office_information\": \"\", \"official_phone\": \"\", \"official_email\": \"\", \"official_complaint_url\": \"\", \"geographic_availability\": \"বাংলাদেশ; দায়িত্বপ্রাপ্ত অফিসের অধিক্ষেত্র প্রযোজ্য\", \"applicant_type\": \"সংশ্লিষ্ট সেবার আবেদনকারী/প্রতিষ্ঠান; বিস্তারিত যোগ্যতা source অনুযায়ী\", \"last_verified_date\": \"2026-10-12\", \"source_title\": \"BSP fitness and tax token\", \"source_url\": \"https://bsp.brta.gov.bd/fitnessTaxToken?lan=bn\", \"verification_status\": \"partially_verified\", \"missing_information_notes\": \"Circle availability, full current documents and charge বাকি; তথ্যপৃষ্ঠার repeat retrieval 404।\", \"baseline_pdf_pages\": \"\", \"record_origin\": \"new_research\", \"parent_group_id\": \"\", \"publication_status\": \"draft_human_review_pending\", \"human_verified_date\": \"\", \"reviewer\": \"\", \"verified_fields\": \"application_procedure\", \"inherited_fields\": \"\", \"fee_schedule_id\": \"\", \"related_service_id\": \"\"}"
+    }
+  },
+  {
+    "alias": "team-nafiew-janun-tr-veh-004",
+    "canonical": "vehicle-fitness-tax-token",
+    "previous": {
+      "id": "nafiew:transport_services:JANUN-TR-VEH-004:12",
+      "slug": "team-nafiew-janun-tr-veh-004",
+      "name_bn": "মোটরযানের ট্যাক্স টোকেন নবায়ন",
+      "name_en": "Vehicle Tax Token Renewal",
+      "category": "transport",
+      "description_bn": "নিবন্ধিত গাড়ির প্রযোজ্য road tax token নবায়ন।",
+      "description_en": "Collected team research. Human verification pending.",
+      "official_url": "https://brta.gov.bd/pages/office-citizen-charters/6922d8a2933eb65569df9729",
+      "status": "demo",
+      "verification_status": "needs_review",
+      "last_verified_at": null,
+      "owner": "Nafiew",
+      "scope": "বাংলাদেশ; দায়িত্বপ্রাপ্ত অফিসের অধিক্ষেত্র প্রযোজ্য",
+      "notes": [
+        "সম্পূর্ণ renewal checklist, issuing/payment channels এবং time যাচাই বাকি।"
+      ],
+      "eligibility": [],
+      "documents": [],
+      "steps": [],
+      "fees": "গাড়ি ও করদাতা অনুযায়ী calculator amount; আয়করকে token fee থেকে পৃথক রাখুন।",
+      "processing_time": null,
+      "deadline": null,
+      "sources": [
+        {
+          "id": "team-nafiew-janun-tr-veh-004-0",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://brta.gov.bd/pages/office-citizen-charters/6922d8a2933eb65569df9729",
+          "agency": "Team research — Nafiew"
+        },
+        {
+          "id": "team-nafiew-janun-tr-veh-004-1",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://bsp.brta.gov.bd/",
+          "agency": "Team research — Nafiew"
+        }
+      ],
+      "conflicts": [
+        "সম্পূর্ণ renewal checklist, issuing/payment channels এবং time যাচাই বাকি।"
+      ],
+      "raw_fields": {
+        "service_id": "JANUN-TR-VEH-004",
+        "service_name_bn": "মোটরযানের ট্যাক্স টোকেন নবায়ন",
+        "service_name_en": "Vehicle Tax Token Renewal",
+        "main_category": "transport",
+        "subcategory": "vehicle",
+        "responsible_ministry": "সড়ক পরিবহন ও সেতু মন্ত্রণালয়",
+        "agency_id": "A-BRTA",
+        "responsible_agency": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ",
+        "service_description": "নিবন্ধিত গাড়ির প্রযোজ্য road tax token নবায়ন।",
+        "eligibility": "",
+        "required_documents": "",
+        "application_procedure": "",
+        "online_application_url": "https://bsp.brta.gov.bd/",
+        "official_information_url": "https://brta.gov.bd/pages/office-citizen-charters/6922d8a2933eb65569df9729",
+        "application_tracking_url": "",
+        "appointment_url": "",
+        "fee_information": "গাড়ি ও করদাতা অনুযায়ী calculator amount; আয়করকে token fee থেকে পৃথক রাখুন।",
+        "processing_time": "",
+        "service_delivery_method": "online_fee_support",
+        "relevant_office_information": "",
+        "official_phone": "",
+        "official_email": "",
+        "official_complaint_url": "",
+        "geographic_availability": "বাংলাদেশ; দায়িত্বপ্রাপ্ত অফিসের অধিক্ষেত্র প্রযোজ্য",
+        "applicant_type": "সংশ্লিষ্ট সেবার আবেদনকারী/প্রতিষ্ঠান; বিস্তারিত যোগ্যতা source অনুযায়ী",
+        "last_verified_date": "2026-10-12",
+        "source_title": "BRTA Citizen Charter",
+        "source_url": "https://brta.gov.bd/pages/office-citizen-charters/6922d8a2933eb65569df9729",
+        "verification_status": "partially_verified",
+        "missing_information_notes": "সম্পূর্ণ renewal checklist, issuing/payment channels এবং time যাচাই বাকি।",
+        "baseline_pdf_pages": "",
+        "record_origin": "new_research",
+        "parent_group_id": "",
+        "publication_status": "draft_human_review_pending",
+        "human_verified_date": "",
+        "reviewer": "",
+        "verified_fields": "service_name_bn;fee_information",
+        "inherited_fields": "",
+        "fee_schedule_id": "",
+        "related_service_id": ""
+      },
+      "search_text": "{\"service_id\": \"JANUN-TR-VEH-004\", \"service_name_bn\": \"মোটরযানের ট্যাক্স টোকেন নবায়ন\", \"service_name_en\": \"Vehicle Tax Token Renewal\", \"main_category\": \"transport\", \"subcategory\": \"vehicle\", \"responsible_ministry\": \"সড়ক পরিবহন ও সেতু মন্ত্রণালয়\", \"agency_id\": \"A-BRTA\", \"responsible_agency\": \"বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ\", \"service_description\": \"নিবন্ধিত গাড়ির প্রযোজ্য road tax token নবায়ন।\", \"eligibility\": \"\", \"required_documents\": \"\", \"application_procedure\": \"\", \"online_application_url\": \"https://bsp.brta.gov.bd/\", \"official_information_url\": \"https://brta.gov.bd/pages/office-citizen-charters/6922d8a2933eb65569df9729\", \"application_tracking_url\": \"\", \"appointment_url\": \"\", \"fee_information\": \"গাড়ি ও করদাতা অনুযায়ী calculator amount; আয়করকে token fee থেকে পৃথক রাখুন।\", \"processing_time\": \"\", \"service_delivery_method\": \"online_fee_support\", \"relevant_office_information\": \"\", \"official_phone\": \"\", \"official_email\": \"\", \"official_complaint_url\": \"\", \"geographic_availability\": \"বাংলাদেশ; দায়িত্বপ্রাপ্ত অফিসের অধিক্ষেত্র প্রযোজ্য\", \"applicant_type\": \"সংশ্লিষ্ট সেবার আবেদনকারী/প্রতিষ্ঠান; বিস্তারিত যোগ্যতা source অনুযায়ী\", \"last_verified_date\": \"2026-10-12\", \"source_title\": \"BRTA Citizen Charter\", \"source_url\": \"https://brta.gov.bd/pages/office-citizen-charters/6922d8a2933eb65569df9729\", \"verification_status\": \"partially_verified\", \"missing_information_notes\": \"সম্পূর্ণ renewal checklist, issuing/payment channels এবং time যাচাই বাকি।\", \"baseline_pdf_pages\": \"\", \"record_origin\": \"new_research\", \"parent_group_id\": \"\", \"publication_status\": \"draft_human_review_pending\", \"human_verified_date\": \"\", \"reviewer\": \"\", \"verified_fields\": \"service_name_bn;fee_information\", \"inherited_fields\": \"\", \"fee_schedule_id\": \"\", \"related_service_id\": \"\"}"
+    }
+  },
+  {
+    "alias": "team-sami-janun-cr-003",
+    "canonical": "team-sami-janun-cr-004",
+    "previous": {
+      "id": "sami:civil_registration:JANUN-CR-003:3",
+      "slug": "team-sami-janun-cr-003",
+      "name_bn": "জন্ম সনদ পুনর্মুদ্রণ",
+      "name_en": "Birth Certificate Reprint",
+      "category": "identity",
+      "description_bn": "টিমের সংগৃহীত সেবা-তথ্য। মানব যাচাই বাকি।",
+      "description_en": "Collected team research. Human verification pending.",
+      "official_url": "https://bdris.dscc.gov.bd/",
+      "status": "demo",
+      "verification_status": "needs_review",
+      "last_verified_at": null,
+      "owner": "Sami",
+      "scope": "Bangladesh - service overview",
+      "notes": [
+        "National fee and alternate-office policy unconfirmed; verified Ramjibon local example separate."
+      ],
+      "eligibility": [],
+      "documents": [
+        "Prior certificate/registration-identifying information; follow issuing registrar checklist."
+      ],
+      "steps": [
+        "Contact original registrar for reprint; confirm existing record before a new registration."
+      ],
+      "fees": null,
+      "processing_time": null,
+      "deadline": null,
+      "sources": [
+        {
+          "id": "team-sami-janun-cr-003-0",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://bdris.dscc.gov.bd/",
+          "agency": "Team research — Sami"
+        },
+        {
+          "id": "team-sami-janun-cr-003-1",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://ramjibonup.gaibandha.gov.bd/pages/static-pages/69771cc6c4774958d7c065da",
+          "agency": "Team research — Sami"
+        }
+      ],
+      "conflicts": [
+        "National fee and alternate-office policy unconfirmed; verified Ramjibon local example separate."
+      ],
+      "raw_fields": {
+        "service_id": "JANUN-CR-003",
+        "service_name_bn": "জন্ম সনদ পুনর্মুদ্রণ",
+        "service_name_en": "Birth Certificate Reprint",
+        "authority": "Office of the Registrar General; competent local registrar",
+        "eligibility": "",
+        "required_documents": "Prior certificate/registration-identifying information; follow issuing registrar checklist.",
+        "application_method": "Contact original registrar for reprint; confirm existing record before a new registration.",
+        "application_url": "",
+        "fee": "",
+        "processing_time": "",
+        "collection_method": "Issuing registration office",
+        "source_id": "S004;S010",
+        "notes": "National fee and alternate-office policy unconfirmed; verified Ramjibon local example separate.",
+        "checked_on": "2026-10-12",
+        "verification_status": "partially_verified",
+        "geographic_scope": "Bangladesh - service overview",
+        "fee_source_id": "",
+        "processing_time_source_id": "",
+        "human_review_status": "pending",
+        "service_type": "Birth Certificate Reprint",
+        "registration_type": "birth",
+        "correction_rules": "",
+        "late_registration_rules": "",
+        "verification_method": "",
+        "local_office": "See local_offices.csv and local_variations.csv",
+        "complaint_route": "S001 section 20 statutory appeal; see complaint_channels.csv"
+      },
+      "search_text": "{\"service_id\": \"JANUN-CR-003\", \"service_name_bn\": \"জন্ম সনদ পুনর্মুদ্রণ\", \"service_name_en\": \"Birth Certificate Reprint\", \"authority\": \"Office of the Registrar General; competent local registrar\", \"eligibility\": \"\", \"required_documents\": \"Prior certificate/registration-identifying information; follow issuing registrar checklist.\", \"application_method\": \"Contact original registrar for reprint; confirm existing record before a new registration.\", \"application_url\": \"\", \"fee\": \"\", \"processing_time\": \"\", \"collection_method\": \"Issuing registration office\", \"source_id\": \"S004;S010\", \"notes\": \"National fee and alternate-office policy unconfirmed; verified Ramjibon local example separate.\", \"checked_on\": \"2026-10-12\", \"verification_status\": \"partially_verified\", \"geographic_scope\": \"Bangladesh - service overview\", \"fee_source_id\": \"\", \"processing_time_source_id\": \"\", \"human_review_status\": \"pending\", \"service_type\": \"Birth Certificate Reprint\", \"registration_type\": \"birth\", \"correction_rules\": \"\", \"late_registration_rules\": \"\", \"verification_method\": \"\", \"local_office\": \"See local_offices.csv and local_variations.csv\", \"complaint_route\": \"S001 section 20 statutory appeal; see complaint_channels.csv\"}"
+    }
+  },
+  {
+    "alias": "team-sami-janun-cr-006",
+    "canonical": "team-sami-janun-cr-005",
+    "previous": {
+      "id": "sami:civil_registration:JANUN-CR-006:6",
+      "slug": "team-sami-janun-cr-006",
+      "name_bn": "মৃত্যু নিবন্ধনের তথ্য সংশোধন",
+      "name_en": "Death Record Correction",
+      "category": "identity",
+      "description_bn": "টিমের সংগৃহীত সেবা-তথ্য। মানব যাচাই বাকি।",
+      "description_en": "Collected team research. Human verification pending.",
+      "official_url": "https://bdlaws.minlaw.gov.bd/act-print-921.html",
+      "status": "demo",
+      "verification_status": "needs_review",
+      "last_verified_at": null,
+      "owner": "Sami",
+      "scope": "Bangladesh - service overview",
+      "notes": [
+        "Correction service linked by DSCC; specific national fee, approval hierarchy by record age and complete form unconfirmed."
+      ],
+      "eligibility": [],
+      "documents": [
+        "Evidence of correct particulars as required by registrar."
+      ],
+      "steps": [
+        "Contact registrar for applicable death correction procedure."
+      ],
+      "fees": null,
+      "processing_time": null,
+      "deadline": null,
+      "sources": [
+        {
+          "id": "team-sami-janun-cr-006-0",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://bdlaws.minlaw.gov.bd/act-print-921.html",
+          "agency": "Team research — Sami"
+        },
+        {
+          "id": "team-sami-janun-cr-006-1",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://bdris.dscc.gov.bd/",
+          "agency": "Team research — Sami"
+        }
+      ],
+      "conflicts": [
+        "Correction service linked by DSCC; specific national fee, approval hierarchy by record age and complete form unconfirmed."
+      ],
+      "raw_fields": {
+        "service_id": "JANUN-CR-006",
+        "service_name_bn": "মৃত্যু নিবন্ধনের তথ্য সংশোধন",
+        "service_name_en": "Death Record Correction",
+        "authority": "Office of the Registrar General; competent local registrar",
+        "eligibility": "",
+        "required_documents": "Evidence of correct particulars as required by registrar.",
+        "application_method": "Contact registrar for applicable death correction procedure.",
+        "application_url": "",
+        "fee": "",
+        "processing_time": "",
+        "collection_method": "",
+        "source_id": "S001;S004",
+        "notes": "Correction service linked by DSCC; specific national fee, approval hierarchy by record age and complete form unconfirmed.",
+        "checked_on": "2026-10-12",
+        "verification_status": "partially_verified",
+        "geographic_scope": "Bangladesh - service overview",
+        "fee_source_id": "",
+        "processing_time_source_id": "",
+        "human_review_status": "pending",
+        "service_type": "Death Record Correction",
+        "registration_type": "death",
+        "correction_rules": "Correction service linked by DSCC; specific national fee, approval hierarchy by record age and complete form unconfirmed.",
+        "late_registration_rules": "",
+        "verification_method": "",
+        "local_office": "See local_offices.csv and local_variations.csv",
+        "complaint_route": "S001 section 20 statutory appeal; see complaint_channels.csv"
+      },
+      "search_text": "{\"service_id\": \"JANUN-CR-006\", \"service_name_bn\": \"মৃত্যু নিবন্ধনের তথ্য সংশোধন\", \"service_name_en\": \"Death Record Correction\", \"authority\": \"Office of the Registrar General; competent local registrar\", \"eligibility\": \"\", \"required_documents\": \"Evidence of correct particulars as required by registrar.\", \"application_method\": \"Contact registrar for applicable death correction procedure.\", \"application_url\": \"\", \"fee\": \"\", \"processing_time\": \"\", \"collection_method\": \"\", \"source_id\": \"S001;S004\", \"notes\": \"Correction service linked by DSCC; specific national fee, approval hierarchy by record age and complete form unconfirmed.\", \"checked_on\": \"2026-10-12\", \"verification_status\": \"partially_verified\", \"geographic_scope\": \"Bangladesh - service overview\", \"fee_source_id\": \"\", \"processing_time_source_id\": \"\", \"human_review_status\": \"pending\", \"service_type\": \"Death Record Correction\", \"registration_type\": \"death\", \"correction_rules\": \"Correction service linked by DSCC; specific national fee, approval hierarchy by record age and complete form unconfirmed.\", \"late_registration_rules\": \"\", \"verification_method\": \"\", \"local_office\": \"See local_offices.csv and local_variations.csv\", \"complaint_route\": \"S001 section 20 statutory appeal; see complaint_channels.csv\"}"
+    }
+  },
+  {
+    "alias": "team-sami-janun-nid-005",
+    "canonical": "team-sami-janun-id-002",
+    "previous": {
+      "id": "sami:nid_services:JANUN-NID-005:8",
+      "slug": "team-sami-janun-nid-005",
+      "name_bn": "NID নামের বানান সংশোধন",
+      "name_en": "NID Name Spelling Correction",
+      "category": "identity",
+      "description_bn": "টিমের সংগৃহীত সেবা-তথ্য। মানব যাচাই বাকি।",
+      "description_en": "Collected team research. Human verification pending.",
+      "official_url": "https://services.nidw.gov.bd/nid-pub/",
+      "status": "demo",
+      "verification_status": "needs_review",
+      "last_verified_at": null,
+      "owner": "Sami",
+      "scope": "Bangladesh - service overview",
+      "notes": [
+        "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed."
+      ],
+      "eligibility": [],
+      "documents": [
+        "Relevant educational/identity evidence."
+      ],
+      "steps": [
+        "Apply with evidence for this field; determine fee through official calculator."
+      ],
+      "fees": null,
+      "processing_time": null,
+      "deadline": null,
+      "sources": [
+        {
+          "id": "team-sami-janun-nid-005-0",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/",
+          "agency": "Team research — Sami"
+        },
+        {
+          "id": "team-sami-janun-nid-005-1",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/faq?tab=faq-correction",
+          "agency": "Team research — Sami"
+        },
+        {
+          "id": "team-sami-janun-nid-005-2",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/fees",
+          "agency": "Team research — Sami"
+        }
+      ],
+      "conflicts": [
+        "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed."
+      ],
+      "raw_fields": {
+        "service_id": "JANUN-NID-005",
+        "service_name_bn": "NID নামের বানান সংশোধন",
+        "service_name_en": "NID Name Spelling Correction",
+        "authority": "Bangladesh Election Commission; relevant upazila/thana election office",
+        "eligibility": "",
+        "required_documents": "Relevant educational/identity evidence.",
+        "application_method": "Apply with evidence for this field; determine fee through official calculator.",
+        "application_url": "https://services.nidw.gov.bd/nid-pub/",
+        "fee": "",
+        "processing_time": "",
+        "collection_method": "",
+        "source_id": "S008;S009",
+        "notes": "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed.",
+        "checked_on": "2026-10-12",
+        "verification_status": "partially_verified",
+        "geographic_scope": "Bangladesh - service overview",
+        "fee_source_id": "",
+        "processing_time_source_id": "",
+        "human_review_status": "pending",
+        "service_type": "NID Name Spelling Correction",
+        "correction_category": "NID Name Spelling Correction",
+        "supporting_evidence": "Relevant educational/identity evidence.",
+        "payment_method": "Official calculator/portal instructions; no universal fee stored",
+        "biometric_requirement": "",
+        "status_check_url": "https://services.nidw.gov.bd/nid-pub/",
+        "helpdesk": "CON-NID",
+        "complaint_route": "Election-office review; applicable statutory route requires current order; eligible service grievance through GRS"
+      },
+      "search_text": "{\"service_id\": \"JANUN-NID-005\", \"service_name_bn\": \"NID নামের বানান সংশোধন\", \"service_name_en\": \"NID Name Spelling Correction\", \"authority\": \"Bangladesh Election Commission; relevant upazila/thana election office\", \"eligibility\": \"\", \"required_documents\": \"Relevant educational/identity evidence.\", \"application_method\": \"Apply with evidence for this field; determine fee through official calculator.\", \"application_url\": \"https://services.nidw.gov.bd/nid-pub/\", \"fee\": \"\", \"processing_time\": \"\", \"collection_method\": \"\", \"source_id\": \"S008;S009\", \"notes\": \"Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed.\", \"checked_on\": \"2026-10-12\", \"verification_status\": \"partially_verified\", \"geographic_scope\": \"Bangladesh - service overview\", \"fee_source_id\": \"\", \"processing_time_source_id\": \"\", \"human_review_status\": \"pending\", \"service_type\": \"NID Name Spelling Correction\", \"correction_category\": \"NID Name Spelling Correction\", \"supporting_evidence\": \"Relevant educational/identity evidence.\", \"payment_method\": \"Official calculator/portal instructions; no universal fee stored\", \"biometric_requirement\": \"\", \"status_check_url\": \"https://services.nidw.gov.bd/nid-pub/\", \"helpdesk\": \"CON-NID\", \"complaint_route\": \"Election-office review; applicable statutory route requires current order; eligible service grievance through GRS\"}"
+    }
+  },
+  {
+    "alias": "team-sami-janun-nid-006",
+    "canonical": "team-sami-janun-id-002",
+    "previous": {
+      "id": "sami:nid_services:JANUN-NID-006:9",
+      "slug": "team-sami-janun-nid-006",
+      "name_bn": "NID জন্মতারিখ সংশোধন",
+      "name_en": "NID Date of Birth Correction",
+      "category": "identity",
+      "description_bn": "টিমের সংগৃহীত সেবা-তথ্য। মানব যাচাই বাকি।",
+      "description_en": "Collected team research. Human verification pending.",
+      "official_url": "https://services.nidw.gov.bd/nid-pub/",
+      "status": "demo",
+      "verification_status": "needs_review",
+      "last_verified_at": null,
+      "owner": "Sami",
+      "scope": "Bangladesh - service overview",
+      "notes": [
+        "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed."
+      ],
+      "eligibility": [],
+      "documents": [
+        "SSC/equivalent evidence when applicable; other accepted age evidence otherwise."
+      ],
+      "steps": [
+        "Apply with evidence for this field; determine fee through official calculator."
+      ],
+      "fees": null,
+      "processing_time": null,
+      "deadline": null,
+      "sources": [
+        {
+          "id": "team-sami-janun-nid-006-0",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/",
+          "agency": "Team research — Sami"
+        },
+        {
+          "id": "team-sami-janun-nid-006-1",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/faq?tab=faq-correction",
+          "agency": "Team research — Sami"
+        },
+        {
+          "id": "team-sami-janun-nid-006-2",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/fees",
+          "agency": "Team research — Sami"
+        }
+      ],
+      "conflicts": [
+        "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed."
+      ],
+      "raw_fields": {
+        "service_id": "JANUN-NID-006",
+        "service_name_bn": "NID জন্মতারিখ সংশোধন",
+        "service_name_en": "NID Date of Birth Correction",
+        "authority": "Bangladesh Election Commission; relevant upazila/thana election office",
+        "eligibility": "",
+        "required_documents": "SSC/equivalent evidence when applicable; other accepted age evidence otherwise.",
+        "application_method": "Apply with evidence for this field; determine fee through official calculator.",
+        "application_url": "https://services.nidw.gov.bd/nid-pub/",
+        "fee": "",
+        "processing_time": "",
+        "collection_method": "",
+        "source_id": "S008;S009",
+        "notes": "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed.",
+        "checked_on": "2026-10-12",
+        "verification_status": "partially_verified",
+        "geographic_scope": "Bangladesh - service overview",
+        "fee_source_id": "",
+        "processing_time_source_id": "",
+        "human_review_status": "pending",
+        "service_type": "NID Date of Birth Correction",
+        "correction_category": "NID Date of Birth Correction",
+        "supporting_evidence": "SSC/equivalent evidence when applicable; other accepted age evidence otherwise.",
+        "payment_method": "Official calculator/portal instructions; no universal fee stored",
+        "biometric_requirement": "",
+        "status_check_url": "https://services.nidw.gov.bd/nid-pub/",
+        "helpdesk": "CON-NID",
+        "complaint_route": "Election-office review; applicable statutory route requires current order; eligible service grievance through GRS"
+      },
+      "search_text": "{\"service_id\": \"JANUN-NID-006\", \"service_name_bn\": \"NID জন্মতারিখ সংশোধন\", \"service_name_en\": \"NID Date of Birth Correction\", \"authority\": \"Bangladesh Election Commission; relevant upazila/thana election office\", \"eligibility\": \"\", \"required_documents\": \"SSC/equivalent evidence when applicable; other accepted age evidence otherwise.\", \"application_method\": \"Apply with evidence for this field; determine fee through official calculator.\", \"application_url\": \"https://services.nidw.gov.bd/nid-pub/\", \"fee\": \"\", \"processing_time\": \"\", \"collection_method\": \"\", \"source_id\": \"S008;S009\", \"notes\": \"Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed.\", \"checked_on\": \"2026-10-12\", \"verification_status\": \"partially_verified\", \"geographic_scope\": \"Bangladesh - service overview\", \"fee_source_id\": \"\", \"processing_time_source_id\": \"\", \"human_review_status\": \"pending\", \"service_type\": \"NID Date of Birth Correction\", \"correction_category\": \"NID Date of Birth Correction\", \"supporting_evidence\": \"SSC/equivalent evidence when applicable; other accepted age evidence otherwise.\", \"payment_method\": \"Official calculator/portal instructions; no universal fee stored\", \"biometric_requirement\": \"\", \"status_check_url\": \"https://services.nidw.gov.bd/nid-pub/\", \"helpdesk\": \"CON-NID\", \"complaint_route\": \"Election-office review; applicable statutory route requires current order; eligible service grievance through GRS\"}"
+    }
+  },
+  {
+    "alias": "team-sami-janun-nid-007",
+    "canonical": "team-sami-janun-id-002",
+    "previous": {
+      "id": "sami:nid_services:JANUN-NID-007:10",
+      "slug": "team-sami-janun-nid-007",
+      "name_bn": "NID পিতা-মাতার নাম সংশোধন",
+      "name_en": "NID Parents Name Correction",
+      "category": "identity",
+      "description_bn": "টিমের সংগৃহীত সেবা-তথ্য। মানব যাচাই বাকি।",
+      "description_en": "Collected team research. Human verification pending.",
+      "official_url": "https://services.nidw.gov.bd/nid-pub/",
+      "status": "demo",
+      "verification_status": "needs_review",
+      "last_verified_at": null,
+      "owner": "Sami",
+      "scope": "Bangladesh - service overview",
+      "notes": [
+        "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed."
+      ],
+      "eligibility": [],
+      "documents": [
+        "Educational record bearing parents names and relevant family identity evidence."
+      ],
+      "steps": [
+        "Apply with evidence for this field; determine fee through official calculator."
+      ],
+      "fees": null,
+      "processing_time": null,
+      "deadline": null,
+      "sources": [
+        {
+          "id": "team-sami-janun-nid-007-0",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/",
+          "agency": "Team research — Sami"
+        },
+        {
+          "id": "team-sami-janun-nid-007-1",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/faq?tab=faq-correction",
+          "agency": "Team research — Sami"
+        },
+        {
+          "id": "team-sami-janun-nid-007-2",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/fees",
+          "agency": "Team research — Sami"
+        }
+      ],
+      "conflicts": [
+        "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed."
+      ],
+      "raw_fields": {
+        "service_id": "JANUN-NID-007",
+        "service_name_bn": "NID পিতা-মাতার নাম সংশোধন",
+        "service_name_en": "NID Parents Name Correction",
+        "authority": "Bangladesh Election Commission; relevant upazila/thana election office",
+        "eligibility": "",
+        "required_documents": "Educational record bearing parents names and relevant family identity evidence.",
+        "application_method": "Apply with evidence for this field; determine fee through official calculator.",
+        "application_url": "https://services.nidw.gov.bd/nid-pub/",
+        "fee": "",
+        "processing_time": "",
+        "collection_method": "",
+        "source_id": "S008;S009",
+        "notes": "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed.",
+        "checked_on": "2026-10-12",
+        "verification_status": "partially_verified",
+        "geographic_scope": "Bangladesh - service overview",
+        "fee_source_id": "",
+        "processing_time_source_id": "",
+        "human_review_status": "pending",
+        "service_type": "NID Parents Name Correction",
+        "correction_category": "NID Parents Name Correction",
+        "supporting_evidence": "Educational record bearing parents names and relevant family identity evidence.",
+        "payment_method": "Official calculator/portal instructions; no universal fee stored",
+        "biometric_requirement": "",
+        "status_check_url": "https://services.nidw.gov.bd/nid-pub/",
+        "helpdesk": "CON-NID",
+        "complaint_route": "Election-office review; applicable statutory route requires current order; eligible service grievance through GRS"
+      },
+      "search_text": "{\"service_id\": \"JANUN-NID-007\", \"service_name_bn\": \"NID পিতা-মাতার নাম সংশোধন\", \"service_name_en\": \"NID Parents Name Correction\", \"authority\": \"Bangladesh Election Commission; relevant upazila/thana election office\", \"eligibility\": \"\", \"required_documents\": \"Educational record bearing parents names and relevant family identity evidence.\", \"application_method\": \"Apply with evidence for this field; determine fee through official calculator.\", \"application_url\": \"https://services.nidw.gov.bd/nid-pub/\", \"fee\": \"\", \"processing_time\": \"\", \"collection_method\": \"\", \"source_id\": \"S008;S009\", \"notes\": \"Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed.\", \"checked_on\": \"2026-10-12\", \"verification_status\": \"partially_verified\", \"geographic_scope\": \"Bangladesh - service overview\", \"fee_source_id\": \"\", \"processing_time_source_id\": \"\", \"human_review_status\": \"pending\", \"service_type\": \"NID Parents Name Correction\", \"correction_category\": \"NID Parents Name Correction\", \"supporting_evidence\": \"Educational record bearing parents names and relevant family identity evidence.\", \"payment_method\": \"Official calculator/portal instructions; no universal fee stored\", \"biometric_requirement\": \"\", \"status_check_url\": \"https://services.nidw.gov.bd/nid-pub/\", \"helpdesk\": \"CON-NID\", \"complaint_route\": \"Election-office review; applicable statutory route requires current order; eligible service grievance through GRS\"}"
+    }
+  },
+  {
+    "alias": "team-sami-janun-nid-008",
+    "canonical": "team-sami-janun-id-002",
+    "previous": {
+      "id": "sami:nid_services:JANUN-NID-008:11",
+      "slug": "team-sami-janun-nid-008",
+      "name_bn": "NID ঠিকানার তথ্য সংশোধন",
+      "name_en": "NID Address Particulars Correction",
+      "category": "identity",
+      "description_bn": "টিমের সংগৃহীত সেবা-তথ্য। মানব যাচাই বাকি।",
+      "description_en": "Collected team research. Human verification pending.",
+      "official_url": "https://services.nidw.gov.bd/nid-pub/",
+      "status": "demo",
+      "verification_status": "needs_review",
+      "last_verified_at": null,
+      "owner": "Sami",
+      "scope": "Bangladesh - service overview",
+      "notes": [
+        "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed."
+      ],
+      "eligibility": [],
+      "documents": [
+        "Deed, utility bill or rent evidence, as applicable."
+      ],
+      "steps": [
+        "Apply with evidence for this field; determine fee through official calculator."
+      ],
+      "fees": null,
+      "processing_time": null,
+      "deadline": null,
+      "sources": [
+        {
+          "id": "team-sami-janun-nid-008-0",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/",
+          "agency": "Team research — Sami"
+        },
+        {
+          "id": "team-sami-janun-nid-008-1",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/faq?tab=faq-correction",
+          "agency": "Team research — Sami"
+        },
+        {
+          "id": "team-sami-janun-nid-008-2",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/fees",
+          "agency": "Team research — Sami"
+        }
+      ],
+      "conflicts": [
+        "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed."
+      ],
+      "raw_fields": {
+        "service_id": "JANUN-NID-008",
+        "service_name_bn": "NID ঠিকানার তথ্য সংশোধন",
+        "service_name_en": "NID Address Particulars Correction",
+        "authority": "Bangladesh Election Commission; relevant upazila/thana election office",
+        "eligibility": "",
+        "required_documents": "Deed, utility bill or rent evidence, as applicable.",
+        "application_method": "Apply with evidence for this field; determine fee through official calculator.",
+        "application_url": "https://services.nidw.gov.bd/nid-pub/",
+        "fee": "",
+        "processing_time": "",
+        "collection_method": "",
+        "source_id": "S008;S009",
+        "notes": "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed.",
+        "checked_on": "2026-10-12",
+        "verification_status": "partially_verified",
+        "geographic_scope": "Bangladesh - service overview",
+        "fee_source_id": "",
+        "processing_time_source_id": "",
+        "human_review_status": "pending",
+        "service_type": "NID Address Particulars Correction",
+        "correction_category": "NID Address Particulars Correction",
+        "supporting_evidence": "Deed, utility bill or rent evidence, as applicable.",
+        "payment_method": "Official calculator/portal instructions; no universal fee stored",
+        "biometric_requirement": "",
+        "status_check_url": "https://services.nidw.gov.bd/nid-pub/",
+        "helpdesk": "CON-NID",
+        "complaint_route": "Election-office review; applicable statutory route requires current order; eligible service grievance through GRS"
+      },
+      "search_text": "{\"service_id\": \"JANUN-NID-008\", \"service_name_bn\": \"NID ঠিকানার তথ্য সংশোধন\", \"service_name_en\": \"NID Address Particulars Correction\", \"authority\": \"Bangladesh Election Commission; relevant upazila/thana election office\", \"eligibility\": \"\", \"required_documents\": \"Deed, utility bill or rent evidence, as applicable.\", \"application_method\": \"Apply with evidence for this field; determine fee through official calculator.\", \"application_url\": \"https://services.nidw.gov.bd/nid-pub/\", \"fee\": \"\", \"processing_time\": \"\", \"collection_method\": \"\", \"source_id\": \"S008;S009\", \"notes\": \"Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed.\", \"checked_on\": \"2026-10-12\", \"verification_status\": \"partially_verified\", \"geographic_scope\": \"Bangladesh - service overview\", \"fee_source_id\": \"\", \"processing_time_source_id\": \"\", \"human_review_status\": \"pending\", \"service_type\": \"NID Address Particulars Correction\", \"correction_category\": \"NID Address Particulars Correction\", \"supporting_evidence\": \"Deed, utility bill or rent evidence, as applicable.\", \"payment_method\": \"Official calculator/portal instructions; no universal fee stored\", \"biometric_requirement\": \"\", \"status_check_url\": \"https://services.nidw.gov.bd/nid-pub/\", \"helpdesk\": \"CON-NID\", \"complaint_route\": \"Election-office review; applicable statutory route requires current order; eligible service grievance through GRS\"}"
+    }
+  },
+  {
+    "alias": "team-sami-janun-nid-009",
+    "canonical": "team-sami-janun-id-002",
+    "previous": {
+      "id": "sami:nid_services:JANUN-NID-009:12",
+      "slug": "team-sami-janun-nid-009",
+      "name_bn": "NID বৈবাহিক তথ্য সংশোধন",
+      "name_en": "NID Marital Particulars Correction",
+      "category": "identity",
+      "description_bn": "টিমের সংগৃহীত সেবা-তথ্য। মানব যাচাই বাকি।",
+      "description_en": "Collected team research. Human verification pending.",
+      "official_url": "https://services.nidw.gov.bd/nid-pub/",
+      "status": "demo",
+      "verification_status": "needs_review",
+      "last_verified_at": null,
+      "owner": "Sami",
+      "scope": "Bangladesh - service overview",
+      "notes": [
+        "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed."
+      ],
+      "eligibility": [],
+      "documents": [
+        "Applicable marriage, divorce or death evidence."
+      ],
+      "steps": [
+        "Apply with evidence for this field; determine fee through official calculator."
+      ],
+      "fees": null,
+      "processing_time": null,
+      "deadline": null,
+      "sources": [
+        {
+          "id": "team-sami-janun-nid-009-0",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/",
+          "agency": "Team research — Sami"
+        },
+        {
+          "id": "team-sami-janun-nid-009-1",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/faq?tab=faq-correction",
+          "agency": "Team research — Sami"
+        },
+        {
+          "id": "team-sami-janun-nid-009-2",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/fees",
+          "agency": "Team research — Sami"
+        }
+      ],
+      "conflicts": [
+        "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed."
+      ],
+      "raw_fields": {
+        "service_id": "JANUN-NID-009",
+        "service_name_bn": "NID বৈবাহিক তথ্য সংশোধন",
+        "service_name_en": "NID Marital Particulars Correction",
+        "authority": "Bangladesh Election Commission; relevant upazila/thana election office",
+        "eligibility": "",
+        "required_documents": "Applicable marriage, divorce or death evidence.",
+        "application_method": "Apply with evidence for this field; determine fee through official calculator.",
+        "application_url": "https://services.nidw.gov.bd/nid-pub/",
+        "fee": "",
+        "processing_time": "",
+        "collection_method": "",
+        "source_id": "S008;S009",
+        "notes": "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed.",
+        "checked_on": "2026-10-12",
+        "verification_status": "partially_verified",
+        "geographic_scope": "Bangladesh - service overview",
+        "fee_source_id": "",
+        "processing_time_source_id": "",
+        "human_review_status": "pending",
+        "service_type": "NID Marital Particulars Correction",
+        "correction_category": "NID Marital Particulars Correction",
+        "supporting_evidence": "Applicable marriage, divorce or death evidence.",
+        "payment_method": "Official calculator/portal instructions; no universal fee stored",
+        "biometric_requirement": "",
+        "status_check_url": "https://services.nidw.gov.bd/nid-pub/",
+        "helpdesk": "CON-NID",
+        "complaint_route": "Election-office review; applicable statutory route requires current order; eligible service grievance through GRS"
+      },
+      "search_text": "{\"service_id\": \"JANUN-NID-009\", \"service_name_bn\": \"NID বৈবাহিক তথ্য সংশোধন\", \"service_name_en\": \"NID Marital Particulars Correction\", \"authority\": \"Bangladesh Election Commission; relevant upazila/thana election office\", \"eligibility\": \"\", \"required_documents\": \"Applicable marriage, divorce or death evidence.\", \"application_method\": \"Apply with evidence for this field; determine fee through official calculator.\", \"application_url\": \"https://services.nidw.gov.bd/nid-pub/\", \"fee\": \"\", \"processing_time\": \"\", \"collection_method\": \"\", \"source_id\": \"S008;S009\", \"notes\": \"Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed.\", \"checked_on\": \"2026-10-12\", \"verification_status\": \"partially_verified\", \"geographic_scope\": \"Bangladesh - service overview\", \"fee_source_id\": \"\", \"processing_time_source_id\": \"\", \"human_review_status\": \"pending\", \"service_type\": \"NID Marital Particulars Correction\", \"correction_category\": \"NID Marital Particulars Correction\", \"supporting_evidence\": \"Applicable marriage, divorce or death evidence.\", \"payment_method\": \"Official calculator/portal instructions; no universal fee stored\", \"biometric_requirement\": \"\", \"status_check_url\": \"https://services.nidw.gov.bd/nid-pub/\", \"helpdesk\": \"CON-NID\", \"complaint_route\": \"Election-office review; applicable statutory route requires current order; eligible service grievance through GRS\"}"
+    }
+  },
+  {
+    "alias": "team-sami-janun-nid-010",
+    "canonical": "team-sami-janun-id-002",
+    "previous": {
+      "id": "sami:nid_services:JANUN-NID-010:13",
+      "slug": "team-sami-janun-nid-010",
+      "name_bn": "NID রক্তের গ্রুপ সংশোধন",
+      "name_en": "NID Blood Group Correction",
+      "category": "identity",
+      "description_bn": "টিমের সংগৃহীত সেবা-তথ্য। মানব যাচাই বাকি।",
+      "description_en": "Collected team research. Human verification pending.",
+      "official_url": "https://services.nidw.gov.bd/nid-pub/",
+      "status": "demo",
+      "verification_status": "needs_review",
+      "last_verified_at": null,
+      "owner": "Sami",
+      "scope": "Bangladesh - service overview",
+      "notes": [
+        "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed."
+      ],
+      "eligibility": [],
+      "documents": [
+        "Blood group medical/diagnostic evidence."
+      ],
+      "steps": [
+        "Apply with evidence for this field; determine fee through official calculator."
+      ],
+      "fees": null,
+      "processing_time": null,
+      "deadline": null,
+      "sources": [
+        {
+          "id": "team-sami-janun-nid-010-0",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/",
+          "agency": "Team research — Sami"
+        },
+        {
+          "id": "team-sami-janun-nid-010-1",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/faq?tab=faq-correction",
+          "agency": "Team research — Sami"
+        },
+        {
+          "id": "team-sami-janun-nid-010-2",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://services.nidw.gov.bd/nid-pub/fees",
+          "agency": "Team research — Sami"
+        }
+      ],
+      "conflicts": [
+        "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed."
+      ],
+      "raw_fields": {
+        "service_id": "JANUN-NID-010",
+        "service_name_bn": "NID রক্তের গ্রুপ সংশোধন",
+        "service_name_en": "NID Blood Group Correction",
+        "authority": "Bangladesh Election Commission; relevant upazila/thana election office",
+        "eligibility": "",
+        "required_documents": "Blood group medical/diagnostic evidence.",
+        "application_method": "Apply with evidence for this field; determine fee through official calculator.",
+        "application_url": "https://services.nidw.gov.bd/nid-pub/",
+        "fee": "",
+        "processing_time": "",
+        "collection_method": "",
+        "source_id": "S008;S009",
+        "notes": "Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed.",
+        "checked_on": "2026-10-12",
+        "verification_status": "partially_verified",
+        "geographic_scope": "Bangladesh - service overview",
+        "fee_source_id": "",
+        "processing_time_source_id": "",
+        "human_review_status": "pending",
+        "service_type": "NID Blood Group Correction",
+        "correction_category": "NID Blood Group Correction",
+        "supporting_evidence": "Blood group medical/diagnostic evidence.",
+        "payment_method": "Official calculator/portal instructions; no universal fee stored",
+        "biometric_requirement": "",
+        "status_check_url": "https://services.nidw.gov.bd/nid-pub/",
+        "helpdesk": "CON-NID",
+        "complaint_route": "Election-office review; applicable statutory route requires current order; eligible service grievance through GRS"
+      },
+      "search_text": "{\"service_id\": \"JANUN-NID-010\", \"service_name_bn\": \"NID রক্তের গ্রুপ সংশোধন\", \"service_name_en\": \"NID Blood Group Correction\", \"authority\": \"Bangladesh Election Commission; relevant upazila/thana election office\", \"eligibility\": \"\", \"required_documents\": \"Blood group medical/diagnostic evidence.\", \"application_method\": \"Apply with evidence for this field; determine fee through official calculator.\", \"application_url\": \"https://services.nidw.gov.bd/nid-pub/\", \"fee\": \"\", \"processing_time\": \"\", \"collection_method\": \"\", \"source_id\": \"S008;S009\", \"notes\": \"Summary evidence guidance, not an exhaustive current mandatory checklist. Individual review and processing time not confirmed.\", \"checked_on\": \"2026-10-12\", \"verification_status\": \"partially_verified\", \"geographic_scope\": \"Bangladesh - service overview\", \"fee_source_id\": \"\", \"processing_time_source_id\": \"\", \"human_review_status\": \"pending\", \"service_type\": \"NID Blood Group Correction\", \"correction_category\": \"NID Blood Group Correction\", \"supporting_evidence\": \"Blood group medical/diagnostic evidence.\", \"payment_method\": \"Official calculator/portal instructions; no universal fee stored\", \"biometric_requirement\": \"\", \"status_check_url\": \"https://services.nidw.gov.bd/nid-pub/\", \"helpdesk\": \"CON-NID\", \"complaint_route\": \"Election-office review; applicable statutory route requires current order; eligible service grievance through GRS\"}"
+    }
+  },
+  {
+    "alias": "team-sami-janun-lc-002",
+    "canonical": "team-sami-janun-lc-001",
+    "previous": {
+      "id": "sami:certificates:JANUN-LC-002:2",
+      "slug": "team-sami-janun-lc-002",
+      "name_bn": "স্থায়ী বাসিন্দা বা ঠিকানা প্রত্যয়ন",
+      "name_en": "Residency Certificate",
+      "category": "identity",
+      "description_bn": "টিমের সংগৃহীত সেবা-তথ্য। মানব যাচাই বাকি।",
+      "description_en": "Collected team research. Human verification pending.",
+      "official_url": "https://bdris.dscc.gov.bd/",
+      "status": "demo",
+      "verification_status": "needs_review",
+      "last_verified_at": null,
+      "owner": "Sami",
+      "scope": "Local jurisdiction only; examples are not nationwide rules",
+      "notes": [
+        "National fee/time not asserted. Local attestation is not citizenship acquisition, NID, or a court succession certificate. Residency-specific checklist not verified."
+      ],
+      "eligibility": [],
+      "documents": [
+        "Current issuing-office checklist; see separately scoped local variations."
+      ],
+      "steps": [
+        "Apply at competent local office; use an online service only when that office supports it."
+      ],
+      "fees": null,
+      "processing_time": null,
+      "deadline": null,
+      "sources": [
+        {
+          "id": "team-sami-janun-lc-002-0",
+          "title": "Collected source / সংগৃহীত উৎস",
+          "url": "https://bdris.dscc.gov.bd/",
+          "agency": "Team research — Sami"
+        }
+      ],
+      "conflicts": [
+        "National fee/time not asserted. Local attestation is not citizenship acquisition, NID, or a court succession certificate. Residency-specific checklist not verified."
+      ],
+      "raw_fields": {
+        "certificate_id": "JANUN-LC-002",
+        "service_name_bn": "স্থায়ী বাসিন্দা বা ঠিকানা প্রত্যয়ন",
+        "service_name_en": "Residency Certificate",
+        "authority": "Competent union parishad / municipality / city corporation office",
+        "eligibility": "",
+        "required_documents": "Current issuing-office checklist; see separately scoped local variations.",
+        "application_method": "Apply at competent local office; use an online service only when that office supports it.",
+        "application_url": "",
+        "fee": "",
+        "processing_time": "",
+        "collection_method": "Issuing local office / applicable local portal",
+        "source_id": "S004",
+        "notes": "National fee/time not asserted. Local attestation is not citizenship acquisition, NID, or a court succession certificate. Residency-specific checklist not verified.",
+        "checked_on": "2026-10-12",
+        "verification_status": "pending_local_verification",
+        "geographic_scope": "Local jurisdiction only; examples are not nationwide rules",
+        "fee_source_id": "",
+        "processing_time_source_id": "",
+        "human_review_status": "pending",
+        "certificate_name_bn": "স্থায়ী বাসিন্দা বা ঠিকানা প্রত্যয়ন",
+        "certificate_name_en": "Residency Certificate",
+        "certificate_type": "local_attestation",
+        "issuing_authority": "Competent union parishad / municipality / city corporation office",
+        "purpose": "Local documentary attestation; accepted use depends on receiving institution",
+        "local_office": "See local_offices.csv"
+      },
+      "search_text": "{\"certificate_id\": \"JANUN-LC-002\", \"service_name_bn\": \"স্থায়ী বাসিন্দা বা ঠিকানা প্রত্যয়ন\", \"service_name_en\": \"Residency Certificate\", \"authority\": \"Competent union parishad / municipality / city corporation office\", \"eligibility\": \"\", \"required_documents\": \"Current issuing-office checklist; see separately scoped local variations.\", \"application_method\": \"Apply at competent local office; use an online service only when that office supports it.\", \"application_url\": \"\", \"fee\": \"\", \"processing_time\": \"\", \"collection_method\": \"Issuing local office / applicable local portal\", \"source_id\": \"S004\", \"notes\": \"National fee/time not asserted. Local attestation is not citizenship acquisition, NID, or a court succession certificate. Residency-specific checklist not verified.\", \"checked_on\": \"2026-10-12\", \"verification_status\": \"pending_local_verification\", \"geographic_scope\": \"Local jurisdiction only; examples are not nationwide rules\", \"fee_source_id\": \"\", \"processing_time_source_id\": \"\", \"human_review_status\": \"pending\", \"certificate_name_bn\": \"স্থায়ী বাসিন্দা বা ঠিকানা প্রত্যয়ন\", \"certificate_name_en\": \"Residency Certificate\", \"certificate_type\": \"local_attestation\", \"issuing_authority\": \"Competent union parishad / municipality / city corporation office\", \"purpose\": \"Local documentary attestation; accepted use depends on receiving institution\", \"local_office\": \"See local_offices.csv\"}"
+    }
+  }
+]

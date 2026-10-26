@@ -1,0 +1,48 @@
+/* The approved mobile illustration is one uncropped, in-flow image.
+   Desktop/tablet keep the existing landscape and separate citizen artwork. */
+.mobile-home-artwork{display:none}
+@media(max-width:760px){
+ .home-main .citizen-hero,html[data-theme=dark] .home-main .citizen-hero{background:#f4efd9;background-image:none}
+ .home-main .citizen-hero:before,.home-main .citizen-hero:after{display:none;content:none}
+ .home-main .citizen-hero>.memorial-backdrop,.home-main .citizen-art{display:none}
+ .home-main .hero{display:flex;flex-direction:column;align-items:stretch;gap:0;width:100%;max-width:none;min-height:0;height:auto;padding:0;margin:0}
+ .home-main .hero-copy{position:relative;z-index:1;padding:21px 18px 12px;min-width:0;width:100%;max-width:none;background:linear-gradient(180deg,#faf4df,#f4efd9)}
+ .home-main .hero h1,html[lang=bn] .home-main .hero h1{font-size:27px;line-height:1.35;letter-spacing:-.015em;margin:0 0 12px;max-width:none}
+ .home-main .hero-description{font-size:12.5px;line-height:1.7;max-width:none;margin:0 0 17px;color:#24483d}
+ .home-main .hero-search{width:100%;max-width:none;min-height:54px;padding:4px 4px 4px 12px;gap:4px;border-radius:28px;background:#fff;color:#26473e}
+ .home-main .hero-search input{min-width:0;min-height:44px;font-size:14px;color:#26473e}
+ .home-main .hero-search .voice-input button{height:44px;width:36px;min-width:36px;padding:7px;color:#31594c}
+ .home-main .hero-search .search-submit{height:44px;width:44px;min-width:44px;border-radius:50%}
+ .home-main .suggestions{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:7px;max-width:none;margin-top:12px}
+ .home-main .suggestions>span{flex:0 0 100%;width:100%;padding:0;margin:0;font-size:10px;line-height:1.5;grid-row:auto;color:#365b4f}
+ .home-main .suggestions a,.home-main .hero-copy .suggestions a:first-of-type{font-size:10px;line-height:1.5;min-height:44px;padding:8px 12px;white-space:normal;border-radius:24px;background:#f8fcf2;color:#244b3d;border-color:#cddfcd;display:inline-flex;align-items:center;justify-content:center;max-width:100%}
+ .home-main .mobile-home-artwork{display:block;position:static;align-self:stretch;width:100%;height:auto;max-width:none;max-height:none;aspect-ratio:1199/698;object-fit:contain;object-position:center bottom;margin:0;border:0;border-radius:0;filter:none;transform:none}
+ html[data-theme=dark] .home-main .citizen-hero{background:#062f2c}
+ html[data-theme=dark] .home-main .hero-copy{background:linear-gradient(180deg,#062f2c,#103d35)}
+ html[data-theme=dark] .home-main .hero-description,html[data-theme=dark] .home-main .suggestions>span{color:#d6e8df}
+ html[data-theme=dark] .home-main .suggestions a{background:#123e37;color:#eff8f1;border-color:#477366}
+ html[data-theme=dark] .home-main .hero-search{background:#f8fcf8;color:#26473e}
+ html[data-theme=dark] .home-main .hero-search input{color:#26473e}
+ html[data-theme=dark] .home-main .hero-search input::placeholder{color:#667e74}
+}
+/* Compact mobile hero: artwork no longer adds a separate block below controls. */
+@media(max-width:760px){
+ .home-main .hero{position:relative;isolation:isolate;overflow:hidden}
+ .home-main .hero-copy{padding:18px 18px 16px;background:linear-gradient(90deg,#faf4dfee,#faf4dfb8 58%,#faf4df60);min-height:0}
+ .home-main .mobile-home-artwork{position:absolute;inset:0 0 auto;width:100%;height:auto;aspect-ratio:1199/698;object-fit:contain;opacity:.38;z-index:-1;pointer-events:none}
+ .home-main .hero h1,html[lang=bn] .home-main .hero h1{font-size:26px;line-height:1.3;margin-bottom:10px}
+ .home-main .hero-description{font-size:12px;line-height:1.6;margin-bottom:12px}
+ .home-main .suggestions{gap:6px;margin-top:9px}
+ .home-main .suggestions>span{flex-basis:auto;width:auto;font-size:9px}
+ .home-main .suggestions a,.home-main .hero-copy .suggestions a:first-of-type{font-size:9px;min-height:36px;padding:7px 9px;background:#f8fcf2ed}
+ html[data-theme=dark] .home-main .hero-copy{background:linear-gradient(90deg,#062f2cee,#062f2cbd 58%,#062f2c60)}
+ html[data-theme=dark] .home-main .mobile-home-artwork{opacity:.48;filter:none}
+ html[data-theme=dark] .home-main .suggestions a{background:#123e37ed}
+}
+@media(max-width:760px){
+ .home-main .mobile-home-artwork{inset:12px 12px auto auto;width:46%;opacity:.65;z-index:0}
+ .home-main .hero-copy{background:transparent}
+ .home-main .hero h1,html[lang=bn] .home-main .hero h1{max-width:48%;font-size:23px;line-height:1.4;min-height:116px;margin-bottom:8px}
+ html[data-theme=dark] .home-main .hero-copy{background:transparent}
+ html[data-theme=dark] .home-main .mobile-home-artwork{opacity:.65}
+}

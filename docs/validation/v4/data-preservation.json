@@ -1,0 +1,51 @@
+{
+  "services": 254,
+  "original_team_rows": 5037,
+  "files": [
+    {
+      "path": "public/demo-data.json",
+      "unchanged": true,
+      "sha256": "dc2d8ed3200075562a118e643ed54c52479eee9a9a7a11b8f05bc35a7cd97878"
+    },
+    {
+      "path": "backend/data/team-catalogue.json",
+      "unchanged": true,
+      "sha256": "97f297952a240bd25d52f68f952975c392990603a3a5e18568f21736881c309c"
+    },
+    {
+      "path": "src/lib/evidence-overlay.json",
+      "unchanged": true,
+      "sha256": "50446c6acfe8dd3791af2b4750c6bb29d9cb79fcb705dbf8153ea30d105cca09"
+    },
+    {
+      "path": "backend/data/evidence-overlay.json",
+      "unchanged": true,
+      "sha256": "50446c6acfe8dd3791af2b4750c6bb29d9cb79fcb705dbf8153ea30d105cca09"
+    },
+    {
+      "path": "team-data-originals/Janun-National-Data-Pack(1).zip",
+      "unchanged": true,
+      "sha256": "ead86b05c996e51e4f29432fc48834521d2f5bd7c8691a8a5af83bb00e2f0d3f"
+    },
+    {
+      "path": "team-data-originals/JANUN_identity_civil_registration_legal_services_updated (sami).zip",
+      "unchanged": true,
+      "sha256": "da24605158a47a96a096e0f3cce5e240065ce4d6ae90d858019e7d77fa3a962e"
+    },
+    {
+      "path": "team-data-originals/JANUN_tammam_education_admissions_scholarships_jobs_training_updated.zip",
+      "unchanged": true,
+      "sha256": "baff3ba62eb61d96f22bc924f470d077792a9de6d76332ba246a269f932505e9"
+    },
+    {
+      "path": "team-data-originals/JANUN_deep_health_social_security_CSV_bundle_updated.zip",
+      "unchanged": true,
+      "sha256": "0544ef8d2d43199da6a67fdfa3f76fa1ffe52ad5fc36b09190bc58b7b5da915c"
+    },
+    {
+      "path": "team-data-originals/Janun_Nafiew_Updated_Data.zip",
+      "unchanged": true,
+      "sha256": "2e724c6f6f0ffc655cbacd0dbbd0a914475f9465f410340f9c61cbbe7255bd59"
+    }
+  ]
+}

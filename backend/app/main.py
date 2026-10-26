@@ -63,7 +63,7 @@ def categories(db:DBSession=Depends(get_db)):
     return [{'slug':c.slug,'name_en':c.name_en,'name_bn':c.name_bn,'icon':c.icon} for c in db.scalars(select(Category).order_by(Category.name_en))]
 
 @app.get('/api/services')
-def services(q:str=Query(default='',max_length=200),category:str=Query(default='',max_length=80),page:int=Query(default=1,ge=1),page_size:int=Query(default=12,ge=1,le=50),db:DBSession=Depends(get_db)):
+def services(q:str=Query(default='',max_length=200),category:str=Query(default='',max_length=80),page:int=Query(default=1,ge=1),page_size:int=Query(default=12,ge=1,le=50),db:DBSession=Depends(get_db),sort:str=Query(default='name',pattern='^(name|name_desc)$')):
     stmt=select(Service).where(Service.status=='published')
     if category:
         if not db.get(Category,category):raise HTTPException(404,'Category not found')
@@ -75,7 +75,7 @@ def services(q:str=Query(default='',max_length=200),category:str=Query(default='
         columns=(Service.name_en,Service.name_bn,Service.description_en,Service.description_bn)
         stmt=stmt.where(or_(*[column.ilike('%'+t+'%') for t in terms for column in columns]) if terms else false())
     total=db.scalar(select(func.count()).select_from(stmt.subquery()))
-    records=list(db.scalars(stmt.order_by(Service.name_en,Service.id).offset((page-1)*page_size).limit(page_size)))
+    records=list(db.scalars(stmt.order_by(Service.name_en.desc() if sort=='name_desc' else Service.name_en,Service.id).offset((page-1)*page_size).limit(page_size)))
     evidence={s.id:[] for s in records}
     if records:
         rows=db.execute(select(Source,SourceVersion).join(SourceVersion,Source.current_version==SourceVersion.id).where(Source.service_id.in_(evidence),SourceVersion.status=='published',SourceVersion.review_due>now()))
@@ -84,7 +84,7 @@ def services(q:str=Query(default='',max_length=200),category:str=Query(default='
     for service in records:
         sources=evidence[service.id]
         dates=[v.verified_at for _,v in sources if v.verified_at]
-        items.append({**service_json(service),'verification_status':'current' if sources else 'needs_review','source_count':len(sources),'last_verified_at':max(dates).isoformat() if dates else None,'authorities':sorted({s.agency for s,_ in sources if s.agency})})
+        items.append({**service_json(service),'status':'source_confirmed_document' if any(v.claims.get('document_update') for _,v in sources) else service.status,'verification_status':'current' if dates else 'needs_review','source_count':len(sources),'last_verified_at':max(dates).isoformat() if dates else None,'authorities':sorted({s.agency for s,_ in sources if s.agency})})
     return {'items':items,'total':total,'page':page,'page_size':page_size}
 
 @app.get('/api/categories/{slug}/services')
@@ -94,6 +94,8 @@ def category_services(slug:str,db:DBSession=Depends(get_db)):
 
 @app.get('/api/services/{slug}')
 def detail(slug:str,db:DBSession=Depends(get_db)):
+    from .document_release import resolve_slug
+    slug=resolve_slug(slug)
     obj=db.scalar(select(Service).where(Service.slug==slug,Service.status=='published'))
     if not obj:raise HTTPException(404,'This service is not published yet')
     return service_detail(db,obj)

@@ -1,0 +1,11 @@
+{
+  "old_services": 254,
+  "active_services": 271,
+  "replaced": 53,
+  "added": 31,
+  "aliases": 14,
+  "unchanged_services": 187,
+  "all_old_routes_resolve": true,
+  "original_team_catalogue_unchanged": true,
+  "catalogue_sha256": "97f297952a240bd25d52f68f952975c392990603a3a5e18568f21736881c309c"
+}

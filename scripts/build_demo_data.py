@@ -39,7 +39,25 @@ for r in x['records']:
  desc=s.get('description_bn') or val(p,'service_description','description') or 'টিমের সংগৃহীত সেবা-তথ্য। মানব যাচাই বাকি।'
  services.append(dict(id=r['id'],slug=slug,name_bn=r['name'],name_en=r['name_en'] or r['name'],category=category,description_bn=desc,description_en=s.get('description_en') or 'Collected team research. Human verification pending.',official_url=s.get('official_url') or val(p,'official_information_url','official_link') or (links[0] if links else ''),status='demo',verification_status='needs_review',last_verified_at=None,owner=r['owner'],scope=scope,notes=notes,eligibility=items(c.get('eligibility') or val(p,'eligibility','eligible_who')),documents=items(c.get('documents') or val(p,'required_documents','documents')),steps=items(c.get('steps') or val(p,'steps','application_procedure','application_method')),fees=c.get('fees') or val(p,'fee_information','govt_fee','fee'),processing_time=c.get('processing_time') or p.get('processing_time') or None,deadline=c.get('deadline') or val(p,'duration_deadline','apply_end'),sources=[dict(id=slug+'-'+str(i),title='Collected source / সংগৃহীত উৎস',url=u,agency='Team research — '+r['owner']) for i,u in enumerate(links)],conflicts=notes,raw_fields=p,search_text=json.dumps(p,ensure_ascii=False)))
 assert len({s['slug'] for s in services})==len(services)
+# Explicit authorized document replacement. Unknown fields are cleared; older
+# research is preserved in team-catalogue.json and the release's change ledger.
+release_path=ROOT/'backend/data/document-release.json'
+aliases={};changes=[]
+if release_path.exists():
+ release=json.loads(release_path.read_text());by_slug={s['slug']:s for s in services}
+ for incoming in release['services']:
+  row=dict(incoming);slug=row['slug'];old=by_slug.get(slug)
+  if old:row['id']=old['id']
+  changes.append({'slug':slug,'action':'replaced' if old else 'added','previous':old,'document':row['document_update']['document']})
+  for alias in row.pop('aliases',[]):
+   if alias in by_slug:aliases[alias]=slug
+  by_slug[slug]=row
+ superseded=[{'alias':alias,'canonical':target,'previous':by_slug.get(alias)} for alias,target in aliases.items()]
+ (ROOT/'docs/validation/document-superseded-aliases.json').write_text(json.dumps(superseded,ensure_ascii=False,indent=2))
+ for alias in aliases:by_slug.pop(alias,None)
+ services=list(by_slug.values())
+ (ROOT/'docs/validation/document-replacement-ledger.json').write_text(json.dumps(changes,ensure_ascii=False,indent=2))
 used=sorted({s['category'] for s in services})
-data={'mode':'unverified_demo','services':services,'categories':[dict(slug=k,name_en=categories.get(k,(k,k))[0],name_bn=categories.get(k,(k,k))[1],icon='FileText') for k in used],'team_records':len(x['records'])}
+data={'mode':'source_document_release','services':services,'aliases':aliases,'document_release':'five-documents-2026-10-25' if release_path.exists() else None,'categories':[dict(slug=k,name_en=categories.get(k,(k,k))[0],name_bn=categories.get(k,(k,k))[1],icon='FileText') for k in used],'team_records':len(x['records'])}
 out=(ROOT/'frontend/public/demo-data.json') if (ROOT/'frontend').is_dir() else (ROOT/'public/demo-data.json');out.parent.mkdir(exist_ok=True);out.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')))
 print(f'{len(services)} demo records; {len(used)} categories; {out.stat().st_size} bytes')

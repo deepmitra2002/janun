@@ -1,0 +1,52 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> janun-web@0.1.0 build
+> node scripts/prepare-browser-assets.mjs && next build
+
+▲ Next.js 16.4.3 (Turbopack)
+- Environments: .env.production
+✓ Running next.config.ts took 23ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 622ms
+  Running TypeScript ...
+  Finished TypeScript in 1541ms ...
+  Collecting page data using 8 workers ...
+  Generating static pages using 8 workers (0/280) ...
+  Generating static pages using 8 workers (70/280) 
+  Generating static pages using 8 workers (140/280) 
+  Generating static pages using 8 workers (210/280) 
+✓ Generating static pages using 8 workers (280/280) in 1038ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about
+├ ○ /admin
+├ ○ /ask
+├ ○ /categories
+├   /categories/[slug]
+│ ├ ● /categories/business
+│ ├ ● /categories/education
+│ ├ ● /categories/health
+│ └ ● [+7 more paths]
+├ ○ /contact
+├ ○ /disclaimer
+├ ○ /journeys
+├ ○ /privacy
+├ ○ /readiness
+├ ○ /services
+├   /services/[slug]
+│ ├ ● /services/team-deep-hsf-001
+│ ├ ● /services/team-deep-hsf-002
+│ ├ ● /services/team-deep-hsf-003
+│ └ ● [+251 more paths]
+├ ○ /sources
+├ ○ /terms
+└ ○ /verify
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

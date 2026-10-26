@@ -1,0 +1,2957 @@
+{
+  "filename": "4.docx",
+  "sha256": "08237e85ae9a329df3b5502982ced228b2f92c31b241b9e82523ffe8e00a6ed8",
+  "paragraphs": [
+    {
+      "text": "JANUN (জানুন)",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "Sami Workstream - VERIFIED DATA COLLECTION ONLY",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "Identity, Civil Registration, Police & Legal Services | Bangladesh\nVerified cut-off: 25 October 2026",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "1. How to use this file in JANUN",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "Each service record contains only verified facts, the main official source URL, and additional official references.",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "Dynamic fields such as fees, local requirements and processing times should keep a last_verified_at date in the app.",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "For location-dependent certificates, JANUN must ask the user’s local authority before showing a fixed checklist or fee.",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "QR/source cards in Appendix A are visual source references, not screenshots of private user data.",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "2. Verified service records",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "A1 - নতুন জন্ম নিবন্ধনের আবেদন",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "A2 - জন্ম নিবন্ধনের তথ্য সংশোধন",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "A3 - নাম, জন্মতারিখ ও পিতা-মাতার তথ্য সংশোধন",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "A4 - জন্ম নিবন্ধন সনদ যাচাই / পুনঃমুদ্রণ",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "A5 - মৃত্যু নিবন্ধনের আবেদন ও সংশোধন",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "A6 - NID সংক্রান্ত সেবা - মূল পোর্টাল",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "A7 - নতুন NID নিবন্ধন",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "A8 - NID নাম, জন্মতারিখ, ঠিকানা ও অন্যান্য তথ্য সংশোধন",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "A9 - হারানো বা নষ্ট NID পুনরায় সংগ্রহ",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "A10 - NID তথ্য যাচাই ও সহায়তা",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "A11 - নাগরিকত্ব / স্থায়ী বাসিন্দা / স্থানীয় প্রত্যয়নপত্র",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "A12 - বিবাহ নিবন্ধন ও সরকারি রেকর্ড",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "A13 - বিবাহবিচ্ছেদ নিবন্ধন ও সংশ্লিষ্ট প্রক্রিয়া",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "A14 - উত্তরাধিকার / ওয়ারিশ সনদ",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "A15 - নাম পরিবর্তন / নথিপত্র সংশোধনের সঠিক রুট",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "B1 - Police Clearance Certificate (PCC)",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "B2 - সাধারণ ডায়েরি (GD)",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "B3 - হারানো কাগজপত্র রিপোর্ট",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "B4 - নথিপত্র সত্যায়ন ও যাচাই",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "B5 - নোটারি ও হলফনামা",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "B6 - সরকারি আইনগত সহায়তা",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "B7 - নাগরিক অভিযোগ / GRS",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "B8 - পরিচয়পত্রের তথ্যের মধ্যে অসামঞ্জস্য সংশোধন",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "3. Data intentionally NOT included as verified facts",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "Exact nationwide BDRIS birth/death correction or reprint fees where the current official fee table was not reliably captured.",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "One fixed nationwide processing time for registrar-based birth/death corrections.",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "One fixed national fee/document checklist for citizenship, permanent-resident and heir certificates; these vary by local authority.",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "One exact nationwide marriage/divorce registration fee in the current portal where a current official citizen fee schedule was not confirmed.",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "One fixed nationwide Notary Public/affidavit fee.",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "One universal “name change” workflow covering Birth Registration, NID, passport and academic records - each authority has a separate process.",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "4. Official PDF / manual sources for the research archive",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "Election Commission - 2026 NID service fee notice (PDF): https://asset.ecs.gov.bd/media/uploaded_files/notices/2026/07/29199fa6-4ca1-4458-a68e-df9f9820eb52.pdf",
+      "links": [
+        "https://asset.ecs.gov.bd/media/uploaded_files/notices/2026/07/29199fa6-4ca1-4458-a68e-df9f9820eb52.pdf"
+      ],
+      "images": []
+    },
+    {
+      "text": "Election Commission - field-office Citizen Charter (PDF): https://asset.ecs.gov.bd/media/uploaded_files/notices/2026/07/3b504b25-6d15-4a22-8115-47b95f43da9a.pdf",
+      "links": [
+        "https://asset.ecs.gov.bd/media/uploaded_files/notices/2026/07/3b504b25-6d15-4a22-8115-47b95f43da9a.pdf"
+      ],
+      "images": []
+    },
+    {
+      "text": "Election Commission - NID correction form (PDF): https://asset.ecs.gov.bd/media/uploaded_files/page_tables/2026/06/d7d13a99-d023-4b01-9cbd-25b92d2ee0f3.pdf",
+      "links": [
+        "https://asset.ecs.gov.bd/media/uploaded_files/page_tables/2026/06/d7d13a99-d023-4b01-9cbd-25b92d2ee0f3.pdf"
+      ],
+      "images": []
+    },
+    {
+      "text": "Online GD User Manual (PDF): https://gd.police.gov.bd/UserManual/%E0%A6%85%E0%A6%A8%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8%20%E0%A6%9C%E0%A6%BF%E0%A6%A1%E0%A6%BF%20%E0%A6%87%E0%A6%89%E0%A6%9C%E0%A6%BE%E0%A6%B0%20%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A7%9F%E0%A6%BE%E0%A6%B2.pdf",
+      "links": [
+        "https://gd.police.gov.bd/UserManual/%E0%A6%85%E0%A6%A8%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8%20%E0%A6%9C%E0%A6%BF%E0%A6%A1%E0%A6%BF%20%E0%A6%87%E0%A6%89%E0%A6%9C%E0%A6%BE%E0%A6%B0%20%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A7%9F%E0%A6%BE%E0%A6%B2.pdf"
+      ],
+      "images": []
+    },
+    {
+      "text": "GRS User Manual (PDF): https://www.grs.gov.bd/assets/grs_user_manual.pdf",
+      "links": [
+        "https://www.grs.gov.bd/assets/grs_user_manual.pdf"
+      ],
+      "images": []
+    },
+    {
+      "text": "GRS Guidelines (PDF): https://www.grs.gov.bd/assets/grs_guideline.pdf",
+      "links": [
+        "https://www.grs.gov.bd/assets/grs_guideline.pdf"
+      ],
+      "images": []
+    },
+    {
+      "text": "Muslim Marriages & Divorces Registration Act 1974 (PDF): https://old.bdlaws.minlaw.gov.bd/upload/bdcodeact/2023-12-24-09-39-13-9.-Muslim-Marriages-and-Divorces-%28Registration%29-Act%2C-1974.pdf",
+      "links": [
+        "https://old.bdlaws.minlaw.gov.bd/upload/bdcodeact/2023-12-24-09-39-13-9.-Muslim-Marriages-and-Divorces-%28Registration%29-Act%2C-1974.pdf"
+      ],
+      "images": []
+    },
+    {
+      "text": "Muslim Family Laws Ordinance 1961 (PDF): https://old.bdlaws.minlaw.gov.bd/upload/bdcodeact/2023-12-14-10-00-49-335.-THE-MUSLIM-FAMILY-LAWS-ORDINANCE%2C-1961-1986_final-24.12.2.pdf",
+      "links": [
+        "https://old.bdlaws.minlaw.gov.bd/upload/bdcodeact/2023-12-14-10-00-49-335.-THE-MUSLIM-FAMILY-LAWS-ORDINANCE%2C-1961-1986_final-24.12.2.pdf"
+      ],
+      "images": []
+    },
+    {
+      "text": "Prottoyon User Manual (PDF): https://www.prottoyon.gov.bd/frontend/user_manual.pdf",
+      "links": [
+        "https://www.prottoyon.gov.bd/frontend/user_manual.pdf"
+      ],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "Appendix A - Main Source URL + Information + Source Image Cards",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "Each image below contains the main official URL, a QR code and the verified key facts used for JANUN.",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "BDRIS - Birth & Death Registration",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": [
+        "/evidence/documents-2026-10-25/doc-4-3f7482c65c76f8c6.png"
+      ]
+    },
+    {
+      "text": "Official source: https://bdris.gov.bd/",
+      "links": [
+        "https://bdris.gov.bd/"
+      ],
+      "images": []
+    },
+    {
+      "text": "NID Online Services",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": [
+        "/evidence/documents-2026-10-25/doc-4-7bad437710681c57.png"
+      ]
+    },
+    {
+      "text": "Official source: https://services.nidw.gov.bd/nid-pub/",
+      "links": [
+        "https://services.nidw.gov.bd/nid-pub/"
+      ],
+      "images": []
+    },
+    {
+      "text": "Police Clearance Certificate",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": [
+        "/evidence/documents-2026-10-25/doc-4-2ec1c336dc259a84.png"
+      ]
+    },
+    {
+      "text": "Official source: https://pcc.police.gov.bd/",
+      "links": [
+        "https://pcc.police.gov.bd/"
+      ],
+      "images": []
+    },
+    {
+      "text": "Online GD",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": [
+        "/evidence/documents-2026-10-25/doc-4-0ccf76ceb3703337.png"
+      ]
+    },
+    {
+      "text": "Official source: https://gd.police.gov.bd/",
+      "links": [
+        "https://gd.police.gov.bd/"
+      ],
+      "images": []
+    },
+    {
+      "text": "Marriage & Divorce Registration",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": [
+        "/evidence/documents-2026-10-25/doc-4-e5832e66201ff8d2.png"
+      ]
+    },
+    {
+      "text": "Official source: https://marriage.gov.bd/",
+      "links": [
+        "https://marriage.gov.bd/"
+      ],
+      "images": []
+    },
+    {
+      "text": "Prottoyon",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": [
+        "/evidence/documents-2026-10-25/doc-4-17ce10cadb2b2e11.png"
+      ]
+    },
+    {
+      "text": "Official source: https://www.prottoyon.gov.bd/",
+      "links": [
+        "https://www.prottoyon.gov.bd/"
+      ],
+      "images": []
+    },
+    {
+      "text": "Government Legal Aid",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": [
+        "/evidence/documents-2026-10-25/doc-4-b217fa2a8a06db27.png"
+      ]
+    },
+    {
+      "text": "Official source: https://nlaso.gov.bd/",
+      "links": [
+        "https://nlaso.gov.bd/"
+      ],
+      "images": []
+    },
+    {
+      "text": "GRS - Government Grievance Redress",
+      "links": [],
+      "images": []
+    },
+    {
+      "text": "",
+      "links": [],
+      "images": [
+        "/evidence/documents-2026-10-25/doc-4-974b5a0dce0c808b.png"
+      ]
+    },
+    {
+      "text": "Official source: https://www.grs.gov.bd/",
+      "links": [
+        "https://www.grs.gov.bd/"
+      ],
+      "images": []
+    }
+  ],
+  "tables": [
+    [
+      [
+        [
+          {
+            "text": "Verification rule used in this edition: Only facts supported by an official Government of Bangladesh portal, law, official notice, citizen charter, or official manual are included. Unverified nationwide fees, processing times, and local-document checklists are intentionally excluded.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Office of Registrar General, Birth & Death Registration / local registrar",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://bdris.gov.bd/br/application",
+            "links": [
+              "https://bdris.gov.bd/br/application"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "BDRIS provides the official online birth-registration application.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "The ORGBDR citizen charter instructs birth registration within 45 days of birth.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "The application collects child, parent and address information and accepts supporting image attachments.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "BDRIS support: 16152; help@bdris.gov.bd.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://orgbdr.gov.bd/pages/office-citizen-charters/6922d8a2933eb65569df96da",
+            "links": [
+              "https://orgbdr.gov.bd/pages/office-citizen-charters/6922d8a2933eb65569df96da"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d",
+            "links": [
+              "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "BDRIS / responsible registrar",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://bdris.gov.bd/br/correction",
+            "links": [
+              "https://bdris.gov.bd/br/correction"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "BDRIS has a dedicated birth-information correction service.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "The applicant must identify the existing record and submit documentary evidence supporting the requested correction.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Registrar review/decision is required; approval is not automatic.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "BDRIS support: 16152.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://orgbdr.gov.bd/pages/office-citizen-charters/6922d8a2933eb65569df96da",
+            "links": [
+              "https://orgbdr.gov.bd/pages/office-citizen-charters/6922d8a2933eb65569df96da"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "BDRIS / responsible registrar",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://bdris.gov.bd/br/correction",
+            "links": [
+              "https://bdris.gov.bd/br/correction"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Name, date of birth and parent-data corrections are handled through the official BDRIS correction route.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Supporting evidence is required for the field being corrected.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "The corrected civil record should be used before updating dependent identity documents.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://orgbdr.gov.bd/pages/static-pages/6922e065933eb65569e26d6e",
+            "links": [
+              "https://orgbdr.gov.bd/pages/static-pages/6922e065933eb65569e26d6e"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Office of Registrar General / BDRIS",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://everify.bdris.gov.bd/",
+            "links": [
+              "https://everify.bdris.gov.bd/"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Official birth-record verification uses the 17-digit birth registration number and date of birth.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Verification is available through the government eVerify service.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Reprint services are accessed through BDRIS/local registrar workflow.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://bdris.gov.bd/",
+            "links": [
+              "https://bdris.gov.bd/"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "BDRIS / local registrar",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://bdris.gov.bd/dr/application",
+            "links": [
+              "https://bdris.gov.bd/dr/application"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "BDRIS provides the official online death-registration application.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "ORGBDR citizen guidance instructs death registration within 45 days.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Death-record correction is handled through the official BDRIS framework.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "BDRIS support: 16152.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://orgbdr.gov.bd/pages/static-pages/6922dd63933eb65569e14d9c",
+            "links": [
+              "https://orgbdr.gov.bd/pages/static-pages/6922dd63933eb65569e14d9c"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Bangladesh Election Commission / NID Wing",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://services.nidw.gov.bd/nid-pub/",
+            "links": [
+              "https://services.nidw.gov.bd/nid-pub/"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "This is the Election Commission/NID Wing citizen portal for NID-related online services.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Citizens can use it for account-based NID services including registration/correction/reissue workflows where available.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "NID support helpline: 105.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://www.nidw.gov.bd/",
+            "links": [
+              "https://www.nidw.gov.bd/"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://ecs.gov.bd/",
+            "links": [
+              "https://ecs.gov.bd/"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Bangladesh Election Commission",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://services.nidw.gov.bd/nid-pub/",
+            "links": [
+              "https://services.nidw.gov.bd/nid-pub/"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "The NID portal includes the official route for new registration.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Election Commission publishes the prescribed national identity registration forms and field-office Citizen Charter.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Applicants must provide identity/civil-registration and address evidence according to the current EC process.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Helpline: 105.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://ecs.gov.bd/page/forms-related-to-national-identity-registration-5125856174",
+            "links": [
+              "https://ecs.gov.bd/page/forms-related-to-national-identity-registration-5125856174"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://asset.ecs.gov.bd/media/uploaded_files/notices/2026/07/3b504b25-6d15-4a22-8115-47b95f43da9a.pdf",
+            "links": [
+              "https://asset.ecs.gov.bd/media/uploaded_files/notices/2026/07/3b504b25-6d15-4a22-8115-47b95f43da9a.pdf"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Bangladesh Election Commission / NID Wing",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://services.nidw.gov.bd/nid-pub/",
+            "links": [
+              "https://services.nidw.gov.bd/nid-pub/"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "NID correction requires supporting evidence for the specific field.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "EC guidance lists records such as SSC certificate, birth registration, passport, driving licence, marriage/divorce documents, affidavit/newspaper notice or service book depending on the case.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "2026 EC fee notice: visible NID data correction - 1st Tk 200 + VAT 30; 2nd Tk 300 + VAT 45; later Tk 400 + VAT 60.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "2026 EC fee notice: other stored information correction - 1st Tk 100 + VAT 15; 2nd Tk 200 + VAT 30; later Tk 300 + VAT 45.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Helpline: 105.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://asset.ecs.gov.bd/media/uploaded_files/notices/2026/07/29199fa6-4ca1-4458-a68e-df9f9820eb52.pdf",
+            "links": [
+              "https://asset.ecs.gov.bd/media/uploaded_files/notices/2026/07/29199fa6-4ca1-4458-a68e-df9f9820eb52.pdf"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://ecs.gov.bd/page/form-prescribed-under-the-national-identity-registration-rules-1710564329",
+            "links": [
+              "https://ecs.gov.bd/page/form-prescribed-under-the-national-identity-registration-rules-1710564329"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Bangladesh Election Commission / NID Wing",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://services.nidw.gov.bd/nid-pub/",
+            "links": [
+              "https://services.nidw.gov.bd/nid-pub/"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Election Commission publishes the official reissue/duplicate route and forms.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "2026 EC fee notice: normal duplicate - 1st Tk 200, 2nd Tk 300, subsequent Tk 500; 15% VAT applies.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "2026 EC fee notice: urgent duplicate - 1st Tk 300, 2nd Tk 500, subsequent Tk 1000; 15% VAT applies.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Helpline: 105.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://ecs.gov.bd/page/forms-related-to-national-identity-registration-5125856174",
+            "links": [
+              "https://ecs.gov.bd/page/forms-related-to-national-identity-registration-5125856174"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://asset.ecs.gov.bd/media/uploaded_files/notices/2026/07/29199fa6-4ca1-4458-a68e-df9f9820eb52.pdf",
+            "links": [
+              "https://asset.ecs.gov.bd/media/uploaded_files/notices/2026/07/29199fa6-4ca1-4458-a68e-df9f9820eb52.pdf"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Bangladesh Election Commission",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://services.nidw.gov.bd/nid-pub/",
+            "links": [
+              "https://services.nidw.gov.bd/nid-pub/"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Citizens use the NID portal for their own account/service information.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Election Commission publishes separate prescribed forms for formal verification/data-supply workflows.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Public users should not be told that they can freely query another person’s NID data.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Helpline: 105.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://ecs.gov.bd/page/form-prescribed-under-the-national-identity-registration-rules-1710564329",
+            "links": [
+              "https://ecs.gov.bd/page/form-prescribed-under-the-national-identity-registration-rules-1710564329"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Local Government authority / Prottoyon where covered",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://www.prottoyon.gov.bd/register/citizen",
+            "links": [
+              "https://www.prottoyon.gov.bd/register/citizen"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Prottoyon is a government-backed online citizen-certificate platform used by covered local authorities.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Citizen profile and address information are used for certificate applications.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Certificate availability depends on whether the relevant Union/Municipality/local authority is covered.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Local authority approval is required.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://www.prottoyon.gov.bd/faq",
+            "links": [
+              "https://www.prottoyon.gov.bd/faq"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://www.prottoyon.gov.bd/union/covered",
+            "links": [
+              "https://www.prottoyon.gov.bd/union/covered"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://www.prottoyon.gov.bd/municipality/covered",
+            "links": [
+              "https://www.prottoyon.gov.bd/municipality/covered"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Law & Justice Division / registrar",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://marriage.gov.bd/",
+            "links": [
+              "https://marriage.gov.bd/"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Marriage.gov.bd is the official Marriage & Divorce Registration System.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "For Muslim marriages, the Muslim Marriages and Divorces (Registration) Act 1974 requires registration.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "If a Muslim marriage is solemnized by someone other than the Nikah Registrar, the bridegroom must report it to the concerned Nikah Registrar within 30 days.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "The portal provides citizen registration using identity information.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://marriage.gov.bd/registration",
+            "links": [
+              "https://marriage.gov.bd/registration"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://bdlaws.minlaw.gov.bd/act-print-476.html",
+            "links": [
+              "https://bdlaws.minlaw.gov.bd/act-print-476.html"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Nikah Registrar / local Chairman / court as applicable",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://bdlaws.minlaw.gov.bd/act-305/section-13539.html?lang=en",
+            "links": [
+              "https://bdlaws.minlaw.gov.bd/act-305/section-13539.html?lang=en"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Under section 7 of the Muslim Family Laws Ordinance 1961, after pronouncing talaq the husband must give written notice to the Chairman and a copy to the wife.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Talaq generally does not become effective until 90 days after delivery of notice to the Chairman, subject to the statutory pregnancy rule.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "The Chairman constitutes an Arbitration Council within 30 days to attempt reconciliation.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Divorce registration by Nikah Registrar is governed by section 6 of the 1974 registration law.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://bdlaws.minlaw.gov.bd/act-print-476/section-print-12227.html",
+            "links": [
+              "https://bdlaws.minlaw.gov.bd/act-print-476/section-print-12227.html"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://marriage.gov.bd/",
+            "links": [
+              "https://marriage.gov.bd/"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Local authority / Prottoyon where covered",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://www.prottoyon.gov.bd/register/citizen",
+            "links": [
+              "https://www.prottoyon.gov.bd/register/citizen"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Prottoyon supports ওয়ারিশ/উত্তরাধিকার certificate services in covered local authorities.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Applicant registration uses mobile number and identity information; local authority approval is required.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Prottoyon has an official integration notice relating online heir-certificate verification with e-Mutation.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://www.prottoyon.gov.bd/faq",
+            "links": [
+              "https://www.prottoyon.gov.bd/faq"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://prottoyon.gov.bd/notice/17/crc32",
+            "links": [
+              "https://prottoyon.gov.bd/notice/17/crc32"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Authority depends on the document",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://bdris.gov.bd/br/correction",
+            "links": [
+              "https://bdris.gov.bd/br/correction"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "There is no single government service that changes a person’s name across every record at once.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Birth-record correction uses BDRIS; NID correction uses the Election Commission/NID process.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Supporting evidence requirements depend on the target document and type of change.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Dependent records should be updated after the foundational record is corrected.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://services.nidw.gov.bd/nid-pub/",
+            "links": [
+              "https://services.nidw.gov.bd/nid-pub/"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://www.nidw.gov.bd/",
+            "links": [
+              "https://www.nidw.gov.bd/"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://www.dpp.gov.bd/bgpress/bangla/",
+            "links": [
+              "https://www.dpp.gov.bd/bgpress/bangla/"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Bangladesh Police",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://pcc.police.gov.bd/",
+            "links": [
+              "https://pcc.police.gov.bd/"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Bangladesh Police provides the official online PCC portal.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "The portal requires an online application, passport/address documentation and fee-payment proof according to applicant type.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Current portal fee: Tk 1,500 via Treasury Challan/online payment plus applicable service charge.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Status SMS format shown by portal: PCC S <reference> to 26969.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://www.police.gov.bd/",
+            "links": [
+              "https://www.police.gov.bd/"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Bangladesh Police",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://gd.police.gov.bd/",
+            "links": [
+              "https://gd.police.gov.bd/"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Bangladesh Police provides the official Online GD system.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Citizens submit identity/contact, incident/lost-item details and supporting evidence where available.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "The official user manual explains account/application workflow.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "For immediate danger/emergency, use 999 rather than a routine GD.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://gd.police.gov.bd/UserManual/%E0%A6%85%E0%A6%A8%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8%20%E0%A6%9C%E0%A6%BF%E0%A6%A1%E0%A6%BF%20%E0%A6%87%E0%A6%89%E0%A6%9C%E0%A6%BE%E0%A6%B0%20%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A7%9F%E0%A6%BE%E0%A6%B2.pdf",
+            "links": [
+              "https://gd.police.gov.bd/UserManual/%E0%A6%85%E0%A6%A8%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8%20%E0%A6%9C%E0%A6%BF%E0%A6%A1%E0%A6%BF%20%E0%A6%87%E0%A6%89%E0%A6%9C%E0%A6%BE%E0%A6%B0%20%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A7%9F%E0%A6%BE%E0%A6%B2.pdf"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://www.police.gov.bd/",
+            "links": [
+              "https://www.police.gov.bd/"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Bangladesh Police / Online GD",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://gd.police.gov.bd/",
+            "links": [
+              "https://gd.police.gov.bd/"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Online GD supports reporting lost documents/items.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Users provide item/document identifying details, place/time/circumstances and supporting evidence where available.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "The acknowledgement/reference can be used in subsequent replacement processes where the receiving authority requires it.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://www.police.gov.bd/",
+            "links": [
+              "https://www.police.gov.bd/"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Notary / MOFA / issuing authority depending on use",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://bdlaws.minlaw.gov.bd/act-308/section-13719.html?lang=bn",
+            "links": [
+              "https://bdlaws.minlaw.gov.bd/act-308/section-13719.html?lang=bn"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "The Notaries Ordinance authorizes notaries to verify, authenticate, certify or attest instruments and perform other statutory functions.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "For documents for foreign use, the appropriate MOFA/e-Consular or mission route depends on the document and destination.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "For government-issued records, use the issuing authority’s own verification system when available.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://econsular.mofa.gov.bd/a/",
+            "links": [
+              "https://econsular.mofa.gov.bd/a/"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://www.mygov.bd/",
+            "links": [
+              "https://www.mygov.bd/"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Government-appointed Notary Public",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://bdlaws.minlaw.gov.bd/act-308.html?lang=en",
+            "links": [
+              "https://bdlaws.minlaw.gov.bd/act-308.html?lang=en"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Notaries are governed by the Notaries Ordinance 1961.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "A notary may authenticate/certify/attest instruments, administer oaths and take affidavits within statutory authority.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "A receiving authority may or may not require an affidavit; JANUN should only recommend it when the target authority requires it.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://bdlaws.minlaw.gov.bd/act-308/section-13719.html?lang=bn",
+            "links": [
+              "https://bdlaws.minlaw.gov.bd/act-308/section-13719.html?lang=bn"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://lawjusticediv.gov.bd/",
+            "links": [
+              "https://lawjusticediv.gov.bd/"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Bangladesh Legal Aid authority",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://nlaso.gov.bd/",
+            "links": [
+              "https://nlaso.gov.bd/"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Government legal aid is available under the Legal Aid Services Act 2000 (as amended) for eligible justice-seekers.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Applications can be made through the official online system or prescribed LA Form-01/district legal-aid office.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "The application collects applicant, income/occupation, case/dispute and supporting-document information.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Current 2026 homepage helpline: 16699.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://db.nlaso.gov.bd/Pages/OnlineApplications.aspx",
+            "links": [
+              "https://db.nlaso.gov.bd/Pages/OnlineApplications.aspx"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://nlaso.gov.bd/site/forms/c022ed43-3575-4380-8d35-8334e8679202/%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%97%E0%A6%A4-%E0%A6%B8%E0%A6%B9%E0%A6%BE%E0%A7%9F%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8",
+            "links": [
+              "https://nlaso.gov.bd/site/forms/c022ed43-3575-4380-8d35-8334e8679202/%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%97%E0%A6%A4-%E0%A6%B8%E0%A6%B9%E0%A6%BE%E0%A7%9F%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://nlaso.gov.bd/pages/laws/%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%97%E0%A6%A4-%E0%A6%B8%E0%A6%B9%E0%A6%BE%E0%A7%9F%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8-%E0%A6%86%E0%A6%87%E0%A6%A8-%E0%A7%A8%E0%A7%A6%E0%A7%A6%E0%A7%A6-%E0%A6%B8%E0%A6%82%E0%A6%B6%E0%A7%8B%E0%A6%A7%E0%A6%A8%E0%A7%80%E0%A6%B8%E0%A6%B9-c74df8-6922da03933eb65569e01d72",
+            "links": [
+              "https://nlaso.gov.bd/pages/laws/%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%97%E0%A6%A4-%E0%A6%B8%E0%A6%B9%E0%A6%BE%E0%A7%9F%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8-%E0%A6%86%E0%A6%87%E0%A6%A8-%E0%A7%A8%E0%A7%A6%E0%A7%A6%E0%A7%A6-%E0%A6%B8%E0%A6%82%E0%A6%B6%E0%A7%8B%E0%A6%A7%E0%A6%A8%E0%A7%80%E0%A6%B8%E0%A6%B9-c74df8-6922da03933eb65569e01d72"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "Cabinet Division Grievance Redress System",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://www.grs.gov.bd/",
+            "links": [
+              "https://www.grs.gov.bd/"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "GRS is the official government grievance system for complaints about government service delivery.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "Citizens can lodge a complaint by selecting office/service/location, describing the grievance and attaching evidence.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "The current complaint form allows evidence attachments up to 10 MB in supported formats.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "GRS provides appeal/escalation mechanisms under its guideline.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://www.grs.gov.bd/complainWithoutLogin.do",
+            "links": [
+              "https://www.grs.gov.bd/complainWithoutLogin.do"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://www.grs.gov.bd/assets/grs_user_manual.pdf",
+            "links": [
+              "https://www.grs.gov.bd/assets/grs_user_manual.pdf"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://www.grs.gov.bd/assets/grs_guideline.pdf",
+            "links": [
+              "https://www.grs.gov.bd/assets/grs_guideline.pdf"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          {
+            "text": "Authority",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "BDRIS / Election Commission / other issuing authority",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Main official URL",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "https://bdris.gov.bd/br/correction",
+            "links": [
+              "https://bdris.gov.bd/br/correction"
+            ],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Verified information",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "The correction route depends on which foundational record is wrong.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "If the birth record is wrong, use BDRIS correction.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "If NID is wrong while the foundational civil record is correct, use the EC/NID correction process with supporting evidence.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "After the foundational record is corrected, dependent documents should be updated with their issuing authorities.",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "BDRIS support: 16152; EC support: 105.",
+            "links": [],
+            "images": []
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "text": "Additional official sources",
+            "links": [],
+            "images": []
+          }
+        ],
+        [
+          {
+            "text": "",
+            "links": [],
+            "images": []
+          },
+          {
+            "text": "https://services.nidw.gov.bd/nid-pub/",
+            "links": [
+              "https://services.nidw.gov.bd/nid-pub/"
+            ],
+            "images": []
+          },
+          {
+            "text": "https://www.nidw.gov.bd/",
+            "links": [
+              "https://www.nidw.gov.bd/"
+            ],
+            "images": []
+          }
+        ]
+      ]
+    ]
+  ],
+  "assets": [
+    {
+      "url": "/evidence/documents-2026-10-25/doc-4-3f7482c65c76f8c6.png",
+      "sha256": "3f7482c65c76f8c6ad76e0525b2358f071c4335570ed2c914900c908791764e6",
+      "original_path": "word/media/image1.png"
+    },
+    {
+      "url": "/evidence/documents-2026-10-25/doc-4-7bad437710681c57.png",
+      "sha256": "7bad437710681c5722fe63433702315626850333afb60382c1c92a1a89750735",
+      "original_path": "word/media/image2.png"
+    },
+    {
+      "url": "/evidence/documents-2026-10-25/doc-4-2ec1c336dc259a84.png",
+      "sha256": "2ec1c336dc259a84feff748579756b88f31184579a2cd8eedd0592868abf932b",
+      "original_path": "word/media/image3.png"
+    },
+    {
+      "url": "/evidence/documents-2026-10-25/doc-4-0ccf76ceb3703337.png",
+      "sha256": "0ccf76ceb37033371ffb49f62c6d03968a52f6297f7e9ed461128cf06d3c7640",
+      "original_path": "word/media/image4.png"
+    },
+    {
+      "url": "/evidence/documents-2026-10-25/doc-4-e5832e66201ff8d2.png",
+      "sha256": "e5832e66201ff8d2093ec99d9f13b8b874e54d6757b79b4656f9323d550d0e77",
+      "original_path": "word/media/image5.png"
+    },
+    {
+      "url": "/evidence/documents-2026-10-25/doc-4-17ce10cadb2b2e11.png",
+      "sha256": "17ce10cadb2b2e11666012c18a18c048f0376f6aecb540d9d29478f469e1e22f",
+      "original_path": "word/media/image6.png"
+    },
+    {
+      "url": "/evidence/documents-2026-10-25/doc-4-b217fa2a8a06db27.png",
+      "sha256": "b217fa2a8a06db27071ec51038a521b4a65cf2944f2c66a5a3cecda0cb9b6c71",
+      "original_path": "word/media/image7.png"
+    },
+    {
+      "url": "/evidence/documents-2026-10-25/doc-4-974b5a0dce0c808b.png",
+      "sha256": "974b5a0dce0c808b69c55de76ca58c75c1cc1b813e9de741807685473c556e92",
+      "original_path": "word/media/image8.png"
+    }
+  ],
+  "hyperlinks": [
+    "https://bdris.gov.bd/br/application",
+    "https://orgbdr.gov.bd/pages/office-citizen-charters/6922d8a2933eb65569df96da",
+    "https://orgbdr.gov.bd/pages/static-pages/birth-and-death-registration-rule-2018-w20ft9-69ca49704c09aebb3cb2f77d",
+    "https://bdris.gov.bd/br/correction",
+    "https://orgbdr.gov.bd/pages/static-pages/6922e065933eb65569e26d6e",
+    "https://everify.bdris.gov.bd/",
+    "https://bdris.gov.bd/",
+    "https://bdris.gov.bd/dr/application",
+    "https://orgbdr.gov.bd/pages/static-pages/6922dd63933eb65569e14d9c",
+    "https://services.nidw.gov.bd/nid-pub/",
+    "https://www.nidw.gov.bd/",
+    "https://ecs.gov.bd/",
+    "https://ecs.gov.bd/page/forms-related-to-national-identity-registration-5125856174",
+    "https://asset.ecs.gov.bd/media/uploaded_files/notices/2026/07/3b504b25-6d15-4a22-8115-47b95f43da9a.pdf",
+    "https://asset.ecs.gov.bd/media/uploaded_files/notices/2026/07/29199fa6-4ca1-4458-a68e-df9f9820eb52.pdf",
+    "https://ecs.gov.bd/page/form-prescribed-under-the-national-identity-registration-rules-1710564329",
+    "https://www.prottoyon.gov.bd/register/citizen",
+    "https://www.prottoyon.gov.bd/faq",
+    "https://www.prottoyon.gov.bd/union/covered",
+    "https://www.prottoyon.gov.bd/municipality/covered",
+    "https://marriage.gov.bd/",
+    "https://marriage.gov.bd/registration",
+    "https://bdlaws.minlaw.gov.bd/act-print-476.html",
+    "https://bdlaws.minlaw.gov.bd/act-305/section-13539.html?lang=en",
+    "https://bdlaws.minlaw.gov.bd/act-print-476/section-print-12227.html",
+    "https://prottoyon.gov.bd/notice/17/crc32",
+    "https://www.dpp.gov.bd/bgpress/bangla/",
+    "https://pcc.police.gov.bd/",
+    "https://www.police.gov.bd/",
+    "https://gd.police.gov.bd/",
+    "https://gd.police.gov.bd/UserManual/%E0%A6%85%E0%A6%A8%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8%20%E0%A6%9C%E0%A6%BF%E0%A6%A1%E0%A6%BF%20%E0%A6%87%E0%A6%89%E0%A6%9C%E0%A6%BE%E0%A6%B0%20%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A7%9F%E0%A6%BE%E0%A6%B2.pdf",
+    "https://bdlaws.minlaw.gov.bd/act-308/section-13719.html?lang=bn",
+    "https://econsular.mofa.gov.bd/a/",
+    "https://www.mygov.bd/",
+    "https://bdlaws.minlaw.gov.bd/act-308.html?lang=en",
+    "https://lawjusticediv.gov.bd/",
+    "https://nlaso.gov.bd/",
+    "https://db.nlaso.gov.bd/Pages/OnlineApplications.aspx",
+    "https://nlaso.gov.bd/site/forms/c022ed43-3575-4380-8d35-8334e8679202/%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%97%E0%A6%A4-%E0%A6%B8%E0%A6%B9%E0%A6%BE%E0%A7%9F%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8",
+    "https://nlaso.gov.bd/pages/laws/%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%97%E0%A6%A4-%E0%A6%B8%E0%A6%B9%E0%A6%BE%E0%A7%9F%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8-%E0%A6%86%E0%A6%87%E0%A6%A8-%E0%A7%A8%E0%A7%A6%E0%A7%A6%E0%A7%A6-%E0%A6%B8%E0%A6%82%E0%A6%B6%E0%A7%8B%E0%A6%A7%E0%A6%A8%E0%A7%80%E0%A6%B8%E0%A6%B9-c74df8-6922da03933eb65569e01d72",
+    "https://www.grs.gov.bd/",
+    "https://www.grs.gov.bd/complainWithoutLogin.do",
+    "https://www.grs.gov.bd/assets/grs_user_manual.pdf",
+    "https://www.grs.gov.bd/assets/grs_guideline.pdf",
+    "https://asset.ecs.gov.bd/media/uploaded_files/page_tables/2026/06/d7d13a99-d023-4b01-9cbd-25b92d2ee0f3.pdf",
+    "https://old.bdlaws.minlaw.gov.bd/upload/bdcodeact/2023-12-24-09-39-13-9.-Muslim-Marriages-and-Divorces-%28Registration%29-Act%2C-1974.pdf",
+    "https://old.bdlaws.minlaw.gov.bd/upload/bdcodeact/2023-12-14-10-00-49-335.-THE-MUSLIM-FAMILY-LAWS-ORDINANCE%2C-1961-1986_final-24.12.2.pdf",
+    "https://www.prottoyon.gov.bd/frontend/user_manual.pdf",
+    "https://www.prottoyon.gov.bd/"
+  ]
+}

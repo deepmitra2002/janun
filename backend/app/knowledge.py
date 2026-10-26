@@ -36,6 +36,12 @@ def retrieve(db,query,embedding=None):
 
 def service_detail(db,service):
     versions=list(db.execute(select(SourceVersion,Source).join(Source,SourceVersion.source_id==Source.id).where(Source.service_id==service.id,Source.current_version==SourceVersion.id,SourceVersion.status=='published',SourceVersion.review_due>now())))
+    # A replacement release is authoritative for this service's entire field set.
+    # Do not merge omitted fields back in from older research.
+    if any(v.claims.get('document_update') for v,_ in versions):
+        from .document_release import release
+        row=next((r for r in release()['services'] if r['slug']==service.slug),None)
+        if row:return {**row,'id':service.id}
     result={'id':service.id,'slug':service.slug,'name_en':service.name_en,'name_bn':service.name_bn,'category':service.category,'description_en':service.description_en,'description_bn':service.description_bn,'official_url':service.official_url,'steps':[],'documents':[],'eligibility':[],'fees':None,'processing_time':None,'deadline':None,'sources':[],'conflicts':[],'readiness_questions':[]}
     for version,source in versions:
         questions=version.claims.get('readiness_questions',[])

@@ -1,0 +1,2 @@
+/** Decorative only: never intercepts input or changes document flow. */
+export function MobileHeaderArtwork(){return <span className="mobile-header-artwork" aria-hidden="true"><img className="mobile-memorial-light" src="/ui/illustrations/mobile-memorial-light.png" width="1536" height="1024" alt=""/><img className="mobile-memorial-dark" src="/ui/illustrations/mobile-memorial-dark.png" width="1536" height="1024" alt=""/></span>}

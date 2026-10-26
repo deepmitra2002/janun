@@ -133,3 +133,12 @@ def test_information_check_validates_input(env):
  c,*_=env
  assert c.post('/api/check',json={'text':'x','service_slug':'missing'}).status_code==422
  assert c.post('/api/check',json={'text':'x'*20001,'service_slug':'missing'}).status_code==422
+
+
+def test_directory_sort_validation_and_descending_order(env):
+ c,db,svc,ver=env
+ svc.status='published';db.commit()
+ assert c.get('/api/services?sort=unknown').status_code==422
+ ascending=c.get('/api/services?sort=name').json()['items']
+ descending=c.get('/api/services?sort=name_desc').json()['items']
+ assert [s['name_en'] for s in descending]==sorted([s['name_en'] for s in ascending],reverse=True)

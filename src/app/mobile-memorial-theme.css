@@ -1,0 +1,56 @@
+/* Shared mobile-only header skin. Desktop/tablet geometry is untouched. */
+.mobile-header-artwork{display:none}
+@media(max-width:760px){
+ .inner-main .page-masthead,.home-main .citizen-hero,.admin-mobile-header,.mobile-not-found{position:relative;isolation:isolate;background:#f7f7ec;background-image:none!important;overflow:hidden}
+ .inner-main .page-masthead:before,.inner-main .page-masthead:after,.home-main .citizen-hero:before,.home-main .citizen-hero:after{display:none;content:none}
+ .home-main .citizen-hero>.memorial-backdrop,.home-main .citizen-art,.inner-main .about-citizens,.inner-main .assistant-citizens,.guide-heading>img{display:none!important}
+ .mobile-header-artwork{display:block;position:absolute;right:0;top:calc(140px - 55vw);width:100%;height:auto;aspect-ratio:3/2;z-index:-1;pointer-events:none;user-select:none;mask-image:linear-gradient(90deg,#0002,#0009 50%,#000 74%),linear-gradient(180deg,transparent,#000 18%,#000 78%,transparent);mask-composite:intersect}
+ .mobile-header-artwork img{position:absolute;right:0;top:0;width:100%;height:100%;object-fit:contain;object-position:right top;filter:none!important;opacity:1;max-width:none;border-radius:0}
+ .mobile-memorial-dark{display:none}
+ .inner-main .page-masthead{min-height:0;height:auto;margin-bottom:18px;padding:18px 18px 20px;border-radius:0}
+ .inner-main .page-masthead .masthead-content{padding:0;position:relative}
+ .inner-main .page-masthead h1,html[lang=bn] .inner-main .page-masthead h1{font-size:27px;line-height:1.4;letter-spacing:-.015em;max-width:calc(100% - 112px);min-height:64px;margin:0 0 10px;overflow-wrap:anywhere;color:#143e34}
+ .inner-main .page-masthead .page-intro{max-width:62%;font-size:12px;line-height:1.75;margin:0 0 14px;color:#365d50}
+ .inner-main .page-masthead .search-bar,.inner-main .page-masthead .source-search{margin:12px 0 8px;width:100%;max-width:100%;position:relative}
+ .inner-main .page-masthead input,.inner-main .page-masthead select{min-width:0}
+ .inner-main .page-masthead .suggestions{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+ .inner-main .page-masthead .suggestions>span{width:auto;flex:none}
+ .inner-main .page-masthead .suggestions button{width:auto;max-width:100%;min-height:36px;padding:6px 11px;font-size:11px;white-space:normal}
+ .home-main .hero{display:block;position:static;isolation:auto;overflow:visible;height:auto;min-height:0;padding:0}
+ .home-main .hero-copy{position:static;padding:18px 18px 16px;background:transparent!important}
+ .home-main .hero h1,html[lang=bn] .home-main .hero h1{font-size:26px;line-height:1.35;max-width:calc(100% - 112px);min-height:64px;margin:0 0 10px;color:#143e34}
+ .home-main .hero-description{font-size:12px;line-height:1.7;margin:0 0 14px;max-width:62%;color:#365d50}
+ .home-main .hero-search{position:relative;min-height:52px;background:#fff!important;color:#24473d}
+ .home-main .hero-search input{color:#24473d!important}
+ .home-main .suggestions{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;max-width:none}
+ .home-main .suggestions>span{width:auto;flex:none;font-size:10px;color:#365d50}
+ .home-main .suggestions a,.home-main .hero-copy .suggestions a:first-of-type{font-size:10px;min-height:38px;white-space:normal;padding:7px 10px}
+ .goal-presets button{min-height:94px;padding:14px;gap:8px}
+ .goal-presets button svg{width:26px;height:26px}
+ .goal-presets button strong{font-size:15px}
+ .chat-layout .chat-panel{height:clamp(340px,calc(100dvh - 420px),560px);min-height:340px;scroll-margin-bottom:80px}
+ .guide-heading.page-masthead{display:block}
+ .guide-heading.page-masthead>div{width:100%;min-width:0}
+ .guide-heading.page-masthead p{max-width:62%;font-size:12px;line-height:1.75;margin:0 0 12px}
+ .guide-heading>.icon-btn{position:relative;margin-top:10px}
+ .admin-mobile-header{display:block;padding:18px;margin:0 -18px 18px}
+ .admin-mobile-header h1{font-size:27px;line-height:1.4;max-width:calc(100% - 112px);min-height:64px}
+ .admin-mobile-header>.button{margin-top:12px}
+ .mobile-not-found{padding:24px 18px!important;text-align:left;min-height:0}
+ .mobile-not-found h1,html[lang=bn] .mobile-not-found h1{max-width:calc(100% - 92px);font-size:27px;min-height:91px}
+}
+
+/* Theme changes affect surfaces and the decorative image only. */
+@media(max-width:760px){
+ html[data-theme=dark] .inner-main .page-masthead,html[data-theme=dark] .home-main .citizen-hero,html[data-theme=dark] .admin-mobile-header,html[data-theme=dark] .mobile-not-found{background:#062f2c;background-image:none!important}
+ html[data-theme=dark] .nav .language,html[data-theme=dark] .nav .language .lang-active{color:#d8ece1}
+ html[data-theme=dark] .mobile-memorial-light{display:none}
+ html[data-theme=dark] .mobile-memorial-dark{display:block}
+ html[data-theme=dark] .inner-main .page-masthead h1,html[data-theme=dark][lang=bn] .inner-main .page-masthead h1,html[data-theme=dark] .home-main .hero h1,html[data-theme=dark][lang=bn] .home-main .hero h1,html[data-theme=dark] .admin-mobile-header h1,html[data-theme=dark] .mobile-not-found h1{color:#eff8f2}
+ html[data-theme=dark] .inner-main .page-masthead h1 em,html[data-theme=dark] .home-main .hero h1 em{color:#f29a80}
+ html[data-theme=dark] .inner-main .page-masthead .page-intro,html[data-theme=dark] .home-main .hero-description,html[data-theme=dark] .home-main .suggestions>span,html[data-theme=dark] .guide-heading.page-masthead p{color:#cbe1d7}
+ html[data-theme=dark] .home-main .hero-search{background:#f4faf6!important;color:#24473d}
+ html[data-theme=dark] .home-main .hero-search input{color:#24473d!important}
+ html[data-theme=dark] .home-main .hero-search input::placeholder{color:#526e61}
+ html[data-theme=dark] .home-main .suggestions a{background:#143e37;color:#e0eee5;border-color:#49705e}
+}

@@ -1,0 +1,75 @@
+[
+  {
+    "flow": "readiness conditional reset",
+    "pass": true
+  },
+  {
+    "flow": "readiness missing preparation, review limitation and answer editing",
+    "pass": true
+  },
+  {
+    "flow": "readiness answer editing",
+    "pass": true
+  },
+  {
+    "flow": "local PDF extraction",
+    "pass": true
+  },
+  {
+    "flow": "file removal clears extracted text",
+    "pass": true
+  },
+  {
+    "flow": "local image OCR",
+    "pass": true,
+    "excerpt": "Public service information test.\nThis is a synthetic OCR fixture."
+  },
+  {
+    "flow": "claim-by-claim comparison",
+    "pass": true,
+    "states": [
+      "supported",
+      "conflict",
+      "partial",
+      "insufficient"
+    ]
+  },
+  {
+    "flow": "directory category filter and sort",
+    "pass": true
+  },
+  {
+    "flow": "directory no-match state",
+    "pass": true
+  },
+  {
+    "flow": "dark theme persists on reload",
+    "pass": true
+  },
+  {
+    "flow": "interactive mobile-preview navigation without recursion",
+    "pass": true,
+    "observed": {
+      "nestedFrames": 0,
+      "path": "/services/",
+      "width": 390
+    }
+  },
+  {
+    "flow": "system appearance is selectable",
+    "pass": true
+  },
+  {
+    "flow": "interactive tablet viewport",
+    "pass": true,
+    "width": 768
+  },
+  {
+    "flow": "source attachment filter and genuine source preview",
+    "pass": true
+  },
+  {
+    "flow": "keyboard service tabs",
+    "pass": true
+  }
+]

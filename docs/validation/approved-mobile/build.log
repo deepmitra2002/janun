@@ -1,0 +1,63 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> janun-web@0.1.0 build:hosted
+> npm run build && node scripts/build-worker.mjs
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> janun-web@0.1.0 build
+> node scripts/prepare-browser-assets.mjs && next build
+
+▲ Next.js 16.4.3 (Turbopack)
+- Environments: .env.production
+✓ Running next.config.ts took 148ms
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 12.7s
+  Running TypeScript ...
+  Finished TypeScript in 9.7s ...
+  Collecting page data using 8 workers ...
+  Generating static pages using 8 workers (0/314) ...
+  Generating static pages using 8 workers (78/314) 
+  Generating static pages using 8 workers (156/314) 
+  Generating static pages using 8 workers (235/314) 
+✓ Generating static pages using 8 workers (314/314) in 2.6s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about
+├ ○ /admin
+├ ○ /ask
+├ ○ /categories
+├   /categories/[slug]
+│ ├ ● /categories/agriculture
+│ ├ ● /categories/business
+│ ├ ● /categories/education
+│ └ ● [+10 more paths]
+├ ○ /contact
+├ ○ /disclaimer
+├ ○ /journeys
+├ ○ /privacy
+├ ○ /readiness
+├ ○ /services
+├   /services/[slug]
+│ ├ ● /services/team-deep-hsf-001
+│ ├ ● /services/team-deep-hsf-002
+│ ├ ● /services/team-deep-hsf-003
+│ └ ● [+282 more paths]
+├ ○ /sources
+├ ○ /terms
+└ ○ /verify
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+Retained 316 HTML pages and all static assets; server-side Gemini handler built.
