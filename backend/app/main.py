@@ -129,4 +129,4 @@ def information_check(data:CheckInput,request:Request,db:DBSession=Depends(get_d
 
 @app.get('/api/capabilities')
 def capabilities():
-    return {'ai':settings.ai_configured,'speech_transcription':bool(settings.openai_api_key and settings.speech_transcription_model),'speech_synthesis':bool(settings.openai_api_key and settings.speech_synthesis_model),'review_policy':'Only fresh published sources are eligible for provider answers.'}
+    return {'ai':settings.ai_configured,'speech_transcription':bool(settings.openai_api_key and settings.speech_transcription_model),'speech_synthesis':bool(settings.openai_api_key and settings.speech_synthesis_model),'chat_uses_team_research':settings.chat_use_team_research,'review_policy':'Reviewed sources preferred; existing source-linked team imports may be explained with review-pending labels. Withdrawn records are excluded.'}

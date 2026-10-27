@@ -16,6 +16,7 @@ class Settings(BaseSettings):
     speech_voice_bn: str = ''
     embedding_model: str = ''
     embedding_dimensions: int = 1536
+    chat_use_team_research: bool = True
     retrieval_limit: int = 6
     session_hours: int = 8
     source_hosts: str = 'bangladesh.gov.bd,www.bangladesh.gov.bd,www.mygov.bd,mygov.bd,www.epassport.gov.bd,epassport.gov.bd,bdris.gov.bd'

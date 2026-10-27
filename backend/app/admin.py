@@ -9,7 +9,7 @@ from .security import require_admin,require_origin,verify_password,create_sessio
 from .config import settings
 from .domain import can_transition,safe_url,is_fresh
 from .ingestion import fetch_source,register_version,extract_content
-from .ai import index_version
+from .ai import index_version,connection_test
 
 router=APIRouter(prefix='/api/admin',tags=['admin'])
 def audit(db,admin,action,target,note=''):
@@ -40,6 +40,13 @@ def logout(request:Request,response:Response,admin=Depends(require_admin),db:DBS
 @router.get('/overview')
 def overview(admin=Depends(require_admin),db:DBSession=Depends(get_db)):
     return {'username':admin.username,'services':db.scalar(select(func.count()).select_from(Service)),'sources':db.scalar(select(func.count()).select_from(Source)),'pending':db.scalar(select(func.count()).select_from(SourceVersion).where(SourceVersion.status.in_(['pending','review']))),'ai_configured':settings.ai_configured,'embedding_configured':bool(settings.openai_api_key and settings.embedding_model)}
+
+@router.post('/ai-test')
+def ai_test(admin=Depends(require_admin)):
+    limiter.check('ai-test:'+admin.id,5,60)
+    result=connection_test()
+    if result['status']!='connected':raise HTTPException(503,result['message'])
+    return result
 
 @router.get('/services')
 def services(admin=Depends(require_admin),db:DBSession=Depends(get_db)):
