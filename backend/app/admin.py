@@ -74,10 +74,22 @@ def archive_service(id:str,admin=Depends(require_admin),db:DBSession=Depends(get
 
 @router.get('/sources')
 def sources(admin=Depends(require_admin),db:DBSession=Depends(get_db)):
+    source_rows=list(db.scalars(select(Source)))
+    if not source_rows:return []
+    # Rank in the database so every source keeps its ten newest versions
+    # without one database round trip per source or unlimited history loading.
+    ranked=select(SourceVersion.id,func.row_number().over(
+        partition_by=SourceVersion.source_id,
+        order_by=(SourceVersion.retrieved_at.desc(),SourceVersion.id.desc())
+    ).label('position')).subquery()
+    versions_by_source={}
+    versions=db.scalars(select(SourceVersion).join(ranked,SourceVersion.id==ranked.c.id)
+        .where(ranked.c.position<=10).order_by(ranked.c.position))
+    for version in versions:
+        versions_by_source.setdefault(version.source_id,[]).append(version_json(version))
     result=[]
-    for src in db.scalars(select(Source)):
-        versions=list(db.scalars(select(SourceVersion).where(SourceVersion.source_id==src.id).order_by(SourceVersion.retrieved_at.desc()).limit(10)))
-        result.append({'id':src.id,'service_id':src.service_id,'url':src.url,'title':src.title,'agency':src.agency,'current_version':src.current_version,'versions':[version_json(v) for v in versions]})
+    for src in source_rows:
+        result.append({'id':src.id,'service_id':src.service_id,'url':src.url,'title':src.title,'agency':src.agency,'current_version':src.current_version,'versions':versions_by_source.get(src.id,[])})
     return result
 
 @router.post('/sources',status_code=201)
