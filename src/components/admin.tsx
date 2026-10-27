@@ -12,8 +12,19 @@ type Version={id:string;status:string;content:string;claims:Record<string,unknow
 type AdminSource={id:string;service_id:string;title:string;url:string;current_version:string;versions:Version[]};
 type Overview={username:string;services:number;sources:number;pending:number;ai_configured:boolean;embedding_configured:boolean};
 export function AdminPanel(){const {bn}=useLanguage();const t=(en:string,b:string)=>bn?b:en;const [overview,setOverview]=useState<Overview|null>(null),[checking,setChecking]=useState(true),[error,setError]=useState(''),[message,setMessage]=useState(''),[busy,setBusy]=useState(false),[services,setServices]=useState<Service[]>([]),[sources,setSources]=useState<AdminSource[]>([]),[categories,setCategories]=useState<Category[]>([]),[tab,setTab]=useState('sources'),[selected,setSelected]=useState<{source:AdminSource;version:Version}|null>(null),[note,setNote]=useState(''),[claimText,setClaimText]=useState(''),[days,setDays]=useState(30),[feedback,setFeedback]=useState<{id:string;message:string;created_at:string}[]>([]),[audit,setAudit]=useState<{action:string;target:string;note:string;created_at:string}[]>([]);
- async function load(){const o=await api<Overview>('/admin/overview');setOverview(o);const [s,src,c,f,a]=await Promise.all([api<Service[]>('/admin/services'),api<AdminSource[]>('/admin/sources'),api<Category[]>('/categories'),api<typeof feedback>('/admin/feedback'),api<typeof audit>('/admin/audit')]);setServices(s);setSources(src);setCategories(c);setFeedback(f);setAudit(a)}
- useEffect(()=>{load().catch(()=>{}).finally(()=>setChecking(false));},[]);
+ async function load(){
+  const o=await api<Overview>('/admin/overview');setOverview(o);
+  const results=await Promise.allSettled([
+   api<Service[]>('/admin/services').then(setServices),
+   api<AdminSource[]>('/admin/sources').then(setSources),
+   api<Category[]>('/categories').then(setCategories),
+   api<typeof feedback>('/admin/feedback').then(setFeedback),
+   api<typeof audit>('/admin/audit').then(setAudit)
+  ]);
+  const failures=results.filter(r=>r.status==='rejected');
+  if(failures.length)throw new Error(failures.map(r=>r.reason instanceof Error?r.reason.message:String(r.reason)).join('; '));
+ }
+ useEffect(()=>{load().catch(e=>setError(e instanceof Error?e.message:'Could not load administration data.')).finally(()=>setChecking(false));},[]);
  async function action(fn:()=>Promise<unknown>,success:string){setBusy(true);setError('');setMessage('');try{await fn();await load();setMessage(success)}catch(e){setError((e as Error).message)}finally{setBusy(false)}}
  function data(e:FormEvent<HTMLFormElement>){e.preventDefault();return Object.fromEntries(new FormData(e.currentTarget))}
  async function login(e:FormEvent<HTMLFormElement>){const d=data(e);await action(()=>post('/admin/login',d),'Signed in')}
