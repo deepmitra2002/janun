@@ -78,6 +78,7 @@ def sync_public_catalogue(db):
             if origin:origins.setdefault(origin,set()).add(service.id)
     versions={version.id:version for version in db.scalars(select(SourceVersion).join(Source,Source.current_version==SourceVersion.id))}
     ready=set()
+    new_sources=[];new_versions=[];new_chunks=[]
     try:
         # Flush category parents once; the remaining mutations are batched.
         from .cli import CATEGORIES
@@ -116,14 +117,14 @@ def sync_public_catalogue(db):
                 if old and old.content_hash==digest:
                     report['unchanged']+=1;continue
                 source.title=TITLE+slug;source.agency=AGENCY;source.url=url
-                if not sources:db.add(source)
+                if not sources:new_sources.append(source)
                 if old:old.status='archived'
                 version=SourceVersion(id=uid(),source_id=source.id,content=content,content_hash=digest,
                     status='pending',claims={'catalogue_record':row,'catalogue_metadata':metadata(service)},
                     verified_at=None,review_due=None)
-                db.add(version);source.current_version=version.id
+                new_versions.append(version);source.current_version=version.id
                 for i,text in enumerate(chunk_text(content)):
-                    db.add(Chunk(id=uid(),version_id=version.id,text=text,ordinal=i))
+                    new_chunks.append(Chunk(id=uid(),version_id=version.id,text=text,ordinal=i))
                 report['created' if created else 'updated']+=1
             for alias,canonical in data.get('aliases',{}).items():
                 service=services.get(alias)
@@ -131,6 +132,13 @@ def sync_public_catalogue(db):
                 if canonical in ready and untouched(service,by_service.get(service.id,[]),versions,originals):
                     service.status='superseded';report['superseded']+=1
                 else:report['protected'].append(alias)
+        # Models have scalar foreign keys without ORM relationships. Explicit
+        # parent-first batches are required; add_all of every model together
+        # does not guarantee the unit-of-work insert order. Keep one transaction.
+        db.flush()  # categories/services and existing-row updates
+        db.add_all(new_sources);db.flush()
+        db.add_all(new_versions);db.flush()
+        db.add_all(new_chunks)
         db.commit()
     except Exception:
         db.rollback();raise
