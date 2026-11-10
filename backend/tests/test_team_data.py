@@ -29,5 +29,6 @@ def test_additive_import_is_idempotent_and_never_publishes(env):
  count=db.scalar(select(func.count()).select_from(Service))
  b=import_drafts(db);assert b['created']==0 and b['skipped']==a['created']
  assert db.scalar(select(func.count()).select_from(Service))==count
- assert c.get('/api/services').json()['total']==0
+ assert c.get('/api/services').json()['total']==242
+ assert all(s.status=='draft' for s in db.scalars(select(Service)))
  assert not db.scalar(select(SourceVersion).where(SourceVersion.status=='published'))
