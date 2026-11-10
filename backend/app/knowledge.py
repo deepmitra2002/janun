@@ -49,18 +49,22 @@ def retrieve(db,query,embedding=None):
     return rank_evidence(db,evidence_query(),query,embedding)
 
 
-def retrieve_team_research(db,query):
-    # Chat-only: imports already supplied for the public catalogue, never
-    # arbitrary admin drafts, withdrawn services or previously reviewed records.
-    base=select(Chunk,SourceVersion,Source,Service).join(
-        SourceVersion,Chunk.version_id==SourceVersion.id).join(
-        Source,SourceVersion.source_id==Source.id).join(Service,Source.service_id==Service.id).where(
+def team_research_conditions():
+    """Current public-catalogue imports, never arbitrary or withdrawn drafts."""
+    return (
         SourceVersion.id==Source.current_version,
+        SourceVersion.source_id==Source.id,
         SourceVersion.status.in_(['pending','review']),
         SourceVersion.verified_at.is_(None),SourceVersion.review_due.is_(None),
         Service.status.in_(['draft','published']),
         Source.title.startswith('Team research: '),
         Source.agency.startswith('Uploaded team research'),Source.url.startswith('https://'))
+
+
+def retrieve_team_research(db,query):
+    base=select(Chunk,SourceVersion,Source,Service).join(
+        SourceVersion,Chunk.version_id==SourceVersion.id).join(
+        Source,SourceVersion.source_id==Source.id).join(Service,Source.service_id==Service.id).where(*team_research_conditions())
     return rank_evidence(db,base,query)
 
 
@@ -91,7 +95,7 @@ def rank_evidence(db,base,query,embedding=None):
     return [rows[k] for k in sorted(scores,key=scores.get,reverse=True)[:settings.retrieval_limit]]
 
 def service_detail(db,service):
-    versions=list(db.execute(select(SourceVersion,Source).join(Source,SourceVersion.source_id==Source.id).where(Source.service_id==service.id,Source.current_version==SourceVersion.id,SourceVersion.status=='published',SourceVersion.review_due>now())))
+    versions=list(db.execute(select(SourceVersion,Source).join(Source,SourceVersion.source_id==Source.id).where(service.status=='published',Source.service_id==service.id,Source.current_version==SourceVersion.id,SourceVersion.status=='published',SourceVersion.review_due>now())))
     # A replacement release is authoritative for this service's entire field set.
     # Do not merge omitted fields back in from older research.
     if any(v.claims.get('document_update') for v,_ in versions):

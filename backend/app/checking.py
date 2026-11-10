@@ -11,7 +11,7 @@ def check_claims(text, detail, language='bn'):
     bn=language=='bn'
     known={x.strip() for key in ('documents','eligibility','steps') for x in detail[key]}
     sources=detail['sources']
-    trusted=bool(sources) and not detail['conflicts']
+    trusted=bool(sources) and all(source.get('verified_at') for source in sources) and not detail['conflicts']
     rows=[]
     for claim in split_claims(text):
         scoped=compare_official_rules(claim,detail.get('slug',''),language)

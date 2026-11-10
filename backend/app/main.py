@@ -16,6 +16,7 @@ from .security import limiter
 from .admin import router as admin_router,service_json
 from .ai import chat
 from .journeys import plan_journey
+from .public_catalogue import public_services, public_detail, supplied_versions
 
 app=FastAPI(title='Janun API',version='0.1.0',docs_url='/docs' if settings.environment!='production' else None,redoc_url=None)
 app.add_middleware(CORSMiddleware,allow_origins=settings.origins,allow_credentials=True,allow_methods=['GET','POST','PUT'],allow_headers=['Content-Type','X-Janun-Request'])
@@ -64,7 +65,7 @@ def categories(db:DBSession=Depends(get_db)):
 
 @app.get('/api/services')
 def services(q:str=Query(default='',max_length=200),category:str=Query(default='',max_length=80),page:int=Query(default=1,ge=1),page_size:int=Query(default=12,ge=1,le=50),db:DBSession=Depends(get_db),sort:str=Query(default='name',pattern='^(name|name_desc)$')):
-    stmt=select(Service).where(Service.status=='published')
+    stmt=public_services()
     if category:
         if not db.get(Category,category):raise HTTPException(404,'Category not found')
         stmt=stmt.where(Service.category==category)
@@ -78,13 +79,19 @@ def services(q:str=Query(default='',max_length=200),category:str=Query(default='
     records=list(db.scalars(stmt.order_by(Service.name_en.desc() if sort=='name_desc' else Service.name_en,Service.id).offset((page-1)*page_size).limit(page_size)))
     evidence={s.id:[] for s in records}
     if records:
-        rows=db.execute(select(Source,SourceVersion).join(SourceVersion,Source.current_version==SourceVersion.id).where(Source.service_id.in_(evidence),SourceVersion.status=='published',SourceVersion.review_due>now()))
+        rows=db.execute(select(Source,SourceVersion).join(SourceVersion,Source.current_version==SourceVersion.id).where(Source.service_id.in_([s.id for s in records if s.status=='published']),SourceVersion.status=='published',SourceVersion.review_due>now()))
         for source,version in rows:evidence[source.service_id].append((source,version))
     items=[]
+    supplied={s.id:[] for s in records}
+    if records:
+        for version,source in supplied_versions(db,list(supplied)):
+            supplied[source.service_id].append(source)
     for service in records:
         sources=evidence[service.id]
         dates=[v.verified_at for _,v in sources if v.verified_at]
-        items.append({**service_json(service),'status':'source_confirmed_document' if any(v.claims.get('document_update') for _,v in sources) else service.status,'verification_status':'current' if dates else 'needs_review','source_count':len(sources),'last_verified_at':max(dates).isoformat() if dates else None,'authorities':sorted({s.agency for s,_ in sources if s.agency})})
+        status=('source_confirmed_document' if any(v.claims.get('document_update') for _,v in sources) else
+            'supplied_research' if supplied[service.id] and not sources else service.status)
+        items.append({**service_json(service),'status':status,'verification_status':'current' if dates else 'needs_review','source_count':len(sources),'research_source_count':len(supplied[service.id]),'last_verified_at':max(dates).isoformat() if dates else None,'authorities':sorted({s.agency for s,_ in sources if s.agency})})
     return {'items':items,'total':total,'page':page,'page_size':page_size}
 
 @app.get('/api/categories/{slug}/services')
@@ -95,10 +102,11 @@ def category_services(slug:str,db:DBSession=Depends(get_db)):
 @app.get('/api/services/{slug}')
 def detail(slug:str,db:DBSession=Depends(get_db)):
     from .document_release import resolve_slug
-    slug=resolve_slug(slug)
-    obj=db.scalar(select(Service).where(Service.slug==slug,Service.status=='published'))
+    obj=db.scalar(public_services().where(Service.slug==slug))
+    if not obj:
+        obj=db.scalar(public_services().where(Service.slug==resolve_slug(slug)))
     if not obj:raise HTTPException(404,'This service is not published yet')
-    return service_detail(db,obj)
+    return public_detail(db,obj)
 
 @app.post('/api/chat')
 def ask(data:ChatInput,request:Request,db:DBSession=Depends(get_db)):
@@ -121,7 +129,7 @@ from .checking import check_claims
 @app.post('/api/check')
 def information_check(data:CheckInput,request:Request,db:DBSession=Depends(get_db)):
     limiter.check('check:'+request.client.host,20,60)
-    service=db.scalar(select(Service).where(Service.slug==data.service_slug,Service.status=='published'))
+    service=db.scalar(public_services().where(Service.slug==data.service_slug))
     if not service:raise HTTPException(404,'This service is not published yet')
     return {'claims':check_claims(data.text,service_detail(db,service),data.language),
         'notice':'Information comparison only. This does not authenticate documents.',
