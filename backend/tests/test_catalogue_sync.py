@@ -9,6 +9,19 @@ from app.team_data import import_drafts
 from test_api import env
 
 
+def test_sync_enforces_foreign_keys_for_new_and_existing_catalogue(env):
+    from app.catalogue_sync import sync_public_catalogue
+    c,db,*_=env
+    # SQLite disables FK checks by default; production PostgreSQL enforces them.
+    db.connection().exec_driver_sql('PRAGMA foreign_keys=ON')
+    assert db.connection().exec_driver_sql('PRAGMA foreign_keys').scalar()==1
+    setup_imports(db)
+    sync_public_catalogue(db)
+    assert c.get('/api/services?category=education').json()['total']==46
+    assert not db.connection().exec_driver_sql('PRAGMA foreign_key_check').all()
+    assert sync_public_catalogue(db)['updated']==0
+
+
 def setup_imports(db):
     for slug,en,bn,icon in CATEGORIES:
         if not db.get(Category,slug):db.add(Category(slug=slug,name_en=en,name_bn=bn,icon=icon))
