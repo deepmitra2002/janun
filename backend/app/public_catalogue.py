@@ -1,6 +1,7 @@
 """Read-only visibility of source-linked imports. This never publishes evidence."""
 import hashlib
 import json
+from copy import deepcopy
 from sqlalchemy import select, or_
 from .models import Service, Source, SourceVersion
 from .knowledge import team_research_conditions, service_detail
@@ -56,6 +57,16 @@ def public_detail(db, service):
     if result['sources']: return result
     versions = supplied_versions(db, [service.id])
     if not versions: return result
+    # The synced row is the same normalized, dated record used by the preview.
+    # It remains owner-supplied and unreviewed; current pointer/status checks above
+    # take precedence over the bundled snapshot and any superseded histories.
+    record=versions[0][0].claims.get('catalogue_record')
+    if record and versions[0][1].agency=='Owner-supplied public catalogue':
+        result=deepcopy(record)
+        result.update(id=service.id,review_status='supplied_research',verification_status='needs_review',last_verified_at=None)
+        for key in ('slug','name_en','name_bn','category','description_en','description_bn','official_url'):
+            result[key]=getattr(service,key)
+        return result
     result.update(status='supplied_research', review_status='supplied_research', raw_fields={})
     for version, source in versions:
         payload = imported_payload(version, source)

@@ -1,4 +1,4 @@
-from sqlalchemy import select, func
+from sqlalchemy import select, func, or_, and_
 from .models import Service, Source, SourceVersion, Chunk, now
 from .domain import normalize_query
 from .config import settings
@@ -57,8 +57,9 @@ def team_research_conditions():
         SourceVersion.status.in_(['pending','review']),
         SourceVersion.verified_at.is_(None),SourceVersion.review_due.is_(None),
         Service.status.in_(['draft','published']),
-        Source.title.startswith('Team research: '),
-        Source.agency.startswith('Uploaded team research'),Source.url.startswith('https://'))
+        or_(and_(Source.title.startswith('Team research: '),Source.agency.startswith('Uploaded team research'),Source.url.startswith('https://')),
+            and_(Source.title.startswith('Public catalogue: '),Source.agency=='Owner-supplied public catalogue',
+                or_(Source.url.startswith('https://'),Source.url==''))))
 
 
 def retrieve_team_research(db,query):
